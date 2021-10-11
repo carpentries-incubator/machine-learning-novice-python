@@ -99,6 +99,8 @@ exclude:
 # Turn on built-in syntax highlighting.
 highlighter: rouge
 
+# Render math
+math: true
 
 # Remote theme
 remote_theme: carpentries/carpentries-theme
