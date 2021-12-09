@@ -10,8 +10,6 @@ keypoints:
 - "Confusion matrices are the basis for most popular metrics."
 ---
 
-{% include links.md %}
-
 ## Evaluating a classification task
 
 We trained a machine learning model to predict the outcome of patients admitted to intensive care units. As there are two outcomes, we refer to this as a "binary" classification task. We are now ready to evaluate the model on our held-out test set. 
@@ -183,3 +181,5 @@ metrics.plot_roc_curve(reg, x_test, y_test)
 An AUROC of 0.5 is terrible and an AUROC of 1.0 is perfect. An AUROC of 0.9 tells us that the 90% of times our model will assign a higher risk to a randomly selected patient with an event than to a randomly selected patient without an event
 
 ![AUROC](../fig/section7-fig3.jpg){: width="600px"}
+
+{% include links.md %}

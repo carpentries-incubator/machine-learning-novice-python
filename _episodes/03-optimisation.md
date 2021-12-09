@@ -12,8 +12,6 @@ keypoints:
 - "Optimisation is a process that allows us to train a model."
 ---
 
-{% include links.md %}
-
 ## Optimisation
 
 As a reminder, our goal is to find the line of best fit for our pH and pCO2 data:
@@ -74,5 +72,4 @@ $$
 
 Repeat! When successive iterations cease to decrease the loss function (or only result in very small changes), we have reached the local minima. Our model has "converged".
 
-
-
+{% include links.md %}

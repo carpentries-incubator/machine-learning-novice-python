@@ -12,8 +12,6 @@ keypoints:
 - "Loss functions allow us to define a good model."
 ---
 
-{% include links.md %}
-
 ## How do machines learn?
 
 How do humans learn? Typically we are given examples and we learn rules through trial and error. Machines aren't that different! In the context of machine learning, we talk about how a model "fits" to the data.
@@ -173,3 +171,4 @@ plt.show()
 
 Each (x,y) point represents a fitted line. The z-axis show the corresponding error value. Our goal is to find the values for $$\beta_0$$ and $$\beta_1$$ that correspond to the minimum loss. In the next section, we'll look at how we can search this space to find our optimal parameters for $$\beta_0$$ and $$\beta_1$$ .
 
+{% include links.md %}

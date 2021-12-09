@@ -10,8 +10,6 @@ keypoints:
 - "Bootstrapping allows us to estimate uncertainty."
 ---
 
-{% include links.md %}
-
 ## Bootstrapping
 
 In statistics and machine learning, bootstrapping is a resampling technique that involves repeatedly drawing samples from our source data with replacement, often to estimate a population parameter. By "with replacement", we mean that the same data point may be included in our resampled dataset multiple times.
@@ -135,3 +133,5 @@ plt.show()
 Once an interval is calculated, it may or may not contain the true value of the unknown parameter. A 95% confidence level does \*not\* mean that there is a 95% probability that the population parameter lies within the interval.
 
 The confidence interval tells us about the reliability of the estimation procedure. 95% of confidence intervals computed at the 95% confidence level contain the true value of the parameter.
+
+{% include links.md %}

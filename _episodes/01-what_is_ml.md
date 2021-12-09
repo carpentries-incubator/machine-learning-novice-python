@@ -13,8 +13,6 @@ keypoints:
 
 ---
 
-{% include links.md %}
-
 ## Traditional programming
 
 We are all familiar with the idea of applying rules to data to gain insights and make decisions. From our parents or teachers, for example, we learn that the normal body temperature is ~37 °C (~98.5 °F), and that higher or lower temperatures can be cause for concern.
@@ -71,3 +69,5 @@ This rise is rapidly expanding the demand for our personal data. Technology for 
 > > A) Solution
 > {: .solution}
 {: .challenge}
+
+{% include links.md %}

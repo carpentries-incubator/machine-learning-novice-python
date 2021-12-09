@@ -10,8 +10,6 @@ keypoints:
 - "Logistic regression is a popular model for classification."
 ---
 
-{% include links.md %}
-
 ## Regression vs classification
 
 In our previous example, we predicted blood pH from pCO2 using linear regression. The task of predicting a continuous variable is called a "regression". Recall that the function for a linear regression is:
@@ -144,3 +142,4 @@ Class probabilities (0, 1): (0.61, 0.39).
 ```
 {: .output}
 
+{% include links.md %}

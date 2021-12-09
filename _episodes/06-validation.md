@@ -10,8 +10,6 @@ keypoints:
 - "Validation sets are used during model development."
 ---
 
-{% include links.md %}
-
 ## Accuracy
 
 One measure of the performance of a classification model is accuracy. Accuracy is defined as the overall proportion of correct predictions. If, for example, we make 50 predictions and 40 of them are correct, then our accuracy is 0.8 (40/50).
@@ -141,6 +139,7 @@ Cross-validation accuracy, mean (std): 83.77 (1.63)
 
 Leave-one-out cross validation is the same idea, except that we have many more folds. In fact, we have one fold for each data point. Each fold we leave out one data point for validation and use all of the other points for training.
 
+{% include links.md %}
 
 
 

@@ -10,8 +10,6 @@ keypoints:
 - "Data pre-processing is as important as modelling."
 ---
 
-{% include links.md %}
-
 ## Mortality prediction
 
 Machine learning helps us to find patterns in data, so sourcing and pre-processing the right data is key. Unsuitable or poorly managed data will lead to a poor project outcome, regardless of the modelling approach.
@@ -258,6 +256,4 @@ X_train = scaler.transform(X_train)
 X_test = scaler.transform(X_test)
 ```
 
-
-
-
+{% include links.md %}
