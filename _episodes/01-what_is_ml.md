@@ -70,4 +70,10 @@ This rise is rapidly expanding the demand for our personal data. Technology for 
 > {: .solution}
 {: .challenge}
 
+## Introduction to machine learning
+
+Over the course of four half-day lessons, we will explore key concepts in machine learning. Our focus will be on *supervised* machine learning, a category of machine learning that involves the use of labelled datasets to train models for classification and prediction. Supervised machine learning can be contrasted to *unsupervised* machine learning, which attempts to identify meaningful patterns within unlabelled datasets.
+
+In this introductory lesson we develop and evaluate a simple predictive model, touching on some of the core concepts and techniques that we come across in machine learning projects. In later lessons, we take a deeper dive into two popular families of machine learning models - decision trees and artificial neural networks. We then finish with a focus on what it means to be a responsible practitioner of machine learning. 
+
 {% include links.md %}
