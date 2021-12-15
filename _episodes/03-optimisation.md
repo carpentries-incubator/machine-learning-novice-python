@@ -3,13 +3,16 @@ title: "Optimisation"
 teaching: 20
 exercises: 10
 questions:
-- "What is gradient descent?"
+- "When we talk about optimising a model, what are we optimising?"
+- "What is an example of an optimisation algorithm?"
 
 objectives:
-- "Use gradient descent to find an optimal model."
+- "Visualise the space that gradient descent searches."
+- "Use a grid search to estimate opimal model parameters."
 
 keypoints:
 - "Optimisation is a process that allows us to train a model."
+- "Gradient descent is a popular optimisation algorithm."
 ---
 
 ## Optimisation

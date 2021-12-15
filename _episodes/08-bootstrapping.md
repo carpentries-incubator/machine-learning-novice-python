@@ -3,11 +3,14 @@ title: "Bootstrapping"
 teaching: 20
 exercises: 10
 questions:
-- "What is bootstrapping?"
+- "Why do we 'boot up' computers?"
+- "How is bootstrapping commonly used in machine learning?"
 objectives:
 - "Use bootstrapping to compute confidence intervals."
 keypoints:
-- "Bootstrapping allows us to estimate uncertainty."
+- "Bootstrapping is a resampling technique, sometimes confused with cross-validation."
+- "Bootstrapping allows us to generate a distribution of estimates, rather than a single point estimate."
+- "Bootstrapping allows us to estimate uncertainty, allowing computation of confidence intervals."
 ---
 
 ## Bootstrapping

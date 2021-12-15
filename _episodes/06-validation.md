@@ -3,11 +3,17 @@ title: "Validation"
 teaching: 20
 exercises: 10
 questions:
-- "What is a validation set?"
+- "What is meant by model accuracy?"
+- "What is the purpose of a validation set?"
+- "What are two types of cross validation?"
+- "What is overfitting?"
 objectives:
-- "Understand the role of a validation set."
+- "Train a model to predict patient outcomes on a held-out test set."
+- "Use cross validation as part of our model training process."
 keypoints:
-- "Validation sets are used during model development."
+- "Validation sets are used during model development, allowing models to be tested prior to testing on a held-out set."
+- "Cross-validation is a resampling technique that creates multiple validation sets."
+- "Cross-validation can help to avoid overfitting."
 ---
 
 ## Accuracy

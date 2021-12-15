@@ -3,24 +3,31 @@ title: "Modelling"
 teaching: 20
 exercises: 20
 questions:
-- "How do we build a classifier?"
+- "Broadly speaking, when talking about regression and classification, how does the prediction target differ?"
+- "Would linear regression be most useful for a regression or classification task? How about logistic regression?"
 objectives:
-- "Build a model for predicting patient outcomes."
+- "Use a linear regression model for prediction."
+- "Use a logistic regression model for prediction."
+- "Set a decision boundary to predict an outcome from a probability."
 keypoints:
-- "Logistic regression is a popular model for classification."
+- "Linear regression is a popular model for regression tasks."
+- "Logistic regression is a popular model for classification tasks."
+- "The sigmoid function maps a linear output to a binary outcome."
 ---
 
 ## Regression vs classification
 
 In our previous example, we predicted blood length of hospital stay from a severity of illness score using linear regression. The task of predicting a continuous variable is called a "regression". 
 
-Our new goal is to predict the outcome of hospital patients. Tasks to predict one or more classes are typically called "classification". Recall that the function for a linear regression is:
+Our new goal is to predict the outcome (in-hospital mortality) of hospital patients. We will use a single feature for simplicity - the APACHE severity of illness score. Tasks to predict one or more classes are typically called "classification". 
+
+Recall that our function for a linear regression is:
 
 $$
 \hat{y} = wX + b
 $$
 
-Our prediction target is denoted by $\hat{y}$ and our explanatory variables (or "features") are denoted by $X$. $w$ is weight and $b$ is bias. Could we use a linear regression for our classification task? Let's try fitting a line to our outcome data.
+Our prediction target (in-hospital mortality) is denoted by $\hat{y}$ and our explanatory variables or "features" are denoted by $X$ (in our case, just APACHE score). $w$ is weight and $b$ is bias. Could we use a linear regression for our classification task? Let's try fitting a line to our outcome data.
 
 ```python
 # import the regression model

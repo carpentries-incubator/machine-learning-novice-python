@@ -3,11 +3,24 @@ title: "Data preparation"
 teaching: 20
 exercises: 10
 questions:
-- "What are training and test sets?"
+- "Why are some common steps in data preparation?"
+- "What is SQL and why is it often needed?"
+- "What do we partition data at the start of a project?"
+- "What is the purpose of setting a random state when partitioning?"
+- "Should we impute missing values before or after partitioning?"
+- "What are the implications of data leakage?"
 objectives:
-- "Apply key steps in data pre-processing."
+- "Explore characteristics of our dataset."
+- "Partition data into training and test sets."
+- "Recognise the kind of problem that can arise with data leakage."
+- "Encode categorical values."
+- "Use scaling to pre-process features."
 keypoints:
-- "Data pre-processing is as important as modelling."
+- "Data pre-processing is arguably the most important task in machine learning."
+- "SQL is the tool that we use to extract data from database systems."
+- "Data is typically partitioned into training and test sets."
+- "Setting random states helps to promote reproducibility."
+- "Steps such as imputation of missing values should be done after partitioning to avoid data leakage."
 ---
 
 ## Mortality prediction

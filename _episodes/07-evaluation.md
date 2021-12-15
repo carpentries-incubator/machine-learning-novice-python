@@ -3,11 +3,19 @@ title: "Evaluation"
 teaching: 20
 exercises: 10
 questions:
-- "What is a confusion matrix?"
+- "What kind of values go into a confusion matrix?"
+- "What do the letters AUROC stand for?"
+- "Does an AUROC of 0.5 indicate our predictions were good, bad, or average?"
+- "In the context of evaluating performance of a classifier, what is TP?"
 objectives:
-- "Compute and interpret popular evaluation metrics."
+- "Create a confusion matrix for a predictive model."
+- "Use the confusion matrix to compute popular performance metrics."
+- "Plot an AUROC curve."
+
 keypoints:
-- "Confusion matrices are the basis for most popular metrics."
+- "Confusion matrices are the basis for many popular performance metrics."
+- "AUROC is the area under the receiver operating characteristic. 0.5 is bad!"
+- "TP is True Positive, meaning that our prediction hit its target."
 ---
 
 ## Evaluating a classification task

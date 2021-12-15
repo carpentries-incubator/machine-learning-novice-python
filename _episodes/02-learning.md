@@ -4,12 +4,19 @@ teaching: 20
 exercises: 10
 questions:
 - "How do machines learn?"
+- "How can machine learning help us to make predictions?"
+- "Why is it important to be able to quantify the error in our models?"
+- "What is an example of a loss function?"
 
 objectives:
 - "Understand the importance of quantifying error."
+- "Code a linear regression model that takes inputs, weights, and bias."
+- "Code a loss function that quantifies model error."
 
 keypoints:
 - "Loss functions allow us to define a good model."
+- "Mean squared error is an example of a loss function."
+- "$y$ is a known target. $yhat$ is a prediction."
 ---
 
 ## How do machines learn?
@@ -76,23 +83,18 @@ X =
   x_{1}^5 & x_{2}^5 & x_{3}^5 \\
 \end{bmatrix}
 
-
 weights =
 \begin{bmatrix}
-  w_{1}^1 \\ 
-  w_{1}^2 \\
-  w_{1}^3 \\
-  w_{1}^4 \\
-  w_{1}^5 \\
+  w_{1} \\ 
+  w_{2} \\
+  w_{3} \\
 \end{bmatrix}
 
 bias =
 \begin{bmatrix}
-  b_{1}^1 \\ 
-  b_{1}^2 \\
-  b_{1}^3 \\
-  b_{1}^4 \\
-  b_{1}^5 \\
+  b_{1} \\ 
+  b_{2} \\
+  b_{3} \\
 \end{bmatrix}
 $$
 

@@ -4,12 +4,16 @@ teaching: 20
 exercises: 10
 questions:
 - "What is machine learning?"
+- "What is the relationship between machine learning, AI, and statistics?"
 
 objectives:
 - "Recognise what is meant by machine learning."
+- "Have an appreciation of the difference between supervised and unsupervised learning."
 
 keypoints:
 - "In machine learning, models learn rules from data."
+- "In supervised learning, the target in our training data is labelled."
+- "Machine learning borrows heavily from fields such as statistics and computer science."
 
 ---
 
