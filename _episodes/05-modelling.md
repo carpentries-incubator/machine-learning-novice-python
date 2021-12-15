@@ -12,15 +12,15 @@ keypoints:
 
 ## Regression vs classification
 
-In our previous example, we predicted blood pH from pCO2 using linear regression. The task of predicting a continuous variable is called a "regression". Recall that the function for a linear regression is:
+In our previous example, we predicted blood length of hospital stay from a severity of illness score using linear regression. The task of predicting a continuous variable is called a "regression". 
+
+Our new goal is to predict the outcome of hospital patients. Tasks to predict one or more classes are typically called "classification". Recall that the function for a linear regression is:
 
 $$
-f(x) = \beta_0 + \beta_1 x_1 + \beta_2 x_2 + \beta_n x_n
+\hat{y} = wX + b
 $$
 
-where $$f(x)$$ is our outcome, $$\beta_0$$, $$\beta_0$$, $$\beta_0$$ are our model parameters, and $$x_1$$, $$x_2$$, $$x_n$$ are our explanatory variables (or, in machine learning, "features").
-
-As a reminder, our new goal is to predict the outcome of hospital patients. Tasks to predict one or more classes are typically called "classification". Could we use a linear regression for our classification task? Let's try fitting a line to our outcome data.
+Our prediction target is denoted by $\hat{y}$ and our explanatory variables (or "features") are denoted by $X$. $w$ is weight and $b$ is bias. Could we use a linear regression for our classification task? Let's try fitting a line to our outcome data.
 
 ```python
 # import the regression model
@@ -86,7 +86,7 @@ plt.show()
 We can use this to map our linear regression to produce output values that fall between 0 and 1.
 
 $$
-f(x) = \frac{1}{1+e^{-({\beta_0 + \beta_n x_n})}}
+f(x) = \frac{1}{1+e^{-({wX + b})}}
 $$
 
 As an added benefit, we can interpret the output value as a probability. The probability relates to the positive class (the outcome with value "1"), which in our case is in-hospital mortality ("EXPIRED").

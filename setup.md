@@ -19,15 +19,13 @@ and in [Anaconda documentation][anaconda-install].
 
 ## Obtain lesson materials
 
-1. Download [eicu_v2_0_1.sqlite3.gz][eicu-data] from the Files section of the project page.
+1. Download [example_los.csv](./data/example_los.csv) and [eicu_cohort.csv](./data/eicu_cohort.csv).
 2. Create a folder called `carpentries-ml-intro` on your Desktop.
-3. Move downloaded file to `carpentries-ml-intro`.
-4. Unzip the file.
+3. Move downloaded files to `carpentries-ml-intro`.
 
 ## Launch Python interface
 
-To start working with Python, we need to launch a program that will interpret and execute our Python commands. Below we list several options. If you don't have a preference, proceed with the top option in the list that is available on your machine. Otherwise, you may use any interface
-you like.
+To start working with Python, we need to launch a program that will interpret and execute our Python commands. Below we list several options. If you don't have a preference, proceed with the top option in the list that is available on your machine. Otherwise, you may use any interface you like.
 
 ## Option A: Jupyter Notebook
 

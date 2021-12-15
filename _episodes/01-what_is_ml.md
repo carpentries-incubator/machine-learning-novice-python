@@ -1,5 +1,5 @@
 ---
-title: "Machine learning"
+title: "Introduction"
 teaching: 20
 exercises: 10
 questions:
@@ -42,25 +42,6 @@ Keeping out of the fight, a slightly hand-wavy, non-controversial take might be:
 - *Statistics*: A well-established field of mathematics concerned with methods for collecting, analyzing, interpreting and presenting empirical data.
 - *Artificial intelligence*: The goal of conferring human-like intelligence to machines. "A.I." has become widely used by the media to describe any kind of sophisticated computer model, so some people have taken to using "Artificial General Intelligence" (A.G.I.) for clarity.
 - *Machine learning*: A set of computational methods that learn rules from data, often with the goal of prediction. Borrows from other disciplines, notably statistics and computer science.
-
-> ## Exercise
-> A) Question
-> 
-> > ## Solution
-> > A) Solution
-> {: .solution}
-{: .challenge}
-
-## Machine learning in the wild
-
-Machine learning has been creeping into our everyday lives for some time, in areas including:
-
-- Advertising
-- National security
-- Job recruitment
-- Criminal justice
-
-This rise is rapidly expanding the demand for our personal data. Technology for harvesting and analysing this data is rapidly advancing, and it is fair to say that governance is playing catch up. 
 
 > ## Exercise
 > A) Question

@@ -14,30 +14,35 @@ keypoints:
 
 Machine learning helps us to find patterns in data, so sourcing and pre-processing the right data is key. Unsuitable or poorly managed data will lead to a poor project outcome, regardless of the modelling approach.
 
-For the rest of this lesson, we will follow a simple workflow to develop a logistic regression model for predicting the outcome of critical care patients using physiological data available on the first day of admission.
+For the rest of this lesson, we will develop a model for predicting the outcome of critical care patients using physiological data available on the first day of admission to the intensive care unit.
+
+Intensive care units are home to sophisticated monitoring systems, helping carers to support the lives of the sickest patients within a hospital. 
+
+![Patient in the ICU](../fig/icu_patient.png){: width="600px"}
 
 Data preparation is often the most time consuming aspect of a machine learning project. In this section, we will touch on some common themes in data preparation.
 
 ## Sourcing and accessing data
 
-Sourcing and accessing data for a project may be challenging, especially in cases such as health where patient privacy must be respected. Typically a sensitive dataset will need to be "deidentified" before it is available for analysis.
+Sourcing and accessing data for a project may be challenging, especially in cases such as health where patient privacy must be respected. For this project, we will be using an open access subset of the eICU Collaborative Research Database, a publicly available dataset comprising deidentified physiological data collected from critically ill patients.
 
-Deidentification is the process of removing identifiers such as names, data, ages, and other personal information to maintain privacy. Deidentification is not a well-defined term and its definition varies widely by location and institution.
+Learning to extract data from sources such as databases and file systems is a key skill in machine learning. Familiarity with Python and Structured Query Language (SQL) will equip you well for these tasks.
 
-For our mortality prediction project, we will be using an open access subset of the eICU Collaborative Research Database, a publicly available dataset comprising deidentified physiological data collected from critically ill patients.
+For simplicity, we will be working with a pre-prepared CSV file that comprises data extracted from the eICU Collaborative Research Database (Demo). 
 
-The majority of observations are variables underlying the APACHE predictions. Acute Physiology Age Chronic Health Evaluation (APACHE) consists of a groups of equations used for predicting outcomes in critically ill patients. See: http://eicu-crd.mit.edu/eicutables/apachePredVar/
+```python
+import pandas as pd
 
-## Data extraction and integration
+# load the data
+cohort = pd.read_csv('./data/eicu_cohort.csv')
+cohort.head()
+```
 
-You will need to be able to extract data from databases and to parse data storage formats (e.g. CSV, JSON). Familiarity with Python and Structured Query Language (SQL) will equip you well for these tasks.
+For reference, the query used to extract the dataset is outlined below. Briefly, this query:
 
-In cases where data is sourced from multiple systems or locations, data harmonisation may need to be considered. For example, two different hospital systems may have different data structures and terminologies. Important, ongoing efforts to create common data models and terminologies seek to help.
-
-For simplicity, we will be working with a pre-prepared CSV file that comprises data extracted from the eICU Collaborative Research Database (Demo). We will not discuss the query in detail here, but the main points to note are that we:
-- extract multiple columns from the data with `SELECT`
-- join data across the `patient`, `apachepatientresult`, and `apacheapsvar` tables
-- restrict our results to a set of conditions.
+- `SELECTs` multiple columns
+- `FROM` the `patient`, `apachepatientresult`, and `apacheapsvar` tables
+- `WHERE` certain conditions are met.
 
 ```sql
 SELECT p.unitadmitsource, p.gender, SAFE_CAST(p.age as int64) as age, p.admissionweight,
@@ -61,46 +66,8 @@ Before moving ahead on a project, it is important to understand the data that we
 Summarizing data is an important first step. We will want to know aspects of the data such as: extent of missingness; data types; numbers of observations. One common step is to view summary characteristics.
 
 ```python
-# import libraries
-import pandas as pd
 from tableone import tableone
 
-# load the data
-cohort = pd.read_csv('./data/eicu_cohort_ph.csv')
-cohort.describe()
-```
-
-```
-                      count        mean        std    min     25%     50%      75%     max
-age                   111.0   60.432432  14.516211  22.00  52.500   60.00   69.000   88.00
-admissionweight       113.0   87.519027  30.991813  45.50  67.400   81.60  101.700  262.40
-acutephysiologyscore  117.0   51.982906  22.936939  -1.00  37.000   49.00   62.000  140.00
-apachescore           117.0   63.119658  24.935490  -1.00  46.000   61.00   76.000  158.00
-ph                    117.0    7.354701   0.089970   7.05   7.304    7.36    7.417    7.56
-pco2                  117.0   42.852137  12.745172  26.00  35.000   40.30   47.900   94.00
-respiratoryrate       117.0   29.692308  14.925945  -1.00  24.000   33.00   39.000   60.00
-wbc                   117.0   10.291709   8.397978  -1.00   5.600    9.70   15.500   32.60
-creatinine            117.0    0.892120   1.591968  -1.00   0.370    0.88    1.380    9.12
-bun                   117.0   20.606838  24.195667  -1.00  -1.000   15.00   28.000  123.00
-heartrate             117.0  105.111111  31.009114  23.00  93.000  110.00  124.000  176.00
-intubated             117.0    0.290598   0.455991   0.00   0.000    0.00    1.000    1.00
-vent                  117.0    0.000000   0.000000   0.00   0.000    0.00    0.000    0.00
-temperature           117.0   35.810256   4.941121  -1.00  36.100   36.40   36.720   40.20
-```
-{: .output}
-
-Visualising data is also key to understanding it.
-
-```python
-cohort.age.hist(bins=20)
-plt.show()
-
-cohort.unittype.value_counts().plot(kind='barh')
-plt.show()
-```
-
-
-```python
 # view summary characteristics
 t1 = tableone(cohort, groupby="actualhospitalmortality")
 print(t1.tabulate(tablefmt = "github"))
@@ -162,29 +129,16 @@ x_train, x_test, y_train, y_test = train_test_split(x, y , train_size = 0.7,
                                                     random_state =  42)
 ```
 
-## Data leaks
+## Data leakage
 
-Any data preparation prior to fitting the model should be carried out before partitioning. This helps us to avoid "data leakage" where knowledge of the test dataset is used to improve the model. 
+Any data preparation prior to fitting the model should be carried out before partitioning. This helps us to avoid "data leakage", where knowledge of the test dataset is used to improve the model. 
 
 For example, if done prior to partitioning, both of the following steps could leak information about our test set into our training set:
 
 - Filling missing data.
 - Scaling the range of a variable.
 
-Care is also needed when deciding on the partitioning approach. It is often enough to split the data randomly, but this is not always a good approach. When splitting, consider whether there is potential for information to "leak" into our test set.
-
 Data leakage can invalidate our results, for example by giving us an overly optimistic estimates of model performance.
-
-## Cleaning
-
-Usually while reviewing our data, we notice issues that would benefit from dealing with before training our model. In health data it is common to see issues such as:
-
-- Temperatures have been incorrectly recorded in Fahrenheit, rather than Centigrade. We may want to apply a rule to transform temperatures in Fahrenheit to Centigrade 
-- Non-standardised recording of concepts or terms (for example, heart rate appearing as both "HR" and "heart rate").
-
-```python
-[TODO: add cleaning step]
-```
 
 ## Encoding
 
@@ -213,13 +167,9 @@ cohort[['actualhospitalmortality_enc','actualhospitalmortality']].head()
 4                            0                   ALIVE
 ```
 
-An alternative method, often used when there is no intrinsic ordering in our variables, is "one hot encoding". 
-
-In one hot encoding, we create a new column for each categorical value and then assign a 0 or 1 (False or True) to the column (i.e. for a single categorical variable, there is a single "hot" - or true - state).
-
 ## Missing data
 
-Some types of models - for example some decision trees - are able to implicitly handle missing data. For our logistic regression, we will need to impute values. We will take a simple approach of replacing with the median. 
+Certain types of models - for example some decision trees - are able to implicitly handle missing data. For our logistic regression, we will need to impute values. We will take a simple approach of replacing with the median. 
 
 With physiological data, imputing from the median typically implies that the missing observation is a "healthy" normal. As the clinicians say, in hospital you do not want to be the interesting patient!
 

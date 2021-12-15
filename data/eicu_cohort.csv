@@ -1,0 +1,1110 @@
+unitadmitsource,gender,age,admissionweight,unittype,unitstaytype,acutephysiologyscore,apachescore,actualhospitalmortality,ph,pco2,respiratoryrate,wbc,creatinine,bun,heartrate,intubated,vent,temperature
+Direct Admit,Male,45,116.0,Neuro ICU,admit,41,46,ALIVE,7.45,36.0,41.0,10.0,1.01,20.0,109.0,0,1,36.2
+Operating Room,Male,57,,CTICU,admit,26,31,ALIVE,7.34,44.0,6.0,10.1,-1.0,-1.0,106.0,1,1,36.3
+Floor,Female,80,65.3,Med-Surg ICU,admit,7,24,ALIVE,-1.0,-1.0,18.0,8.5,-1.0,-1.0,96.0,0,0,36.4
+Emergency Department,Female,48,86.4,Med-Surg ICU,admit,44,49,ALIVE,-1.0,-1.0,39.0,6.1,1.16,3.0,102.0,0,0,36.9
+Emergency Department,Female,59,66.6,MICU,admit,56,61,ALIVE,7.44,31.0,32.0,25.5,1.03,18.0,134.0,0,0,34.8
+Emergency Department,Male,31,66.8,MICU,admit,45,45,ALIVE,-1.0,-1.0,34.0,21.4,2.35,27.0,138.0,0,0,37.2
+Emergency Department,Female,51,77.1,Med-Surg ICU,admit,19,24,ALIVE,-1.0,-1.0,26.0,-1.0,-1.0,-1.0,122.0,0,0,36.8
+Operating Room,Male,58,89.3,Med-Surg ICU,admit,3,8,ALIVE,-1.0,-1.0,16.0,8.3,-1.0,-1.0,52.0,0,0,36.7
+Emergency Department,Female,48,63.4,Med-Surg ICU,admit,25,30,ALIVE,-1.0,-1.0,29.0,7.6,1.1,18.0,130.0,0,0,-1.0
+Operating Room,Female,68,75.9,Med-Surg ICU,admit,15,28,ALIVE,-1.0,-1.0,33.0,-1.0,-1.0,-1.0,118.0,0,0,36.4
+Operating Room,Female,52,86.0,Med-Surg ICU,admit,4,9,ALIVE,-1.0,-1.0,16.0,-1.0,0.8,6.0,90.0,0,0,36.7
+Emergency Department,Female,79,51.1,Med-Surg ICU,admit,65,82,ALIVE,-1.0,-1.0,5.0,6.5,6.7,167.0,90.0,0,0,34.6
+Emergency Department,Male,65,102.5,Med-Surg ICU,admit,9,22,ALIVE,-1.0,-1.0,20.0,-1.0,-1.0,-1.0,59.0,0,0,36.9
+Direct Admit,Male,63,71.9,Med-Surg ICU,admit,77,88,EXPIRED,7.32,41.0,39.0,12.6,4.3,99.0,133.0,0,1,32.6
+Floor,Female,34,85.9,Med-Surg ICU,admit,25,25,ALIVE,-1.0,-1.0,35.0,-1.0,-1.0,-1.0,102.0,0,0,36.5
+Direct Admit,Male,67,104.8,Med-Surg ICU,admit,75,88,EXPIRED,7.4,33.0,31.0,11.3,0.7,15.0,31.0,1,1,36.44
+Emergency Department,Female,86,56.7,Med-Surg ICU,admit,26,50,ALIVE,-1.0,-1.0,7.0,-1.0,-1.0,-1.0,96.0,0,0,36.6
+Emergency Department,Female,62,95.5,Med-Surg ICU,admit,25,36,ALIVE,-1.0,-1.0,25.0,-1.0,-1.0,-1.0,116.0,0,0,36.8
+Direct Admit,Male,61,57.8,Med-Surg ICU,admit,56,67,ALIVE,7.275,56.9,30.0,28.4,0.48,11.0,126.0,0,1,36.6
+Direct Admit,Male,74,88.5,Med-Surg ICU,admit,15,31,ALIVE,-1.0,-1.0,7.0,-1.0,-1.0,-1.0,57.0,0,0,36.7
+,Male,58,99.24,Med-Surg ICU,admit,56,77,ALIVE,-1.0,-1.0,9.0,8.0,0.88,19.0,104.0,0,0,36.7
+Emergency Department,Male,75,69.2,Med-Surg ICU,admit,43,60,ALIVE,-1.0,-1.0,43.0,-1.0,-1.0,-1.0,132.0,0,0,37.39
+Floor,Male,79,87.0,Med-Surg ICU,admit,45,62,ALIVE,-1.0,-1.0,26.0,-1.0,5.5,68.0,70.0,0,0,36.33
+Emergency Department,Male,41,110.4,Med-Surg ICU,admit,23,23,ALIVE,-1.0,-1.0,49.0,-1.0,-1.0,-1.0,96.0,0,0,35.8
+Emergency Department,Female,> 89,69.5,Med-Surg ICU,admit,35,59,ALIVE,-1.0,-1.0,45.0,-1.0,-1.0,-1.0,39.0,0,0,36.3
+Emergency Department,Female,72,52.7,Med-Surg ICU,admit,43,69,ALIVE,-1.0,-1.0,37.0,5.4,1.3,20.0,133.0,0,0,35.6
+Emergency Department,Female,86,66.2,Med-Surg ICU,admit,28,52,ALIVE,-1.0,-1.0,6.0,-1.0,0.6,21.0,52.0,0,0,36.2
+Emergency Department,Male,69,106.4,Med-Surg ICU,admit,19,43,ALIVE,-1.0,-1.0,35.0,-1.0,-1.0,-1.0,117.0,0,0,36.4
+Emergency Department,Male,87,63.2,Med-Surg ICU,admit,52,76,ALIVE,7.44,54.0,43.0,18.3,1.0,35.0,110.0,0,1,36.5
+Floor,Male,87,63.2,Med-Surg ICU,readmit,41,65,ALIVE,7.46,58.0,38.0,-1.0,-1.0,-1.0,109.0,1,1,36.4
+,Female,89,58.0,Med-Surg ICU,admit,55,79,ALIVE,-1.0,-1.0,60.0,-1.0,-1.0,-1.0,149.0,0,0,36.6
+,Female,52,82.3,Cardiac ICU,admit,52,57,ALIVE,7.45,44.0,32.0,-1.0,-1.0,-1.0,96.0,0,0,36.2
+Recovery Room,Female,87,53.18,Cardiac ICU,admit,39,63,ALIVE,-1.0,-1.0,30.0,17.1,0.897,11.0,106.0,0,0,36.6
+Emergency Department,Male,76,85.7,Cardiac ICU,admit,31,48,ALIVE,-1.0,-1.0,33.0,14.1,1.36,27.0,68.0,0,0,36.0
+Emergency Department,Female,86,62.9,Cardiac ICU,admit,56,80,ALIVE,7.38,39.0,35.0,13.6,0.483,17.0,114.0,1,1,36.1
+Emergency Department,Female,62,91.5,Neuro ICU,admit,23,34,ALIVE,-1.0,-1.0,6.0,7.1,0.64,16.0,56.0,0,0,36.1
+Recovery Room,Female,83,110.1,Neuro ICU,admit,66,83,ALIVE,7.38,28.0,35.0,22.9,1.06,61.0,128.0,1,0,36.3
+Emergency Department,Male,58,104.0,Neuro ICU,admit,27,48,ALIVE,-1.0,-1.0,18.0,-1.0,-1.0,-1.0,122.0,0,0,36.4
+Emergency Department,Female,63,107.1,Neuro ICU,admit,45,56,ALIVE,-1.0,-1.0,4.0,5.9,0.91,16.0,45.0,0,0,36.3
+Emergency Department,Male,63,95.3,Med-Surg ICU,admit,35,46,ALIVE,7.33,44.0,39.0,8.3,1.92,24.0,100.0,0,0,36.6
+Floor,Male,56,83.2,Med-Surg ICU,admit,53,58,ALIVE,-1.0,-1.0,28.0,-1.0,1.49,44.0,94.0,0,1,36.7
+Recovery Room,Female,54,54.0,Med-Surg ICU,admit,43,48,ALIVE,-1.0,-1.0,40.0,48.9,0.67,17.0,122.0,0,0,36.3
+Emergency Department,Female,> 89,66.1,Med-Surg ICU,admit,45,69,ALIVE,-1.0,-1.0,52.0,12.7,0.82,11.0,128.0,0,0,36.5
+Emergency Department,Female,84,91.3,Cardiac ICU,admit,125,142,ALIVE,7.54,23.0,34.0,7.9,11.6,47.0,130.0,1,1,35.6
+Floor,Female,84,89.0,Cardiac ICU,readmit,28,45,ALIVE,-1.0,-1.0,8.0,-1.0,-1.0,-1.0,49.0,0,0,36.4
+Recovery Room,Female,86,45.8,Cardiac ICU,admit,36,60,ALIVE,-1.0,-1.0,55.0,10.7,0.666,10.0,52.0,0,0,36.6
+Floor,Female,84,147.4,Cardiac ICU,admit,60,77,ALIVE,-1.0,-1.0,51.0,7.2,6.96,56.0,39.0,0,0,36.1
+Emergency Department,Female,84,70.3,Cardiac ICU,admit,25,42,ALIVE,-1.0,-1.0,43.0,8.0,1.04,17.0,48.0,0,0,36.2
+Emergency Department,Female,73,61.6,Cardiac ICU,admit,53,69,EXPIRED,7.41,41.0,38.0,7.1,0.741,9.0,130.0,1,0,36.2
+Emergency Department,Female,74,52.0,Cardiac ICU,admit,88,104,ALIVE,-1.0,-1.0,5.0,7.8,1.06,30.0,108.0,0,0,35.8
+Emergency Department,Female,81,70.3,Cardiac ICU,admit,49,66,ALIVE,-1.0,-1.0,45.0,14.8,1.11,33.0,107.0,0,0,36.1
+Emergency Department,Female,55,99.0,Med-Surg ICU,admit,72,77,ALIVE,7.39,31.0,8.0,8.5,0.51,13.0,104.0,1,1,35.6
+Emergency Department,Female,64,68.1,Med-Surg ICU,admit,136,147,EXPIRED,-1.0,-1.0,39.0,36.4,1.8,30.0,146.0,0,0,36.0
+Floor,Male,58,104.8,Med-Surg ICU,readmit,21,42,ALIVE,-1.0,-1.0,36.0,-1.0,-1.0,-1.0,61.0,0,1,35.6
+Floor,Female,54,109.1,Med-Surg ICU,readmit,45,50,ALIVE,-1.0,-1.0,41.0,15.0,0.79,45.0,151.0,0,0,36.1
+Floor,Female,54,104.4,Med-Surg ICU,admit,112,117,ALIVE,7.18,38.0,36.0,15.2,9.32,137.0,169.0,1,1,36.7
+Emergency Department,Female,83,41.8,Med-Surg ICU,admit,69,86,ALIVE,7.26,41.0,39.0,26.8,1.58,31.0,136.0,1,1,36.4
+Emergency Department,Female,64,63.7,Med-Surg ICU,admit,26,37,ALIVE,-1.0,-1.0,34.0,-1.0,0.574,20.0,98.0,0,0,36.1
+Floor,Female,67,74.8,Med-Surg ICU,admit,88,101,ALIVE,7.4,35.0,43.0,14.2,2.71,30.0,124.0,0,1,36.7
+Emergency Department,Female,80,54.6,Med-Surg ICU,admit,24,41,ALIVE,-1.0,-1.0,11.0,5.9,0.95,13.0,100.0,0,0,36.6
+Emergency Department,Female,59,109.7,MICU,transfer,33,38,ALIVE,7.38,35.0,25.0,-1.0,-1.0,-1.0,113.0,1,1,37.3
+Emergency Department,Male,59,63.1,MICU,transfer,31,36,ALIVE,-1.0,-1.0,37.0,-1.0,-1.0,-1.0,86.0,0,0,36.8
+Emergency Department,Female,54,54.2,MICU,transfer,40,45,ALIVE,-1.0,-1.0,34.0,-1.0,-1.0,-1.0,106.0,0,0,36.9
+Emergency Department,Male,45,90.5,MICU,transfer,20,25,ALIVE,-1.0,-1.0,33.0,-1.0,0.7,19.0,116.0,0,0,37.0
+Other Hospital,Male,37,106.2,MICU,admit,102,102,ALIVE,7.2,66.7,45.0,13.9,0.8,11.0,144.0,1,1,35.9
+Emergency Department,Male,59,70.0,MICU,admit,44,49,ALIVE,7.23,42.4,7.0,8.9,0.9,12.0,62.0,0,0,36.6
+Emergency Department,Male,67,75.8,MICU,transfer,48,61,ALIVE,-1.0,-1.0,11.0,-1.0,-1.0,-1.0,152.0,0,1,36.4
+Emergency Department,Male,41,72.5,Med-Surg ICU,transfer,85,85,ALIVE,7.21,38.7,34.0,-1.0,4.2,28.0,145.0,0,0,36.9
+Emergency Department,Male,52,83.4,Med-Surg ICU,admit,30,35,ALIVE,-1.0,-1.0,27.0,9.7,-1.0,-1.0,100.0,0,0,36.6
+Direct Admit,Male,37,65.7,Neuro ICU,admit,26,26,ALIVE,-1.0,-1.0,31.0,-1.0,-1.0,-1.0,117.0,0,0,36.8
+Step-Down Unit (SDU),Female,62,51.5,Neuro ICU,admit,67,82,ALIVE,-1.0,-1.0,28.0,5.4,1.2,25.0,110.0,0,0,36.4
+Emergency Department,Male,54,109.8,CCU-CTICU,admit,30,35,ALIVE,-1.0,-1.0,9.0,14.3,0.64,13.0,111.0,0,0,37.0
+Operating Room,Male,59,108.8,CCU-CTICU,admit,34,39,ALIVE,7.36,48.1,29.0,18.8,0.7,18.0,60.0,0,0,36.8
+Step-Down Unit (SDU),Female,63,61.7,CCU-CTICU,readmit,53,80,ALIVE,-1.0,-1.0,24.0,9.5,3.0,16.0,143.0,0,0,36.4
+Operating Room,Female,78,104.0,CTICU,admit,79,96,ALIVE,-1.0,-1.0,25.0,10.0,1.29,23.0,99.0,0,0,36.4
+Direct Admit,Male,69,88.7,CTICU,admit,18,31,ALIVE,-1.0,-1.0,9.0,10.3,1.2,16.0,52.0,0,0,36.5
+Recovery Room,Female,73,65.0,CTICU,admit,27,43,ALIVE,-1.0,-1.0,10.0,8.4,0.72,9.0,93.0,0,0,38.1
+Other Hospital,Male,24,67.8,CTICU,admit,53,53,ALIVE,-1.0,-1.0,33.0,12.3,8.07,51.0,123.0,0,0,36.2
+Operating Room,Female,59,66.0,CTICU,admit,31,36,ALIVE,-1.0,-1.0,26.0,9.9,0.69,39.0,87.0,0,0,36.3
+Other ICU,Female,67,70.0,CTICU,admit,115,128,EXPIRED,-1.0,-1.0,9.0,25.1,4.36,75.0,116.0,0,1,35.0
+Other Hospital,Female,65,87.5,CTICU,admit,52,65,ALIVE,-1.0,-1.0,36.0,11.4,2.35,44.0,90.0,0,0,37.0
+Floor,Female,81,98.0,CTICU,admit,47,80,ALIVE,-1.0,-1.0,58.0,8.3,1.3,64.0,80.0,0,0,36.0
+Operating Room,Male,55,90.4,CTICU,admit,50,55,ALIVE,-1.0,-1.0,5.0,10.6,1.3,11.0,114.0,0,1,35.1
+Operating Room,Female,80,72.5,CTICU,admit,63,80,ALIVE,-1.0,-1.0,6.0,11.2,1.24,17.0,62.0,0,0,36.0
+Emergency Department,Female,74,81.8,CTICU,admit,36,52,ALIVE,-1.0,-1.0,36.0,7.1,4.43,36.0,58.0,0,0,36.0
+Emergency Department,Female,21,49.5,Med-Surg ICU,admit,49,49,ALIVE,-1.0,-1.0,7.0,5.3,0.64,5.0,131.0,0,0,36.4
+Emergency Department,Female,39,97.7,Med-Surg ICU,admit,48,48,ALIVE,-1.0,-1.0,8.0,7.8,0.66,11.0,133.0,0,0,36.5
+Emergency Department,Male,50,86.5,Med-Surg ICU,admit,25,30,ALIVE,-1.0,-1.0,7.0,5.0,0.92,17.0,116.0,0,0,36.6
+Emergency Department,Female,61,96.6,Med-Surg ICU,admit,26,37,ALIVE,-1.0,-1.0,26.0,6.8,0.88,19.0,53.0,0,0,36.4
+Emergency Department,Female,77,83.6,Med-Surg ICU,admit,26,43,ALIVE,-1.0,-1.0,10.0,6.3,0.64,9.0,92.0,0,0,36.4
+Emergency Department,Male,54,127.3,Med-Surg ICU,admit,18,23,ALIVE,-1.0,-1.0,10.0,10.0,0.84,12.0,60.0,0,0,36.4
+Emergency Department,Female,53,68.9,Med-Surg ICU,admit,15,20,ALIVE,-1.0,-1.0,10.0,6.9,0.51,6.0,58.0,0,0,36.4
+Emergency Department,Female,86,59.1,Med-Surg ICU,admit,47,71,ALIVE,-1.0,-1.0,30.0,-1.0,0.68,56.0,71.0,0,0,36.1
+Emergency Department,Female,72,59.1,Med-Surg ICU,admit,46,62,ALIVE,-1.0,-1.0,4.0,4.8,0.56,8.0,103.0,0,0,36.7
+Floor,Female,64,77.5,Med-Surg ICU,admit,17,28,ALIVE,-1.0,-1.0,26.0,-1.0,-1.0,-1.0,106.0,0,0,36.7
+Emergency Department,Female,73,71.8,Med-Surg ICU,admit,54,70,ALIVE,-1.0,-1.0,38.0,14.5,8.78,45.0,130.0,0,0,35.6
+Emergency Department,Female,77,78.5,Med-Surg ICU,admit,27,44,ALIVE,-1.0,-1.0,12.0,5.3,0.63,10.0,128.0,0,0,36.5
+Emergency Department,Female,41,100.0,Med-Surg ICU,admit,46,46,ALIVE,-1.0,-1.0,45.0,15.8,1.17,33.0,136.0,0,0,36.7
+Emergency Department,Female,65,170.2,Med-Surg ICU,admit,57,70,ALIVE,-1.0,-1.0,7.0,6.3,1.19,21.0,97.0,0,0,36.7
+Floor,Female,> 89,54.5,Med-Surg ICU,admit,40,64,ALIVE,-1.0,-1.0,40.0,13.9,1.03,11.0,147.0,0,1,36.2
+Emergency Department,Male,89,70.5,Med-Surg ICU,admit,34,58,ALIVE,-1.0,-1.0,10.0,11.9,0.83,16.0,104.0,0,0,36.3
+Step-Down Unit (SDU),Female,81,70.0,Med-Surg ICU,readmit,46,63,ALIVE,-1.0,-1.0,8.0,15.2,1.14,40.0,132.0,0,0,36.6
+Floor,Female,81,70.0,Med-Surg ICU,admit,39,56,ALIVE,-1.0,-1.0,27.0,17.2,1.34,34.0,152.0,0,0,36.4
+Operating Room,Female,59,74.5,Med-Surg ICU,admit,45,50,ALIVE,-1.0,-1.0,8.0,26.5,0.5,17.0,124.0,0,0,37.0
+Emergency Department,Female,> 89,77.3,Med-Surg ICU,admit,32,56,ALIVE,-1.0,-1.0,32.0,11.7,1.16,23.0,109.0,0,0,36.9
+Other Hospital,Male,42,114.2,CTICU,admit,82,82,EXPIRED,-1.0,-1.0,34.0,17.0,0.91,13.0,128.0,0,1,36.4
+Operating Room,Male,76,86.9,CTICU,readmit,52,69,ALIVE,-1.0,-1.0,5.0,14.0,1.16,24.0,116.0,0,0,36.7
+Operating Room,Male,76,86.9,CTICU,admit,47,64,ALIVE,-1.0,-1.0,12.0,7.9,1.54,18.0,110.0,0,0,37.6
+Other Hospital,Female,82,36.9,CTICU,admit,49,66,ALIVE,-1.0,-1.0,54.0,10.3,1.87,40.0,86.0,0,0,36.8
+Other Hospital,Female,38,104.0,CTICU,admit,62,62,ALIVE,-1.0,-1.0,4.0,9.1,1.64,36.0,132.0,0,1,36.0
+Emergency Department,Female,72,70.5,CTICU,admit,26,53,EXPIRED,-1.0,-1.0,44.0,-1.0,-1.0,-1.0,96.0,0,1,36.5
+Recovery Room,Male,81,93.8,CTICU,admit,98,115,EXPIRED,-1.0,-1.0,52.0,5.8,1.85,43.0,56.0,0,0,35.9
+Other ICU,Female,60,93.7,CTICU,admit,61,72,ALIVE,-1.0,-1.0,11.0,10.9,2.27,78.0,118.0,0,1,37.0
+Floor,Male,76,104.2,CTICU,admit,58,75,ALIVE,-1.0,-1.0,39.0,5.4,6.26,92.0,86.0,0,0,38.8
+Operating Room,Female,39,42.1,CTICU,admit,100,100,ALIVE,-1.0,-1.0,5.0,15.5,0.95,12.0,152.0,0,1,36.9
+Floor,Male,46,76.2,CTICU,admit,41,46,ALIVE,-1.0,-1.0,45.0,2.6,0.7,9.0,126.0,0,0,36.3
+Direct Admit,Female,56,81.1,CTICU,admit,41,46,ALIVE,-1.0,-1.0,37.0,-1.0,-1.0,-1.0,120.0,0,1,36.5
+Recovery Room,Female,74,63.5,SICU,admit,44,60,ALIVE,-1.0,-1.0,44.0,13.4,0.42,9.0,113.0,0,0,36.5
+Floor,Female,64,51.4,SICU,admit,42,53,ALIVE,-1.0,-1.0,40.0,1.4,0.66,16.0,114.0,0,0,36.6
+Operating Room,Female,69,78.7,SICU,admit,84,97,ALIVE,-1.0,-1.0,7.0,19.7,0.56,12.0,103.0,0,0,36.1
+Emergency Department,Female,73,70.0,SICU,admit,25,41,ALIVE,-1.0,-1.0,17.0,8.1,0.79,13.0,136.0,0,0,36.0
+Emergency Department,Female,76,60.0,SICU,admit,94,111,EXPIRED,-1.0,-1.0,30.0,-1.0,-1.0,-1.0,41.0,0,1,-1.0
+Emergency Department,Female,61,68.3,SICU,admit,75,86,ALIVE,-1.0,-1.0,4.0,4.4,0.41,7.0,114.0,0,1,36.3
+Floor,Female,61,68.3,SICU,readmit,57,68,ALIVE,-1.0,-1.0,38.0,22.2,-1.0,-1.0,114.0,0,1,36.8
+Recovery Room,Female,34,103.0,SICU,admit,66,66,ALIVE,-1.0,-1.0,38.0,4.4,0.65,10.0,140.0,0,1,37.7
+Emergency Department,Female,63,91.1,Cardiac ICU,admit,22,43,ALIVE,-1.0,-1.0,14.0,-1.0,0.99,29.0,84.0,0,0,36.4
+Direct Admit,Female,70,71.3,Cardiac ICU,admit,28,44,ALIVE,-1.0,-1.0,6.0,-1.0,-1.0,-1.0,45.0,0,0,37.1
+Operating Room,Female,66,90.8,CTICU,admit,32,45,ALIVE,-1.0,-1.0,33.0,7.4,0.5,7.0,93.0,0,1,36.9
+Recovery Room,Female,75,63.0,CTICU,admit,57,74,ALIVE,-1.0,-1.0,34.0,9.3,1.32,18.0,140.0,0,1,34.9
+Recovery Room,Female,68,75.9,CTICU,admit,27,40,ALIVE,-1.0,-1.0,34.0,17.3,0.57,9.0,109.0,0,1,36.1
+Operating Room,Female,58,119.7,CTICU,admit,56,61,ALIVE,-1.0,-1.0,6.0,6.8,0.89,18.0,91.0,0,1,35.3
+Operating Room,Male,61,88.8,CTICU,admit,64,75,ALIVE,-1.0,-1.0,34.0,16.7,0.65,11.0,117.0,0,1,35.5
+Operating Room,Female,58,80.9,CTICU,admit,12,17,ALIVE,-1.0,-1.0,27.0,-1.0,-1.0,-1.0,52.0,0,0,36.0
+Operating Room,Female,44,80.7,CTICU,admit,76,76,ALIVE,-1.0,-1.0,13.0,15.1,2.65,24.0,56.0,0,1,36.4
+Floor,Female,76,55.5,SICU,admit,30,47,ALIVE,-1.0,-1.0,42.0,6.7,1.3,15.0,59.0,0,0,35.9
+Emergency Department,Male,56,119.1,SICU,admit,58,63,ALIVE,-1.0,-1.0,51.0,9.0,5.09,51.0,111.0,0,1,36.3
+Floor,Male,59,88.8,SICU,admit,61,66,ALIVE,-1.0,-1.0,39.0,14.4,2.28,42.0,104.0,0,1,36.1
+Floor,Female,67,57.7,SICU,admit,52,65,ALIVE,-1.0,-1.0,58.0,7.9,1.85,61.0,100.0,0,0,36.1
+Direct Admit,Male,59,177.5,SICU,admit,25,30,ALIVE,-1.0,-1.0,37.0,7.9,0.8,13.0,110.0,0,0,36.9
+Emergency Department,Female,86,53.6,SICU,admit,54,78,ALIVE,-1.0,-1.0,41.0,8.4,1.99,68.0,145.0,0,0,35.9
+Emergency Department,Male,56,121.4,SICU,admit,31,36,ALIVE,-1.0,-1.0,36.0,-1.0,4.47,36.0,102.0,0,0,36.4
+Direct Admit,Female,66,71.0,MICU,admit,29,42,ALIVE,-1.0,-1.0,28.0,16.4,0.9,12.0,113.0,0,0,36.5
+Emergency Department,Female,65,52.5,MICU,admit,55,68,ALIVE,-1.0,-1.0,34.0,19.3,2.28,44.0,118.0,0,0,36.2
+Floor,Male,84,75.0,MICU,admit,44,61,ALIVE,-1.0,-1.0,10.0,16.2,0.72,19.0,127.0,0,1,36.2
+Emergency Department,Female,77,,MICU,admit,13,30,ALIVE,-1.0,-1.0,31.0,-1.0,-1.0,-1.0,67.0,0,0,37.6
+Emergency Department,Female,44,70.9,MICU,admit,39,62,ALIVE,-1.0,-1.0,11.0,5.1,0.83,14.0,43.0,0,0,36.9
+Floor,Male,75,95.4,MICU,admit,46,63,ALIVE,-1.0,-1.0,11.0,6.3,3.4,52.0,94.0,0,0,36.1
+Emergency Department,Female,68,81.8,MICU,admit,37,50,ALIVE,-1.0,-1.0,8.0,7.0,1.0,21.0,35.0,0,0,36.1
+Emergency Department,Female,65,77.3,MICU,admit,12,25,ALIVE,-1.0,-1.0,13.0,-1.0,-1.0,-1.0,108.0,0,0,36.6
+Emergency Department,Female,70,78.9,MICU,admit,29,45,ALIVE,-1.0,-1.0,34.0,11.4,0.8,11.0,99.0,0,0,36.4
+Emergency Department,Female,81,56.25,MICU,admit,23,40,ALIVE,-1.0,-1.0,25.0,-1.0,-1.0,-1.0,99.0,0,0,37.1
+Emergency Department,Female,69,70.6,MICU,admit,44,57,ALIVE,-1.0,-1.0,8.0,15.8,0.8,30.0,115.0,0,1,36.3
+Emergency Department,Male,21,71.2,MICU,admit,33,33,ALIVE,-1.0,-1.0,44.0,14.1,0.6,11.0,128.0,0,0,36.4
+Emergency Department,Female,70,68.2,MICU,admit,71,87,ALIVE,-1.0,-1.0,7.0,13.3,4.9,36.0,132.0,0,0,36.4
+Operating Room,Female,80,100.0,MICU,admit,24,41,ALIVE,-1.0,-1.0,29.0,10.0,0.8,16.0,104.0,0,0,36.5
+Emergency Department,Female,77,63.6,MICU,admit,24,41,ALIVE,-1.0,-1.0,27.0,-1.0,-1.0,-1.0,139.0,0,0,37.2
+Direct Admit,Female,75,74.5,MICU,admit,52,69,ALIVE,-1.0,-1.0,13.0,7.4,0.7,12.0,187.0,0,0,36.1
+Floor,Female,62,113.9,MICU,admit,66,77,ALIVE,-1.0,-1.0,7.0,4.4,2.5,32.0,90.0,0,0,36.8
+Emergency Department,Female,77,92.5,MICU,admit,40,57,ALIVE,-1.0,-1.0,9.0,7.3,0.6,39.0,109.0,0,0,35.7
+Floor,Male,59,113.6,MICU,admit,22,27,ALIVE,-1.0,-1.0,8.0,8.5,0.8,9.0,55.0,0,0,36.8
+Emergency Department,Female,59,117.3,MICU,admit,34,39,ALIVE,-1.0,-1.0,30.0,3.8,1.3,15.0,135.0,0,0,36.1
+Emergency Department,Female,63,99.1,MICU,admit,-1,-1,ALIVE,-1.0,-1.0,13.0,-1.0,-1.0,-1.0,106.0,0,0,37.2
+Other Hospital,Female,69,68.6,MICU,admit,36,49,ALIVE,-1.0,-1.0,14.0,7.3,2.4,42.0,115.0,0,0,36.6
+Floor,Female,89,72.7,MICU,admit,61,85,ALIVE,-1.0,-1.0,10.0,16.2,2.9,30.0,36.0,0,0,35.8
+Emergency Department,Female,47,79.0,MICU,admit,26,31,ALIVE,-1.0,-1.0,10.0,18.2,0.6,16.0,100.0,0,0,36.6
+Emergency Department,Male,62,51.4,Med-Surg ICU,admit,53,64,ALIVE,-1.0,-1.0,20.0,-1.0,0.82,45.0,100.0,0,1,36.2
+Emergency Department,Female,48,82.1,Med-Surg ICU,admit,24,29,ALIVE,-1.0,-1.0,18.0,8.6,-1.0,-1.0,165.0,0,0,36.6
+Floor,Male,79,71.2,Med-Surg ICU,admit,35,52,ALIVE,-1.0,-1.0,30.0,10.4,1.8,28.0,52.0,0,0,-1.0
+Emergency Department,Male,44,99.8,Med-Surg ICU,admit,19,19,ALIVE,7.35,42.4,26.0,14.5,0.5,14.0,101.0,0,0,36.6
+Emergency Department,Female,67,83.9,Med-Surg ICU,admit,49,62,ALIVE,-1.0,-1.0,45.0,-1.0,-1.0,-1.0,129.0,0,1,37.0
+Emergency Department,Female,33,98.0,Med-Surg ICU,admit,41,41,ALIVE,-1.0,-1.0,40.0,-1.0,-1.0,-1.0,33.0,0,0,36.7
+Emergency Department,Female,56,34.4,Med-Surg ICU,admit,19,24,ALIVE,-1.0,-1.0,39.0,-1.0,0.8,6.0,50.0,0,0,-1.0
+Emergency Department,Female,49,88.63,Med-Surg ICU,admit,33,38,ALIVE,-1.0,-1.0,7.0,19.2,0.8,7.0,121.0,0,0,37.9
+Floor,Male,45,114.7,Neuro ICU,admit,97,102,ALIVE,7.54,31.0,4.0,6.6,0.7,12.0,109.0,1,1,36.5
+Floor,Female,83,91.2,Med-Surg ICU,admit,41,58,ALIVE,-1.0,-1.0,28.0,8.6,1.01,10.0,96.0,0,0,36.7
+Floor,Female,56,69.5,Med-Surg ICU,admit,32,47,ALIVE,-1.0,-1.0,38.0,2.4,1.02,12.0,52.0,0,0,36.6
+Floor,Female,67,76.6,Med-Surg ICU,admit,48,61,ALIVE,-1.0,-1.0,39.0,3.4,1.5,35.0,138.0,0,1,39.4
+Floor,Male,31,114.8,MICU,admit,105,105,ALIVE,7.34,55.0,33.0,6.4,1.44,23.0,145.0,1,1,39.1
+Floor,Female,82,72.5,Med-Surg ICU,admit,100,117,ALIVE,-1.0,-1.0,41.0,5.9,2.75,47.0,110.0,0,0,36.2
+Floor,Male,72,,Med-Surg ICU,admit,29,45,ALIVE,-1.0,-1.0,36.0,5.4,0.92,16.0,132.0,0,0,36.1
+Floor,Male,64,,Med-Surg ICU,admit,57,84,ALIVE,-1.0,-1.0,52.0,17.2,5.44,28.0,144.0,0,0,36.4
+Floor,Female,60,76.5,Med-Surg ICU,admit,121,132,EXPIRED,7.05,66.0,32.0,22.8,7.4,31.0,140.0,1,0,36.6
+Floor,Male,82,,Med-Surg ICU,admit,26,43,ALIVE,-1.0,-1.0,34.0,-1.0,-1.0,-1.0,112.0,0,0,36.4
+Floor,Male,68,108.8,Med-Surg ICU,admit,60,73,ALIVE,7.41,40.0,47.0,4.2,2.51,34.0,104.0,1,1,39.4
+Floor,Male,55,91.2,Med-Surg ICU,admit,77,82,ALIVE,7.27,43.0,40.0,4.1,1.5,21.0,187.0,1,1,34.1
+Floor,Male,60,96.5,Med-Surg ICU,admit,39,50,ALIVE,-1.0,-1.0,54.0,4.3,1.6,28.0,95.0,0,0,36.2
+Floor,Male,65,103.4,Med-Surg ICU,admit,41,54,ALIVE,-1.0,-1.0,38.0,14.0,1.5,28.0,123.0,0,0,36.6
+Operating Room,Female,68,88.0,Med-Surg ICU,admit,29,42,ALIVE,7.34,47.0,43.0,9.9,-1.0,-1.0,87.0,0,0,36.4
+Floor,Male,87,82.0,Med-Surg ICU,admit,74,98,ALIVE,-1.0,-1.0,46.0,7.1,1.6,29.0,160.0,0,0,36.9
+Floor,Male,66,67.4,Med-Surg ICU,admit,33,46,ALIVE,-1.0,-1.0,29.0,-1.0,-1.0,-1.0,128.0,0,1,36.7
+Floor,Female,70,51.0,Med-Surg ICU,admit,79,95,EXPIRED,-1.0,-1.0,29.0,20.1,0.3,20.0,132.0,0,0,34.6
+Floor,Female,> 89,47.1,Med-Surg ICU,admit,48,72,ALIVE,-1.0,-1.0,28.0,14.8,1.6,38.0,131.0,0,0,36.6
+Floor,Male,88,80.2,Med-Surg ICU,admit,39,63,ALIVE,-1.0,-1.0,4.0,-1.0,-1.0,-1.0,121.0,0,0,36.3
+Floor,Female,88,104.91,Med-Surg ICU,admit,41,65,ALIVE,-1.0,-1.0,36.0,18.1,1.0,32.0,94.0,0,0,36.6
+Floor,Female,81,72.3,Med-Surg ICU,admit,26,43,ALIVE,-1.0,-1.0,12.0,4.1,0.7,12.0,47.0,0,0,36.6
+Floor,Male,58,73.0,Med-Surg ICU,admit,42,47,ALIVE,-1.0,-1.0,33.0,5.3,1.8,19.0,118.0,0,0,36.9
+Floor,Male,64,99.6,Med-Surg ICU,admit,66,77,ALIVE,-1.0,-1.0,33.0,28.8,0.8,24.0,120.0,0,0,36.3
+Direct Admit,Male,64,120.0,Med-Surg ICU,admit,49,60,ALIVE,7.48,36.0,38.0,7.8,2.4,80.0,96.0,0,0,36.61
+Floor,Male,65,74.2,Med-Surg ICU,admit,51,64,ALIVE,-1.0,-1.0,5.0,6.7,0.6,15.0,146.0,0,0,36.8
+Floor,Male,60,71.7,Med-Surg ICU,admit,72,83,EXPIRED,7.42,38.0,39.0,18.2,0.8,29.0,164.0,1,1,36.67
+Floor,Male,64,73.7,Med-Surg ICU,admit,22,33,ALIVE,-1.0,-1.0,41.0,-1.0,-1.0,-1.0,106.0,0,0,36.61
+Operating Room,Male,82,67.9,Med-Surg ICU,admit,34,51,EXPIRED,-1.0,-1.0,34.0,17.2,1.9,22.0,119.0,0,0,37.4
+Floor,Male,71,77.4,Med-Surg ICU,admit,60,76,EXPIRED,7.379,36.5,57.0,15.3,1.5,43.0,102.0,0,1,36.39
+Emergency Department,Female,84,77.1,Med-Surg ICU,admit,101,118,ALIVE,7.35,33.0,55.0,16.4,0.9,19.0,115.0,1,1,34.78
+Floor,Female,84,77.9,Med-Surg ICU,readmit,41,58,ALIVE,-1.0,-1.0,57.0,7.7,0.9,18.0,110.0,0,0,36.72
+Floor,Female,67,86.4,Med-Surg ICU,admit,47,60,ALIVE,-1.0,-1.0,38.0,28.1,0.8,21.0,107.0,0,0,36.39
+Floor,Male,53,72.5,Med-Surg ICU,admit,53,58,ALIVE,7.5,27.0,34.0,10.8,0.8,13.0,136.0,1,1,36.39
+Floor,Male,80,101.2,Med-Surg ICU,admit,21,38,ALIVE,-1.0,-1.0,8.0,-1.0,-1.0,-1.0,58.0,0,0,36.8
+Floor,Female,63,106.5,Med-Surg ICU,admit,51,62,ALIVE,-1.0,-1.0,11.0,-1.0,3.31,65.0,95.0,0,0,36.7
+Direct Admit,Male,81,113.7,Med-Surg ICU,admit,49,66,ALIVE,-1.0,-1.0,28.0,8.83,1.71,56.0,129.0,0,0,36.4
+Floor,Male,85,85.5,Med-Surg ICU,admit,63,87,ALIVE,-1.0,-1.0,31.0,11.23,2.43,35.0,135.0,0,0,36.9
+Operating Room,Male,85,85.9,Med-Surg ICU,readmit,73,97,ALIVE,7.34,38.3,7.0,18.18,3.09,60.0,148.0,1,1,36.9
+Floor,Male,66,93.8,Med-Surg ICU,admit,22,35,ALIVE,-1.0,-1.0,26.0,-1.0,-1.0,-1.0,128.0,0,0,36.6
+Floor,Female,48,108.5,Med-Surg ICU,admit,78,83,ALIVE,7.24,53.4,35.0,8.56,1.32,21.0,111.0,1,0,36.2
+Floor,Male,60,88.0,Med-Surg ICU,admit,50,61,ALIVE,-1.0,-1.0,38.0,13.0,0.91,22.0,125.0,0,0,36.4
+Floor,Male,88,69.49,Med-Surg ICU,admit,37,61,ALIVE,-1.0,-1.0,34.0,-1.0,1.69,25.0,144.0,0,0,36.8
+Floor,Male,37,129.1,Med-Surg ICU,admit,72,72,ALIVE,7.326,49.6,33.0,-1.0,-1.0,-1.0,65.0,1,1,36.8
+Floor,Male,86,83.5,Med-Surg ICU,admit,25,49,ALIVE,-1.0,-1.0,11.0,-1.0,-1.0,-1.0,115.0,0,0,36.5
+Floor,Male,> 89,64.0,Med-Surg ICU,admit,23,47,ALIVE,-1.0,-1.0,40.0,8.4,0.81,12.0,55.0,0,0,36.8
+Floor,Male,86,93.04,Med-Surg ICU,admit,44,68,ALIVE,-1.0,-1.0,45.0,2.9,5.31,51.0,104.0,0,0,36.9
+Floor,Male,85,83.46,Med-Surg ICU,admit,32,56,ALIVE,-1.0,-1.0,11.0,18.8,-1.0,-1.0,130.0,0,0,36.8
+Floor,Male,81,93.62,Med-Surg ICU,admit,31,48,ALIVE,-1.0,-1.0,30.0,6.7,1.42,37.0,95.0,0,0,36.8
+Floor,Male,67,86.18,Med-Surg ICU,admit,21,34,ALIVE,-1.0,-1.0,43.0,-1.0,-1.0,-1.0,107.0,0,1,36.8
+Floor,Female,65,123.3,Med-Surg ICU,admit,28,41,ALIVE,-1.0,-1.0,10.0,-1.0,-1.0,-1.0,112.0,0,0,36.4
+Floor,Male,59,89.6,Med-Surg ICU,admit,61,82,ALIVE,-1.0,-1.0,10.0,6.4,1.82,28.0,41.0,0,0,36.4
+Floor,Male,67,86.3,Med-Surg ICU,admit,24,48,EXPIRED,-1.0,-1.0,38.0,-1.0,-1.0,-1.0,106.0,0,0,36.6
+Floor,Male,53,105.3,Med-Surg ICU,admit,65,70,ALIVE,7.29,36.0,36.0,-1.0,-1.0,-1.0,113.0,1,0,36.72
+Floor,Male,26,141.0,Med-Surg ICU,admit,41,41,ALIVE,-1.0,-1.0,7.0,5.1,2.6,38.0,105.0,0,0,36.17
+Floor,Male,48,63.7,Med-Surg ICU,admit,32,37,ALIVE,-1.0,-1.0,36.0,-1.0,1.3,30.0,118.0,0,0,36.78
+Floor,Male,57,67.7,Med-Surg ICU,admit,72,77,ALIVE,7.49,26.0,33.0,7.4,2.2,78.0,123.0,0,0,35.7
+Floor,Male,68,146.8,Med-Surg ICU,admit,33,46,ALIVE,7.44,33.0,48.0,-1.0,-1.0,-1.0,145.0,0,0,36.4
+Floor,Female,79,88.1,Med-Surg ICU,admit,32,49,ALIVE,-1.0,-1.0,7.0,-1.0,0.7,21.0,110.0,0,1,35.55
+Floor,Male,46,130.3,Med-Surg ICU,admit,30,35,ALIVE,7.4,52.0,28.0,-1.0,-1.0,-1.0,112.0,0,1,36.4
+Floor,Male,80,103.37,Med-Surg ICU,admit,45,62,EXPIRED,7.3,76.0,28.0,-1.0,1.9,63.0,60.0,1,0,36.4
+Floor,Female,51,161.0,Med-Surg ICU,admit,20,25,ALIVE,-1.0,-1.0,32.0,11.6,0.9,16.0,123.0,0,0,36.2
+Floor,Female,82,98.0,Med-Surg ICU,admit,64,81,ALIVE,7.21,71.0,45.0,10.5,4.4,126.0,49.0,0,1,35.1
+Floor,Female,79,81.0,Med-Surg ICU,admit,35,52,ALIVE,-1.0,-1.0,7.0,6.0,4.7,22.0,108.0,0,0,35.8
+Floor,Female,74,47.3,Med-Surg ICU,admit,41,57,ALIVE,-1.0,-1.0,9.0,-1.0,-1.0,-1.0,128.0,0,0,36.9
+Floor,Female,79,79.4,Med-Surg ICU,admit,66,83,ALIVE,-1.0,-1.0,49.0,8.5,1.7,84.0,112.0,0,0,36.7
+Floor,Female,76,64.3,Med-Surg ICU,admit,14,31,ALIVE,-1.0,-1.0,29.0,-1.0,-1.0,-1.0,109.0,0,0,36.1
+Step-Down Unit (SDU),Female,76,64.3,Med-Surg ICU,readmit,-1,-1,ALIVE,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,0,0,-1.0
+Floor,Male,> 89,63.7,Med-Surg ICU,admit,40,64,ALIVE,-1.0,-1.0,45.0,-1.0,-1.0,-1.0,137.0,0,0,36.1
+Floor,Female,76,90.0,Cardiac ICU,admit,48,65,ALIVE,-1.0,-1.0,51.0,17.2,0.58,11.0,120.0,0,0,39.8
+Floor,Male,52,90.05,Cardiac ICU,admit,85,90,EXPIRED,7.4,33.0,11.0,23.6,0.54,16.0,42.0,1,0,36.6
+Floor,Female,71,82.15,Cardiac ICU,admit,55,71,EXPIRED,7.4,36.0,35.0,-1.0,-1.0,-1.0,122.0,0,0,33.0
+Floor,Female,> 89,73.63,Neuro ICU,admit,80,104,EXPIRED,-1.0,-1.0,43.0,20.8,1.23,58.0,150.0,0,0,36.2
+Floor,Female,83,112.05,Neuro ICU,admit,11,28,ALIVE,-1.0,-1.0,12.0,-1.0,-1.0,-1.0,95.0,0,0,36.0
+Floor,Female,81,73.0,Neuro ICU,admit,64,81,EXPIRED,-1.0,-1.0,38.0,-1.0,1.7,41.0,115.0,0,0,35.8
+Floor,Female,> 89,75.41,Med-Surg ICU,admit,30,54,ALIVE,7.28,54.0,41.0,-1.0,-1.0,-1.0,86.0,0,0,35.9
+Floor,Male,34,109.0,Med-Surg ICU,admit,46,46,ALIVE,-1.0,-1.0,45.0,-1.0,-1.0,-1.0,132.0,0,1,37.2
+Floor,Male,83,82.32,Med-Surg ICU,admit,70,87,EXPIRED,-1.0,-1.0,37.0,13.2,2.16,47.0,110.0,0,0,36.2
+Floor,Female,64,59.42,Med-Surg ICU,admit,32,43,ALIVE,-1.0,-1.0,44.0,6.6,0.39,8.0,62.0,0,0,36.4
+Floor,Female,69,88.0,Med-Surg ICU,admit,20,33,ALIVE,7.43,41.0,34.0,-1.0,-1.0,-1.0,135.0,0,1,36.2
+Floor,Male,70,79.4,Med-Surg ICU,admit,141,173,EXPIRED,7.29,34.0,56.0,6.3,1.45,7.0,116.0,1,1,36.5
+Floor,Female,83,45.81,Cardiac ICU,admit,47,64,ALIVE,7.31,51.0,35.0,-1.0,-1.0,-1.0,121.0,0,0,36.3
+Floor,Female,61,71.62,Cardiac ICU,admit,24,35,ALIVE,-1.0,-1.0,6.0,11.7,0.956,9.0,107.0,0,0,35.9
+Floor,Female,84,89.55,Cardiac ICU,admit,49,66,ALIVE,-1.0,-1.0,55.0,10.0,0.63,16.0,50.0,0,0,35.8
+Floor,Female,84,89.1,Cardiac ICU,admit,55,72,EXPIRED,-1.0,-1.0,36.0,-1.0,-1.0,-1.0,148.0,0,0,36.3
+Floor,Female,83,54.88,Cardiac ICU,admit,41,58,EXPIRED,7.34,54.0,40.0,-1.0,-1.0,-1.0,105.0,1,0,35.9
+Floor,Female,72,65.97,Cardiac ICU,admit,26,42,ALIVE,-1.0,-1.0,10.0,9.7,0.38,7.0,93.0,0,0,36.4
+Floor,Female,68,67.16,Med-Surg ICU,admit,20,33,ALIVE,-1.0,-1.0,9.0,-1.0,-1.0,-1.0,112.0,0,0,36.5
+Floor,Female,73,74.77,Med-Surg ICU,admit,43,59,ALIVE,7.33,71.0,45.0,14.0,0.96,24.0,100.0,0,0,36.3
+Floor,Female,78,68.8,Med-Surg ICU,admit,51,68,ALIVE,-1.0,-1.0,45.0,9.3,0.58,12.0,147.0,0,0,35.4
+Floor,Female,83,70.79,Med-Surg ICU,admit,43,60,ALIVE,-1.0,-1.0,36.0,23.4,0.86,25.0,46.0,0,0,36.6
+Floor,Female,67,70.27,Med-Surg ICU,admit,22,35,ALIVE,-1.0,-1.0,36.0,-1.0,-1.0,-1.0,131.0,0,0,36.7
+Floor,Female,83,102.8,Med-Surg ICU,admit,22,39,ALIVE,-1.0,-1.0,9.0,-1.0,-1.0,-1.0,96.0,0,0,36.8
+Recovery Room,Female,68,91.1,Med-Surg ICU,admit,61,74,ALIVE,7.3,49.0,8.0,26.2,0.98,13.0,119.0,1,1,36.1
+Floor,Female,56,77.93,Med-Surg ICU,admit,26,31,ALIVE,-1.0,-1.0,36.0,-1.0,-1.0,-1.0,48.0,0,1,36.2
+Step-Down Unit (SDU),Female,72,70.7,CSICU,readmit,23,39,ALIVE,-1.0,-1.0,46.0,-1.0,-1.0,-1.0,92.0,0,1,36.3
+Floor,Female,> 89,52.8,Med-Surg ICU,admit,41,65,EXPIRED,-1.0,-1.0,31.0,15.8,0.94,31.0,56.0,0,1,36.3
+Floor,Female,57,45.0,Med-Surg ICU,admit,70,86,ALIVE,-1.0,-1.0,46.0,0.7,0.316,14.0,117.0,0,0,36.2
+Floor,Male,53,93.6,Med-Surg ICU,admit,31,36,ALIVE,-1.0,-1.0,38.0,-1.0,-1.0,-1.0,136.0,0,0,35.6
+Floor,Female,74,58.2,Med-Surg ICU,admit,50,76,ALIVE,7.49,28.0,34.0,10.0,0.734,8.0,147.0,0,0,36.8
+Floor,Female,80,59.55,Med-Surg ICU,admit,70,87,ALIVE,7.41,43.0,15.0,4.9,1.78,33.0,170.0,1,1,36.1
+Floor,Female,79,64.55,Med-Surg ICU,admit,18,35,ALIVE,-1.0,-1.0,37.0,-1.0,-1.0,-1.0,66.0,0,0,37.2
+Floor,Female,88,68.55,Med-Surg ICU,admit,46,70,ALIVE,-1.0,-1.0,35.0,9.8,2.94,40.0,46.0,0,0,36.6
+Floor,Female,84,70.31,Med-Surg ICU,admit,46,63,ALIVE,-1.0,-1.0,42.0,10.1,-1.0,-1.0,142.0,0,0,36.4
+Floor,Female,86,67.27,Med-Surg ICU,admit,98,122,ALIVE,7.11,45.0,36.0,3.5,3.96,82.0,154.0,1,1,36.2
+Floor,Male,59,141.3,MICU,admit,54,59,ALIVE,-1.0,-1.0,30.0,1.0,1.2,27.0,164.0,0,1,36.5
+Floor,Male,75,112.9,CCU-CTICU,admit,36,53,ALIVE,7.456,38.3,40.0,-1.0,1.05,12.0,132.0,0,0,36.7
+Floor,Female,68,56.3,CCU-CTICU,admit,33,46,ALIVE,-1.0,-1.0,31.0,5.6,-1.0,-1.0,41.0,0,0,36.6
+Floor,Male,53,82.1,CCU-CTICU,admit,14,19,ALIVE,-1.0,-1.0,49.0,8.0,0.8,11.0,54.0,0,0,36.7
+Floor,Male,58,116.0,Med-Surg ICU,readmit,41,46,EXPIRED,-1.0,-1.0,38.0,-1.0,-1.0,-1.0,144.0,0,0,37.1
+Floor,Male,58,110.0,Med-Surg ICU,admit,28,33,EXPIRED,-1.0,-1.0,9.0,5.6,-1.0,-1.0,89.0,0,0,36.4
+Floor,Female,69,78.8,CTICU,admit,27,40,ALIVE,-1.0,-1.0,25.0,4.2,1.07,25.0,105.0,0,0,36.6
+Floor,Male,61,82.1,CTICU,admit,28,39,ALIVE,-1.0,-1.0,12.0,24.0,1.48,33.0,96.0,0,1,37.2
+Floor,Female,71,69.2,CTICU,admit,29,56,ALIVE,-1.0,-1.0,39.0,9.3,0.92,14.0,142.0,0,0,-1.0
+Floor,Female,73,73.0,Med-Surg ICU,admit,40,56,ALIVE,-1.0,-1.0,28.0,8.8,5.34,32.0,91.0,0,0,36.7
+Floor,Male,77,102.8,Med-Surg ICU,admit,35,52,ALIVE,-1.0,-1.0,11.0,7.6,0.99,22.0,45.0,0,0,36.5
+Emergency Department,Female,49,68.2,Med-Surg ICU,admit,39,44,ALIVE,-1.0,-1.0,39.0,7.4,1.1,7.0,150.0,0,0,36.1
+Floor,Male,54,80.5,Med-Surg ICU,admit,15,20,ALIVE,-1.0,-1.0,10.0,-1.0,-1.0,-1.0,51.0,0,0,36.6
+Floor,Male,> 89,77.7,CTICU,admit,72,96,ALIVE,-1.0,-1.0,35.0,30.7,3.86,148.0,116.0,0,0,36.9
+Floor,Female,84,90.3,CTICU,admit,29,46,ALIVE,-1.0,-1.0,43.0,-1.0,-1.0,-1.0,96.0,0,0,-1.0
+Floor,Female,81,41.9,CTICU,admit,41,58,ALIVE,-1.0,-1.0,44.0,8.3,1.47,43.0,128.0,0,0,35.2
+Floor,Male,82,69.3,CTICU,admit,79,106,ALIVE,-1.0,-1.0,44.0,0.3,1.68,31.0,121.0,0,0,35.6
+Floor,Female,84,55.2,SICU,admit,100,117,ALIVE,-1.0,-1.0,46.0,28.1,2.11,39.0,172.0,0,1,35.6
+Floor,Female,68,75.0,SICU,admit,42,55,ALIVE,-1.0,-1.0,40.0,20.1,1.1,29.0,137.0,0,0,36.2
+Floor,Female,69,62.1,SICU,admit,63,76,ALIVE,-1.0,-1.0,45.0,4.4,6.89,34.0,130.0,0,0,35.7
+Operating Room,Female,66,51.2,SICU,admit,21,34,ALIVE,-1.0,-1.0,49.0,9.6,0.99,11.0,100.0,0,0,37.3
+Operating Room,Female,66,43.1,SICU,admit,40,53,ALIVE,-1.0,-1.0,58.0,16.3,1.03,24.0,119.0,0,0,36.0
+Floor,Female,57,118.5,SICU,admit,44,60,ALIVE,-1.0,-1.0,44.0,6.1,10.1,84.0,102.0,0,0,36.7
+Floor,Female,39,40.8,Cardiac ICU,admit,24,24,ALIVE,-1.0,-1.0,24.0,-1.0,0.65,21.0,62.0,0,0,35.9
+Floor,Female,79,67.8,Cardiac ICU,admit,16,33,EXPIRED,-1.0,-1.0,38.0,-1.0,-1.0,-1.0,105.0,0,0,37.2
+Floor,Female,68,75.0,Cardiac ICU,admit,38,51,ALIVE,-1.0,-1.0,11.0,-1.0,0.73,22.0,36.0,0,0,36.7
+Floor,Male,89,75.0,Cardiac ICU,admit,27,51,ALIVE,-1.0,-1.0,33.0,10.2,1.41,25.0,103.0,0,0,36.0
+Floor,Female,> 89,50.0,Cardiac ICU,admit,57,81,EXPIRED,-1.0,-1.0,29.0,12.8,0.7,11.0,138.0,0,0,36.7
+Floor,Male,54,90.7,Cardiac ICU,admit,50,55,ALIVE,-1.0,-1.0,8.0,5.4,2.97,64.0,107.0,0,0,36.8
+Floor,Female,67,72.0,MICU,admit,61,74,ALIVE,7.28,48.5,10.0,15.5,2.14,51.0,133.0,0,0,35.5
+Floor,Female,76,66.5,MICU,admit,18,35,ALIVE,-1.0,-1.0,24.0,12.4,0.5,9.0,48.0,0,0,37.1
+Floor,Female,52,135.2,MICU,admit,49,54,ALIVE,-1.0,-1.0,40.0,5.2,5.22,68.0,109.0,0,0,39.4
+Floor,Female,41,112.0,MICU,admit,73,73,ALIVE,-1.0,-1.0,5.0,-1.0,10.2,47.0,103.0,0,0,36.5
+Floor,Female,80,40.9,MICU,admit,44,61,ALIVE,-1.0,-1.0,34.0,3.5,2.7,36.0,105.0,0,0,36.2
+Floor,Female,81,128.4,MICU,admit,42,59,ALIVE,-1.0,-1.0,10.0,13.8,1.4,40.0,44.0,0,0,35.9
+Floor,Female,56,136.3,MICU,admit,70,75,ALIVE,-1.0,-1.0,38.0,18.1,1.1,18.0,123.0,0,0,38.9
+Floor,Female,68,98.1,MICU,admit,40,53,ALIVE,-1.0,-1.0,12.0,10.2,1.1,11.0,127.0,0,0,36.3
+Floor,Male,73,97.5,MICU,admit,36,52,EXPIRED,-1.0,-1.0,36.0,19.5,0.9,28.0,118.0,0,0,36.3
+Floor,Female,78,67.5,MICU,admit,47,64,EXPIRED,-1.0,-1.0,4.0,-1.0,-1.0,-1.0,129.0,0,0,34.9
+Floor,Male,78,97.8,Med-Surg ICU,transfer,34,51,ALIVE,-1.0,-1.0,30.0,-1.0,-1.0,-1.0,58.0,0,0,35.9
+Step-Down Unit (SDU),Female,78,47.9,Med-Surg ICU,admit,76,93,ALIVE,7.296,46.0,33.0,13.09,0.9,19.0,148.0,1,0,37.2
+Floor,Male,58,107.7,Med-Surg ICU,admit,67,72,ALIVE,-1.0,-1.0,26.0,8.6,4.32,86.0,102.0,0,0,36.8
+Floor,Male,71,155.6,Med-Surg ICU,admit,139,155,EXPIRED,7.284,33.5,28.0,24.0,2.71,41.0,207.0,1,1,-1.0
+Floor,Female,56,63.24,Med-Surg ICU,admit,27,32,ALIVE,-1.0,-1.0,26.0,-1.0,-1.0,-1.0,129.0,0,0,36.4
+Floor,Female,35,68.0,Med-Surg ICU,admit,61,61,ALIVE,-1.0,-1.0,28.0,41.3,0.67,32.0,142.0,0,0,36.6
+Floor,Female,75,75.2,Med-Surg ICU,admit,26,43,ALIVE,-1.0,-1.0,20.0,-1.0,1.87,37.0,57.0,0,1,36.5
+Floor,Male,48,67.6,Med-Surg ICU,admit,24,29,ALIVE,-1.0,-1.0,5.0,8.1,0.8,18.0,106.0,0,0,36.9
+Floor,Male,25,65.4,Med-Surg ICU,admit,56,56,ALIVE,-1.0,-1.0,43.0,10.2,1.1,15.0,141.0,0,0,36.3
+Floor,Male,22,49.4,Med-Surg ICU,admit,33,33,EXPIRED,-1.0,-1.0,28.0,13.3,0.3,11.0,121.0,0,1,36.7
+Floor,Male,55,60.2,Med-Surg ICU,admit,63,79,ALIVE,-1.0,-1.0,47.0,26.8,0.7,35.0,138.0,0,0,36.8
+Floor,Male,41,114.4,Med-Surg ICU,admit,23,23,ALIVE,-1.0,-1.0,5.0,11.8,1.2,17.0,90.0,0,0,36.4
+Floor,Male,82,97.5,Med-Surg ICU,admit,47,64,ALIVE,-1.0,-1.0,56.0,16.7,1.7,69.0,59.0,0,1,36.8
+Floor,Female,56,127.5,Med-Surg ICU,admit,48,53,ALIVE,7.14,136.0,57.0,8.3,1.0,16.0,56.0,0,1,36.6
+Other Hospital,Male,46,101.9,MICU,admit,76,81,ALIVE,-1.0,-1.0,11.0,11.0,1.1,58.0,118.0,0,0,36.7
+Operating Room,Female,63,84.8,CTICU,admit,39,50,ALIVE,7.35,41.0,35.0,8.0,-1.0,-1.0,82.0,1,0,36.6
+Operating Room,Male,84,92.4,CTICU,admit,84,101,ALIVE,-1.0,-1.0,40.0,8.2,0.79,11.0,119.0,0,0,38.0
+Direct Admit,Male,64,62.3,Med-Surg ICU,admit,32,43,ALIVE,-1.0,-1.0,35.0,10.4,1.78,19.0,136.0,0,0,36.3
+Direct Admit,Male,44,262.4,SICU,admit,62,62,ALIVE,7.27,45.0,60.0,14.8,1.43,20.0,129.0,1,0,35.9
+Operating Room,Female,57,,Neuro ICU,admit,45,50,ALIVE,-1.0,-1.0,60.0,6.9,0.96,28.0,138.0,0,0,37.0
+Emergency Department,Female,78,50.6,Neuro ICU,admit,24,41,ALIVE,-1.0,-1.0,37.0,2.6,0.71,6.0,50.0,0,0,36.3
+Direct Admit,Female,63,83.1,Med-Surg ICU,admit,84,95,EXPIRED,7.36,39.0,47.0,27.1,0.81,10.0,124.0,1,1,37.3
+Direct Admit,Male,83,104.3,Med-Surg ICU,admit,52,79,ALIVE,7.45,35.0,45.0,12.2,1.71,43.0,109.0,0,0,36.1
+Direct Admit,Male,84,54.3,Med-Surg ICU,admit,58,75,EXPIRED,-1.0,-1.0,59.0,-1.0,-1.0,-1.0,116.0,0,1,27.0
+Direct Admit,Male,75,,Med-Surg ICU,admit,65,82,ALIVE,-1.0,-1.0,41.0,19.6,1.96,52.0,124.0,0,1,36.4
+Direct Admit,Male,68,129.6,Med-Surg ICU,admit,52,65,ALIVE,7.33,39.0,34.0,7.7,9.12,102.0,46.0,0,0,36.6
+Step-Down Unit (SDU),Male,53,93.71,Med-Surg ICU,readmit,13,18,ALIVE,-1.0,-1.0,16.0,6.2,1.5,15.0,51.0,0,0,36.7
+Operating Room,Female,74,75.6,Med-Surg ICU,admit,22,38,ALIVE,-1.0,-1.0,9.0,-1.0,-1.0,-1.0,124.0,0,0,36.4
+Direct Admit,Male,84,75.3,Med-Surg ICU,admit,17,34,ALIVE,-1.0,-1.0,35.0,-1.0,-1.0,-1.0,103.0,0,0,36.3
+Direct Admit,Male,80,83.2,Med-Surg ICU,admit,28,45,ALIVE,-1.0,-1.0,18.0,3.3,1.6,31.0,43.0,0,0,36.3
+Direct Admit,Female,72,99.6,Med-Surg ICU,admit,40,56,ALIVE,-1.0,-1.0,37.0,15.9,1.0,50.0,118.0,0,0,36.6
+Direct Admit,Male,44,112.0,CCU-CTICU,admit,12,12,ALIVE,-1.0,-1.0,16.0,6.4,1.3,11.0,46.0,0,0,36.6
+Direct Admit,Male,51,112.7,Med-Surg ICU,admit,28,33,ALIVE,-1.0,-1.0,26.0,-1.0,-1.0,-1.0,103.0,0,0,36.7
+Emergency Department,Female,53,90.7,Med-Surg ICU,admit,18,23,ALIVE,-1.0,-1.0,9.0,-1.0,-1.0,-1.0,51.0,0,0,36.6
+Direct Admit,Male,57,67.3,Med-Surg ICU,admit,15,20,ALIVE,-1.0,-1.0,34.0,-1.0,-1.0,-1.0,46.0,0,0,36.4
+Direct Admit,Female,> 89,66.67,Med-Surg ICU,admit,18,42,ALIVE,-1.0,-1.0,34.0,-1.0,-1.0,-1.0,110.0,0,0,36.9
+Direct Admit,Male,52,82.7,Med-Surg ICU,admit,39,44,ALIVE,-1.0,-1.0,47.0,-1.0,0.9,12.0,129.0,0,0,37.2
+Operating Room,Male,58,90.7,Med-Surg ICU,admit,10,15,ALIVE,-1.0,-1.0,29.0,-1.0,-1.0,-1.0,88.0,0,0,36.6
+Direct Admit,Female,77,98.6,Med-Surg ICU,admit,147,164,ALIVE,7.32,29.0,4.0,15.8,0.6,36.0,137.0,1,1,31.8
+Direct Admit,Male,76,114.7,Med-Surg ICU,admit,60,77,ALIVE,7.297,84.7,56.0,13.5,2.3,60.0,108.0,0,1,36.4
+Direct Admit,Male,48,63.6,Med-Surg ICU,admit,60,65,ALIVE,7.4,39.0,38.0,18.0,0.8,10.0,126.0,1,1,37.1
+Operating Room,Male,48,69.6,Med-Surg ICU,readmit,56,61,ALIVE,7.388,42.4,46.0,18.0,0.6,9.0,120.0,1,1,36.7
+Direct Admit,Male,58,136.4,Med-Surg ICU,admit,57,62,ALIVE,7.34,49.0,38.0,14.4,1.0,9.0,45.0,1,1,36.4
+Direct Admit,Male,64,75.7,Med-Surg ICU,admit,140,151,EXPIRED,7.07,57.0,58.0,-1.0,2.0,35.0,137.0,1,1,36.3
+Direct Admit,Male,62,72.5,Med-Surg ICU,admit,57,68,ALIVE,7.41,41.0,34.0,17.3,1.6,18.0,111.0,1,1,36.2
+Direct Admit,Female,89,68.18,Med-Surg ICU,admit,47,71,ALIVE,-1.0,-1.0,59.0,-1.0,-1.0,-1.0,125.0,0,1,39.28
+Direct Admit,Male,58,91.9,Med-Surg ICU,admit,26,31,ALIVE,-1.0,-1.0,37.0,12.3,0.9,11.0,131.0,0,0,-1.0
+Direct Admit,Male,52,73.6,Med-Surg ICU,admit,31,36,ALIVE,-1.0,-1.0,49.0,10.7,0.6,12.0,112.0,0,0,35.94
+Direct Admit,Male,57,56.2,Med-Surg ICU,admit,57,78,ALIVE,-1.0,-1.0,49.0,7.2,1.1,14.0,119.0,0,0,36.8
+Direct Admit,Male,27,112.9,Med-Surg ICU,admit,101,101,ALIVE,7.086,29.3,37.0,19.7,2.5,67.0,146.0,0,1,36.2
+Direct Admit,Male,45,118.0,Med-Surg ICU,admit,45,50,ALIVE,-1.0,-1.0,52.0,17.4,1.6,13.0,106.0,0,0,36.8
+Direct Admit,Male,78,86.2,Med-Surg ICU,admit,33,50,ALIVE,-1.0,-1.0,5.0,10.3,0.9,14.0,106.0,0,0,36.4
+Direct Admit,Male,82,69.5,Med-Surg ICU,admit,43,60,ALIVE,-1.0,-1.0,60.0,9.5,1.4,25.0,100.0,0,0,36.8
+Direct Admit,Male,65,75.1,Med-Surg ICU,admit,51,64,ALIVE,7.496,29.7,40.0,9.3,0.9,36.0,102.0,0,1,36.8
+Direct Admit,Male,65,143.2,Med-Surg ICU,admit,48,61,ALIVE,7.27,45.0,59.0,8.2,1.7,27.0,97.0,0,0,36.72
+Direct Admit,Male,71,100.3,Med-Surg ICU,admit,27,43,ALIVE,-1.0,-1.0,39.0,-1.0,-1.0,-1.0,118.0,0,0,36.5
+Direct Admit,Male,20,65.4,Med-Surg ICU,admit,42,42,ALIVE,7.37,41.0,42.0,-1.0,-1.0,-1.0,124.0,1,1,36.3
+Direct Admit,Male,62,52.9,Med-Surg ICU,admit,71,82,ALIVE,7.176,77.0,58.0,15.2,1.1,38.0,98.0,0,0,36.44
+Direct Admit,Male,53,122.2,Med-Surg ICU,admit,28,33,ALIVE,-1.0,-1.0,41.0,-1.0,-1.0,-1.0,137.0,0,0,36.72
+Direct Admit,Male,26,94.0,Med-Surg ICU,admit,-1,-1,ALIVE,7.42,35.0,49.0,15.6,0.8,6.0,107.0,1,1,38.94
+Direct Admit,Male,52,81.1,Med-Surg ICU,admit,35,40,ALIVE,-1.0,-1.0,34.0,10.0,3.6,44.0,106.0,0,0,36.72
+Direct Admit,Male,60,86.6,Med-Surg ICU,admit,25,36,ALIVE,-1.0,-1.0,40.0,-1.0,-1.0,-1.0,120.0,0,0,36.5
+Direct Admit,Male,62,116.7,Med-Surg ICU,admit,41,52,ALIVE,-1.0,-1.0,31.0,12.73,1.83,31.0,134.0,0,0,37.2
+Direct Admit,Female,76,77.11,Med-Surg ICU,admit,24,51,ALIVE,-1.0,-1.0,11.0,17.37,0.58,10.0,97.0,0,0,36.4
+Direct Admit,Male,57,96.0,Med-Surg ICU,admit,33,38,ALIVE,-1.0,-1.0,6.0,7.32,0.68,17.0,62.0,0,0,36.6
+Direct Admit,Female,51,92.0,Med-Surg ICU,admit,76,81,ALIVE,7.333,75.2,53.0,9.3,0.6,24.0,111.0,1,1,36.9
+Direct Admit,Female,51,89.58,Med-Surg ICU,admit,19,24,ALIVE,7.445,53.0,32.0,-1.0,-1.0,-1.0,95.0,0,0,36.2
+Direct Admit,Male,60,91.62,Med-Surg ICU,admit,20,31,ALIVE,-1.0,-1.0,7.0,11.9,1.32,15.0,100.0,0,0,36.1
+Direct Admit,Male,72,112.49,Med-Surg ICU,admit,10,26,ALIVE,-1.0,-1.0,29.0,-1.0,-1.0,-1.0,62.0,0,0,36.7
+Direct Admit,Female,73,76.7,Med-Surg ICU,admit,23,39,ALIVE,-1.0,-1.0,30.0,7.0,0.39,12.0,105.0,0,0,36.4
+Direct Admit,Male,63,108.86,Med-Surg ICU,admit,27,38,ALIVE,-1.0,-1.0,54.0,-1.0,-1.0,-1.0,90.0,0,0,35.8
+Direct Admit,Male,89,98.9,Med-Surg ICU,admit,30,54,ALIVE,-1.0,-1.0,43.0,-1.0,-1.0,-1.0,30.0,0,0,37.1
+Direct Admit,Female,34,88.5,Med-Surg ICU,admit,27,27,ALIVE,-1.0,-1.0,5.0,-1.0,-1.0,-1.0,94.0,0,0,36.6
+Direct Admit,Female,74,77.83,Med-Surg ICU,admit,25,41,ALIVE,-1.0,-1.0,59.0,-1.0,-1.0,-1.0,58.0,0,0,36.4
+Direct Admit,Female,58,77.0,Med-Surg ICU,admit,37,42,ALIVE,7.33,79.0,31.0,7.1,1.1,32.0,119.0,0,1,36.4
+Direct Admit,Female,55,113.7,Med-Surg ICU,admit,40,45,ALIVE,-1.0,-1.0,42.0,-1.0,0.9,12.0,146.0,0,0,40.6
+Direct Admit,Female,36,88.9,Med-Surg ICU,admit,24,24,ALIVE,-1.0,-1.0,8.0,9.6,1.0,13.0,127.0,0,0,36.2
+Direct Admit,Female,67,80.5,Neuro ICU,admit,27,40,ALIVE,-1.0,-1.0,7.0,-1.0,-1.0,-1.0,113.0,0,0,37.2
+Direct Admit,Female,19,81.7,Neuro ICU,admit,30,30,ALIVE,-1.0,-1.0,41.0,8.4,0.7,6.0,102.0,0,0,36.8
+Direct Admit,Female,> 89,49.19,Neuro ICU,admit,32,56,ALIVE,-1.0,-1.0,6.0,17.5,1.1,25.0,93.0,0,0,36.2
+Direct Admit,Male,70,120.2,Neuro ICU,admit,35,51,ALIVE,-1.0,-1.0,44.0,13.3,1.2,18.0,111.0,0,0,36.8
+Direct Admit,Female,64,72.58,Neuro ICU,admit,31,42,ALIVE,-1.0,-1.0,37.0,9.2,0.86,10.0,57.0,0,0,36.1
+Direct Admit,Male,87,140.0,Neuro ICU,admit,45,69,ALIVE,-1.0,-1.0,7.0,3.5,2.26,29.0,45.0,0,0,36.6
+Direct Admit,Female,88,52.16,Med-Surg ICU,admit,54,78,ALIVE,7.45,30.0,34.0,14.6,0.89,14.0,144.0,1,1,36.1
+Direct Admit,Female,58,89.16,CSICU,admit,114,119,ALIVE,7.36,27.0,5.0,15.0,0.58,16.0,120.0,1,0,36.6
+Direct Admit,Male,53,104.0,Neuro ICU,admit,20,25,ALIVE,-1.0,-1.0,25.0,13.3,0.99,18.0,110.0,0,0,36.8
+Direct Admit,Female,44,52.0,Med-Surg ICU,admit,38,38,ALIVE,-1.0,-1.0,12.0,6.9,0.36,4.0,124.0,0,0,36.9
+Direct Admit,Female,51,57.4,Cardiac ICU,admit,85,90,ALIVE,7.43,28.9,14.0,8.8,0.82,22.0,52.0,1,1,37.0
+Other Hospital,Male,66,36.2,Cardiac ICU,admit,25,38,ALIVE,-1.0,-1.0,13.0,14.2,0.95,12.0,54.0,0,0,36.0
+Direct Admit,Male,55,93.0,Cardiac ICU,admit,21,26,ALIVE,-1.0,-1.0,6.0,5.0,1.29,17.0,64.0,0,0,35.8
+Direct Admit,Female,68,65.5,CTICU,admit,29,42,EXPIRED,-1.0,-1.0,39.0,12.9,0.53,15.0,120.0,0,0,37.0
+Other Hospital,Female,65,64.6,SICU,admit,16,29,ALIVE,-1.0,-1.0,39.0,5.0,0.64,16.0,60.0,0,0,36.1
+Direct Admit,Female,60,92.9,SICU,admit,33,44,ALIVE,-1.0,-1.0,33.0,5.9,2.31,87.0,106.0,0,0,36.2
+Direct Admit,Male,25,78.3,MICU,admit,40,40,ALIVE,-1.0,-1.0,34.0,24.9,1.35,21.0,107.0,0,0,36.4
+Direct Admit,Female,74,50.0,MICU,admit,37,53,ALIVE,-1.0,-1.0,6.0,7.6,0.8,25.0,53.0,0,0,36.1
+Direct Admit,Female,85,72.7,MICU,admit,39,63,ALIVE,-1.0,-1.0,40.0,24.2,1.1,18.0,125.0,0,0,36.1
+Direct Admit,Female,77,73.7,MICU,admit,52,69,ALIVE,-1.0,-1.0,28.0,19.55,1.3,31.0,132.0,0,1,35.6
+Direct Admit,Female,77,95.0,Med-Surg ICU,admit,44,61,EXPIRED,7.438,39.6,31.0,16.41,0.5,18.0,59.0,1,1,38.8
+Direct Admit,Female,77,59.9,Med-Surg ICU,admit,77,94,ALIVE,7.482,40.9,29.0,11.0,0.4,24.0,109.0,1,1,39.1
+Direct Admit,Male,67,84.0,Med-Surg ICU,admit,66,79,ALIVE,-1.0,-1.0,26.0,9.3,0.95,26.0,120.0,0,1,37.1
+Direct Admit,Female,61,48.5,Med-Surg ICU,admit,50,61,ALIVE,-1.0,-1.0,16.0,19.6,4.95,124.0,107.0,0,0,35.6
+Direct Admit,Male,38,155.1,Med-Surg ICU,admit,62,62,ALIVE,7.35,48.7,53.0,9.3,0.9,24.0,114.0,0,0,37.1
+Direct Admit,Male,82,123.1,Med-Surg ICU,admit,47,64,ALIVE,7.34,45.9,31.0,7.7,1.7,72.0,46.0,0,0,-1.0
+Recovery Room,Female,57,82.41,Med-Surg ICU,admit,45,50,ALIVE,-1.0,-1.0,59.0,26.0,1.1,24.0,106.0,0,0,36.6
+Recovery Room,Male,59,69.85,Cardiac ICU,admit,36,41,ALIVE,7.3,55.0,44.0,10.5,0.513,5.0,130.0,0,0,36.6
+Recovery Room,Male,65,142.9,Cardiac ICU,admit,26,39,ALIVE,-1.0,-1.0,47.0,-1.0,-1.0,-1.0,102.0,0,0,36.4
+Recovery Room,Female,76,43.1,Cardiac ICU,admit,30,47,ALIVE,-1.0,-1.0,8.0,-1.0,-1.0,-1.0,53.0,0,0,37.0
+Recovery Room,Male,46,69.4,Cardiac ICU,admit,31,36,ALIVE,-1.0,-1.0,31.0,-1.0,-1.0,-1.0,50.0,0,0,36.4
+Recovery Room,Female,66,81.82,Cardiac ICU,admit,15,28,ALIVE,-1.0,-1.0,8.0,-1.0,-1.0,-1.0,96.0,0,0,36.1
+Recovery Room,Female,50,64.6,Neuro ICU,admit,71,76,ALIVE,7.54,25.0,43.0,10.7,0.74,11.0,140.0,1,1,36.9
+Recovery Room,Female,80,69.6,Neuro ICU,admit,29,46,ALIVE,-1.0,-1.0,8.0,-1.0,-1.0,-1.0,114.0,0,0,35.6
+Floor,Male,59,70.5,Med-Surg ICU,readmit,48,53,ALIVE,-1.0,-1.0,57.0,-1.0,-1.0,-1.0,126.0,0,1,36.8
+Recovery Room,Female,41,71.67,Med-Surg ICU,admit,24,24,ALIVE,-1.0,-1.0,9.0,-1.0,-1.0,-1.0,120.0,0,0,36.4
+Recovery Room,Male,58,78.0,Med-Surg ICU,admit,16,21,ALIVE,-1.0,-1.0,43.0,-1.0,-1.0,-1.0,102.0,0,0,37.6
+Recovery Room,Female,56,62.27,Med-Surg ICU,admit,40,45,ALIVE,-1.0,-1.0,4.0,17.7,0.73,13.0,56.0,0,0,35.9
+Recovery Room,Male,57,77.3,Med-Surg ICU,admit,19,24,ALIVE,-1.0,-1.0,6.0,-1.0,-1.0,-1.0,96.0,0,0,36.6
+Emergency Department,Female,67,78.2,Med-Surg ICU,admit,26,39,ALIVE,-1.0,-1.0,45.0,-1.0,0.96,15.0,50.0,0,0,36.2
+Recovery Room,Female,54,77.27,Cardiac ICU,admit,39,44,ALIVE,-1.0,-1.0,4.0,17.9,0.72,12.0,54.0,0,0,35.8
+Recovery Room,Female,76,66.81,Med-Surg ICU,admit,32,49,ALIVE,-1.0,-1.0,31.0,3.1,0.798,16.0,112.0,0,0,36.1
+Recovery Room,Female,58,78.36,Med-Surg ICU,admit,31,36,ALIVE,-1.0,-1.0,9.0,8.8,0.61,13.0,45.0,0,0,36.2
+Recovery Room,Female,70,64.4,CCU-CTICU,admit,17,33,ALIVE,-1.0,-1.0,16.0,-1.0,-1.0,-1.0,97.0,0,0,36.9
+Recovery Room,Female,65,74.2,CTICU,admit,15,28,ALIVE,-1.0,-1.0,11.0,17.8,0.6,13.0,89.0,0,0,37.6
+Recovery Room,Male,24,89.3,CTICU,admit,34,34,ALIVE,-1.0,-1.0,33.0,22.6,5.59,31.0,90.0,0,0,36.3
+Recovery Room,Female,58,99.0,CTICU,admit,30,35,ALIVE,-1.0,-1.0,14.0,-1.0,-1.0,-1.0,87.0,0,1,36.0
+Recovery Room,Female,75,62.2,CTICU,admit,31,48,ALIVE,-1.0,-1.0,7.0,7.4,1.27,30.0,94.0,0,0,36.9
+Recovery Room,Female,57,134.0,CTICU,admit,25,30,ALIVE,-1.0,-1.0,11.0,17.6,0.82,19.0,97.0,0,0,38.2
+Recovery Room,Female,39,63.1,CTICU,admit,19,19,ALIVE,-1.0,-1.0,13.0,6.8,0.66,8.0,110.0,0,0,36.7
+Recovery Room,Male,84,93.4,CTICU,admit,36,53,ALIVE,-1.0,-1.0,33.0,16.3,0.79,15.0,151.0,0,0,37.1
+Recovery Room,Female,56,69.9,CTICU,admit,31,36,ALIVE,-1.0,-1.0,45.0,7.0,0.46,6.0,126.0,0,0,36.7
+Recovery Room,Female,67,85.5,Cardiac ICU,admit,67,80,ALIVE,7.29,44.6,5.0,17.4,1.41,40.0,84.0,0,1,36.0
+Emergency Department,Female,81,50.0,SICU,admit,50,67,EXPIRED,-1.0,-1.0,57.0,12.2,1.16,41.0,103.0,0,0,35.5
+Recovery Room,Male,89,84.1,MICU,admit,29,53,ALIVE,-1.0,-1.0,34.0,-1.0,-1.0,-1.0,145.0,0,0,36.7
+Floor,Male,83,76.3,Med-Surg ICU,readmit,39,56,EXPIRED,-1.0,-1.0,18.0,44.3,1.32,22.0,91.0,0,0,36.8
+Recovery Room,Male,83,74.1,Med-Surg ICU,admit,43,60,EXPIRED,-1.0,-1.0,18.0,21.0,1.15,30.0,85.0,0,0,36.6
+Step-Down Unit (SDU),Male,83,,Med-Surg ICU,readmit,67,84,EXPIRED,-1.0,-1.0,24.0,-1.0,1.56,27.0,135.0,0,0,36.5
+Operating Room,Female,78,62.6,Neuro ICU,admit,35,52,ALIVE,-1.0,-1.0,38.0,8.9,1.14,14.0,142.0,0,0,36.4
+Operating Room,Female,22,51.4,Neuro ICU,admit,55,55,ALIVE,7.38,40.0,4.0,15.2,3.43,20.0,128.0,0,0,35.8
+Operating Room,Female,56,67.4,SICU,admit,37,42,ALIVE,7.39,38.0,34.0,26.6,0.59,9.0,118.0,0,0,36.5
+Operating Room,Female,60,,Neuro ICU,admit,24,35,ALIVE,-1.0,-1.0,32.0,10.3,0.8,11.0,118.0,0,0,36.7
+Operating Room,Female,> 89,57.7,CTICU,admit,29,53,ALIVE,7.33,38.0,29.0,11.7,1.55,19.0,110.0,1,0,35.2
+Operating Room,Female,63,60.2,CTICU,admit,50,61,ALIVE,7.37,39.0,4.0,17.7,-1.0,-1.0,60.0,1,0,34.8
+Floor,Male,60,132.0,CTICU,readmit,24,35,ALIVE,7.44,34.0,44.0,-1.0,-1.0,-1.0,54.0,0,0,36.2
+Operating Room,Male,60,132.4,CTICU,admit,35,46,ALIVE,7.34,40.0,31.0,18.3,-1.0,-1.0,60.0,1,0,36.2
+Operating Room,Male,59,116.7,CTICU,admit,33,38,ALIVE,7.27,59.0,14.0,13.9,-1.0,-1.0,106.0,1,0,37.2
+Operating Room,Female,59,74.1,CTICU,admit,27,32,ALIVE,7.33,48.0,34.0,11.8,0.52,10.0,104.0,0,0,36.7
+Operating Room,Male,66,99.4,CTICU,admit,30,43,ALIVE,7.39,39.0,7.0,16.2,-1.0,-1.0,106.0,1,0,36.5
+Operating Room,Female,55,76.3,CTICU,admit,34,39,ALIVE,7.4,39.0,4.0,9.7,-1.0,-1.0,118.0,1,0,35.8
+Operating Room,Female,23,56.5,MICU,admit,23,23,ALIVE,-1.0,-1.0,14.0,10.7,0.56,11.0,92.0,0,0,36.4
+Operating Room,Male,61,,Med-Surg ICU,admit,41,52,ALIVE,-1.0,-1.0,60.0,6.9,1.04,16.0,144.0,0,0,36.8
+Operating Room,Female,32,59.9,Med-Surg ICU,admit,13,13,ALIVE,-1.0,-1.0,32.0,-1.0,-1.0,-1.0,106.0,0,0,36.9
+Operating Room,Male,69,118.3,Med-Surg ICU,admit,12,25,ALIVE,-1.0,-1.0,30.0,-1.0,-1.0,-1.0,60.0,0,0,36.7
+Operating Room,Female,68,111.1,Med-Surg ICU,admit,24,37,ALIVE,-1.0,-1.0,36.0,13.4,1.1,19.0,55.0,0,0,36.4
+Operating Room,Male,67,10.0,Med-Surg ICU,admit,13,26,ALIVE,-1.0,-1.0,33.0,-1.0,-1.0,-1.0,93.0,0,0,36.7
+Operating Room,Male,60,125.9,Med-Surg ICU,admit,41,52,ALIVE,7.37,42.0,41.0,15.4,-1.0,-1.0,108.0,1,0,36.2
+Operating Room,Male,84,67.0,Med-Surg ICU,admit,46,63,ALIVE,-1.0,-1.0,59.0,-1.0,-1.0,-1.0,46.0,0,0,34.6
+Operating Room,Male,56,99.5,Med-Surg ICU,admit,26,31,ALIVE,7.35,39.0,29.0,10.7,-1.0,-1.0,83.0,1,1,36.5
+Operating Room,Female,67,122.2,Med-Surg ICU,admit,26,39,ALIVE,-1.0,-1.0,38.0,-1.0,-1.0,-1.0,142.0,0,0,36.0
+Operating Room,Female,87,61.0,Med-Surg ICU,admit,39,63,ALIVE,-1.0,-1.0,13.0,-1.0,0.8,17.0,125.0,0,0,35.9
+Operating Room,Male,58,119.5,Med-Surg ICU,admit,33,38,ALIVE,-1.0,-1.0,4.0,-1.0,-1.0,-1.0,107.0,0,0,-1.0
+Operating Room,Male,70,73.5,Med-Surg ICU,admit,23,39,ALIVE,-1.0,-1.0,10.0,-1.0,-1.0,-1.0,94.0,0,0,36.3
+Operating Room,Male,72,59.87,Med-Surg ICU,admit,44,60,ALIVE,-1.0,-1.0,54.0,9.7,0.7,9.0,103.0,0,0,36.44
+Operating Room,Male,53,122.2,Med-Surg ICU,admit,30,35,ALIVE,-1.0,-1.0,9.0,8.87,1.06,19.0,45.0,0,0,36.7
+Operating Room,Female,88,80.2,Med-Surg ICU,admit,66,90,ALIVE,-1.0,-1.0,27.0,-1.0,2.13,35.0,113.0,0,0,37.2
+Operating Room,Female,> 89,50.4,Med-Surg ICU,admit,44,68,EXPIRED,-1.0,-1.0,28.0,10.96,1.45,34.0,111.0,0,0,37.2
+Operating Room,Male,66,101.6,Med-Surg ICU,admit,48,61,ALIVE,-1.0,-1.0,12.0,15.35,1.74,32.0,66.0,0,0,36.8
+Floor,Male,66,113.0,Med-Surg ICU,readmit,36,49,ALIVE,-1.0,-1.0,35.0,-1.0,0.81,18.0,126.0,0,0,37.1
+Operating Room,Female,50,76.65,Med-Surg ICU,admit,51,56,ALIVE,-1.0,-1.0,34.0,15.47,1.03,26.0,132.0,0,0,36.6
+Operating Room,Female,56,141.0,Med-Surg ICU,admit,30,35,ALIVE,-1.0,-1.0,8.0,10.15,0.57,6.0,113.0,0,0,36.8
+Operating Room,Male,44,81.6,Med-Surg ICU,admit,11,11,ALIVE,-1.0,-1.0,27.0,-1.0,-1.0,-1.0,107.0,0,0,38.4
+Operating Room,Female,83,51.7,Med-Surg ICU,admit,33,50,ALIVE,-1.0,-1.0,49.0,-1.0,-1.0,-1.0,65.0,0,0,36.7
+Operating Room,Male,59,147.4,Med-Surg ICU,admit,20,25,ALIVE,-1.0,-1.0,30.0,14.5,0.89,15.0,90.0,0,0,36.6
+Operating Room,Female,> 89,56.69,Med-Surg ICU,admit,36,60,ALIVE,-1.0,-1.0,7.0,10.2,1.54,23.0,125.0,0,0,36.4
+Emergency Department,Male,52,102.1,Med-Surg ICU,admit,21,26,ALIVE,-1.0,-1.0,38.0,-1.0,-1.0,-1.0,117.0,0,0,37.4
+Operating Room,Female,47,87.1,Med-Surg ICU,admit,20,25,ALIVE,-1.0,-1.0,34.0,13.6,-1.0,-1.0,118.0,0,0,36.7
+Operating Room,Male,59,164.7,Med-Surg ICU,admit,53,58,ALIVE,7.325,53.6,43.0,23.7,1.18,13.0,142.0,0,0,35.8
+Operating Room,Male,> 89,93.1,Med-Surg ICU,admit,21,45,ALIVE,-1.0,-1.0,26.0,-1.0,-1.0,-1.0,92.0,0,0,36.9
+Operating Room,Male,87,95.5,Med-Surg ICU,admit,-1,-1,ALIVE,7.22,46.0,35.0,20.2,2.8,37.0,130.0,1,1,37.9
+Operating Room,Male,> 89,75.3,Med-Surg ICU,admit,49,73,ALIVE,-1.0,-1.0,13.0,6.5,1.1,21.0,147.0,0,0,36.1
+Operating Room,Female,> 89,58.96,Med-Surg ICU,admit,85,109,EXPIRED,7.16,35.0,28.0,14.7,1.5,37.0,39.0,1,1,-1.0
+Operating Room,Female,83,65.8,Med-Surg ICU,admit,89,106,ALIVE,7.29,40.0,26.0,7.1,2.9,59.0,113.0,1,1,37.1
+Operating Room,Female,81,,Med-Surg ICU,admit,91,108,ALIVE,-1.0,-1.0,8.0,-1.0,1.2,23.0,59.0,0,1,35.3
+Operating Room,Female,57,76.3,CSICU,admit,24,29,ALIVE,7.31,44.0,12.0,-1.0,-1.0,-1.0,66.0,0,0,35.7
+Operating Room,Female,60,98.0,MICU,admit,36,47,ALIVE,-1.0,-1.0,10.0,-1.0,-1.0,-1.0,103.0,0,0,36.6
+Floor,Female,60,100.2,MICU,readmit,48,59,ALIVE,-1.0,-1.0,18.0,15.7,1.4,12.0,98.0,0,0,37.1
+Operating Room,Male,83,94.34,CCU-CTICU,admit,63,80,ALIVE,7.331,39.2,47.0,-1.0,1.67,-1.0,141.0,1,1,36.1
+Step-Down Unit (SDU),Female,70,83.5,CCU-CTICU,readmit,27,43,ALIVE,-1.0,-1.0,53.0,-1.0,-1.0,-1.0,92.0,0,0,36.2
+Operating Room,Female,70,75.3,CCU-CTICU,admit,56,72,ALIVE,7.407,34.1,40.0,-1.0,0.71,-1.0,49.0,1,0,36.3
+Operating Room,Male,58,93.8,CCU-CTICU,admit,65,70,ALIVE,7.412,37.2,4.0,-1.0,0.94,-1.0,97.0,1,0,36.4
+Emergency Department,Male,43,108.8,CCU-CTICU,admit,29,29,ALIVE,-1.0,-1.0,51.0,9.7,0.99,12.0,134.0,0,0,36.6
+Operating Room,Female,66,73.0,CCU-CTICU,admit,72,85,ALIVE,7.432,32.7,33.0,-1.0,1.32,-1.0,54.0,1,0,36.1
+Operating Room,Male,67,85.7,CCU-CTICU,admit,41,54,ALIVE,7.404,36.2,24.0,-1.0,0.82,-1.0,93.0,1,0,36.4
+Operating Room,Female,39,77.4,Neuro ICU,admit,31,31,ALIVE,-1.0,-1.0,11.0,13.3,0.6,6.0,115.0,0,0,36.7
+Operating Room,Female,28,106.0,Neuro ICU,admit,22,22,EXPIRED,-1.0,-1.0,33.0,-1.0,0.6,8.0,116.0,0,0,36.8
+Operating Room,Male,49,93.2,CCU-CTICU,admit,48,53,ALIVE,7.36,47.9,27.0,21.5,-1.0,-1.0,104.0,1,0,36.7
+Operating Room,Female,27,96.1,CCU-CTICU,admit,37,37,ALIVE,7.37,42.2,29.0,12.6,0.7,8.0,102.0,0,0,36.9
+Operating Room,Male,68,123.0,CCU-CTICU,admit,44,57,ALIVE,7.32,47.3,10.0,27.3,-1.0,-1.0,90.0,0,0,36.3
+Operating Room,Male,79,108.8,CCU-CTICU,admit,54,71,ALIVE,7.26,34.3,32.0,37.3,-1.0,-1.0,112.0,1,1,37.1
+Operating Room,Male,51,74.5,CCU-CTICU,admit,50,55,ALIVE,7.31,47.6,4.0,15.8,-1.0,-1.0,126.0,1,0,36.0
+Operating Room,Male,66,117.0,CCU-CTICU,admit,40,53,ALIVE,7.37,49.9,25.0,22.0,-1.0,-1.0,101.0,1,0,37.1
+Operating Room,Male,61,82.6,CTICU,admit,22,33,ALIVE,-1.0,-1.0,11.0,14.8,1.01,22.0,94.0,0,0,37.5
+Operating Room,Female,57,109.0,CTICU,admit,23,28,ALIVE,-1.0,-1.0,10.0,20.8,0.88,18.0,96.0,0,0,36.4
+Operating Room,Male,25,67.0,CTICU,admit,48,48,ALIVE,-1.0,-1.0,29.0,8.2,7.04,37.0,105.0,0,0,36.4
+Operating Room,Female,47,67.5,CTICU,admit,51,56,ALIVE,7.5,32.9,30.0,9.7,0.58,14.0,106.0,1,1,37.1
+Operating Room,Male,79,96.5,CTICU,admit,40,57,ALIVE,-1.0,-1.0,39.0,17.8,0.97,30.0,117.0,0,0,36.3
+Operating Room,Female,65,54.2,CTICU,admit,22,35,ALIVE,-1.0,-1.0,10.0,-1.0,-1.0,-1.0,117.0,0,0,35.6
+Operating Room,Female,26,76.6,CTICU,admit,23,23,ALIVE,-1.0,-1.0,27.0,16.2,0.64,6.0,110.0,0,1,36.4
+Operating Room,Female,64,60.6,CTICU,admit,45,56,ALIVE,-1.0,-1.0,9.0,21.8,0.74,13.0,56.0,0,1,35.9
+Operating Room,Male,50,60.5,CTICU,admit,81,86,ALIVE,-1.0,-1.0,10.0,7.2,4.92,20.0,118.0,0,1,38.0
+Floor,Male,78,89.5,CTICU,readmit,37,54,ALIVE,-1.0,-1.0,31.0,28.0,1.41,40.0,114.0,0,0,36.9
+Operating Room,Male,78,90.1,CTICU,admit,57,74,ALIVE,-1.0,-1.0,31.0,7.3,0.91,20.0,64.0,0,0,36.1
+Operating Room,Female,76,95.5,CTICU,admit,76,93,ALIVE,-1.0,-1.0,36.0,30.5,2.05,24.0,104.0,0,1,35.8
+Other Hospital,Female,66,87.5,CTICU,admit,111,124,ALIVE,-1.0,-1.0,33.0,9.6,4.96,30.0,58.0,0,1,35.0
+Operating Room,Male,47,100.9,CTICU,admit,42,47,EXPIRED,-1.0,-1.0,45.0,27.6,0.81,22.0,128.0,0,0,36.0
+Operating Room,Female,70,66.5,CTICU,admit,19,35,ALIVE,-1.0,-1.0,30.0,7.7,1.3,17.0,100.0,0,0,36.7
+Operating Room,Female,53,106.6,CTICU,admit,69,74,ALIVE,-1.0,-1.0,29.0,13.7,0.71,12.0,114.0,0,0,36.5
+Operating Room,Female,67,88.0,CTICU,admit,80,93,ALIVE,-1.0,-1.0,30.0,6.0,1.07,13.0,144.0,0,1,36.5
+Operating Room,Female,64,96.1,CTICU,admit,22,33,ALIVE,-1.0,-1.0,9.0,11.7,0.7,9.0,70.0,0,1,36.8
+Floor,Female,56,88.5,CTICU,readmit,59,74,ALIVE,-1.0,-1.0,33.0,7.2,0.59,10.0,170.0,0,0,36.3
+Operating Room,Female,44,62.4,CTICU,admit,26,26,ALIVE,-1.0,-1.0,30.0,29.3,0.69,9.0,98.0,0,1,36.5
+Operating Room,Male,56,71.8,CTICU,admit,-1,-1,ALIVE,-1.0,-1.0,4.0,8.3,0.65,9.0,100.0,0,0,37.5
+Operating Room,Female,19,65.4,CTICU,admit,32,32,ALIVE,-1.0,-1.0,29.0,21.4,0.67,10.0,130.0,0,0,36.4
+Operating Room,Female,82,64.6,CTICU,admit,74,91,ALIVE,-1.0,-1.0,38.0,10.0,1.8,33.0,126.0,0,0,35.8
+Operating Room,Female,72,76.0,Med-Surg ICU,admit,18,34,ALIVE,-1.0,-1.0,9.0,10.8,0.58,12.0,97.0,0,0,36.4
+Operating Room,Female,74,61.4,Med-Surg ICU,admit,30,46,ALIVE,-1.0,-1.0,5.0,-1.0,-1.0,-1.0,54.0,0,0,36.6
+Operating Room,Female,35,113.0,Med-Surg ICU,admit,39,39,ALIVE,-1.0,-1.0,15.0,10.8,1.31,14.0,111.0,0,1,36.6
+Operating Room,Female,45,74.3,Med-Surg ICU,admit,39,44,ALIVE,-1.0,-1.0,9.0,19.6,0.56,3.0,146.0,0,0,38.8
+Operating Room,Male,64,85.4,Med-Surg ICU,admit,40,51,ALIVE,-1.0,-1.0,7.0,4.5,1.08,21.0,124.0,0,0,36.4
+Operating Room,Male,76,89.5,CTICU,admit,75,92,ALIVE,-1.0,-1.0,27.0,9.1,1.42,19.0,102.0,0,1,36.0
+Operating Room,Male,58,94.6,CTICU,admit,38,43,ALIVE,-1.0,-1.0,35.0,15.0,1.05,9.0,130.0,0,0,36.2
+Operating Room,Female,81,57.4,CTICU,admit,76,93,ALIVE,-1.0,-1.0,6.0,6.4,0.79,14.0,94.0,0,0,35.9
+Operating Room,Female,56,88.5,CTICU,admit,70,75,ALIVE,-1.0,-1.0,40.0,8.2,0.58,10.0,102.0,0,1,36.4
+Operating Room,Female,76,85.6,CTICU,admit,45,62,ALIVE,-1.0,-1.0,15.0,9.7,0.7,11.0,106.0,0,1,36.1
+Operating Room,Female,63,78.2,CTICU,admit,32,43,ALIVE,-1.0,-1.0,41.0,14.9,0.55,15.0,112.0,0,0,36.6
+Operating Room,Female,66,72.6,CTICU,admit,75,88,ALIVE,-1.0,-1.0,36.0,8.9,0.82,15.0,88.0,0,1,37.6
+Operating Room,Female,77,67.8,SICU,admit,30,47,ALIVE,-1.0,-1.0,12.0,7.9,1.33,20.0,52.0,0,0,36.4
+Operating Room,Female,68,67.1,SICU,admit,48,61,ALIVE,-1.0,-1.0,37.0,6.0,5.8,35.0,121.0,0,0,36.6
+Operating Room,Female,51,90.4,CTICU,readmit,29,34,ALIVE,-1.0,-1.0,46.0,-1.0,-1.0,-1.0,95.0,0,0,36.5
+Operating Room,Female,51,99.3,CTICU,admit,96,101,ALIVE,-1.0,-1.0,28.0,9.4,6.84,39.0,114.0,0,1,36.5
+Operating Room,Female,57,99.8,CTICU,admit,25,30,ALIVE,-1.0,-1.0,47.0,18.9,0.72,11.0,109.0,0,0,36.4
+Operating Room,Female,60,52.7,CTICU,admit,72,83,ALIVE,-1.0,-1.0,32.0,16.1,0.72,12.0,136.0,0,1,36.8
+Operating Room,Female,89,61.4,CTICU,admit,45,69,ALIVE,-1.0,-1.0,52.0,7.7,1.44,24.0,55.0,0,1,35.7
+Operating Room,Male,54,65.9,CTICU,admit,102,107,ALIVE,-1.0,-1.0,42.0,10.0,2.53,40.0,123.0,0,0,36.9
+Operating Room,Female,77,59.8,MICU,transfer,35,52,ALIVE,-1.0,-1.0,31.0,13.18,0.6,17.0,98.0,0,0,36.0
+Operating Room,Female,78,96.3,Med-Surg ICU,admit,43,60,ALIVE,-1.0,-1.0,34.0,19.88,0.9,19.0,124.0,0,1,35.6
+Operating Room,Female,78,78.5,Med-Surg ICU,admit,168,185,EXPIRED,7.346,34.6,4.0,2.45,1.5,24.0,105.0,1,1,32.1
+Operating Room,Female,79,95.1,Med-Surg ICU,admit,63,80,ALIVE,7.288,44.3,7.0,18.93,0.8,23.0,119.0,1,0,36.3
+Operating Room,Male,78,76.0,Med-Surg ICU,admit,66,83,ALIVE,7.417,28.8,26.0,24.57,1.1,20.0,42.0,1,0,35.7
+Operating Room,Male,78,76.3,Med-Surg ICU,admit,37,54,ALIVE,-1.0,-1.0,12.0,9.45,0.8,13.0,39.0,0,0,37.4
+Operating Room,Male,77,100.0,Med-Surg ICU,admit,56,73,ALIVE,-1.0,-1.0,28.0,7.0,0.8,23.0,130.0,0,0,36.8
+Operating Room,Male,73,101.2,Med-Surg ICU,admit,66,82,ALIVE,-1.0,-1.0,10.0,26.4,2.99,40.0,124.0,0,0,36.4
+Other Hospital,Male,45,93.6,SICU,admit,55,60,ALIVE,7.39,41.0,35.0,23.7,0.67,10.0,123.0,1,1,36.5
+Other Hospital,Female,47,98.9,Med-Surg ICU,admit,44,49,ALIVE,-1.0,-1.0,46.0,7.3,1.37,7.0,132.0,0,0,36.8
+Other Hospital,Female,70,86.5,Med-Surg ICU,admit,13,40,ALIVE,-1.0,-1.0,33.0,6.9,1.0,7.0,65.0,0,0,36.5
+Other Hospital,Male,34,98.4,Neuro ICU,admit,25,25,ALIVE,-1.0,-1.0,14.0,-1.0,2.1,26.0,62.0,0,0,37.0
+Operating Room,Male,72,101.0,CCU-CTICU,readmit,-1,-1,ALIVE,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,0,0,-1.0
+Other Hospital,Male,72,118.5,CCU-CTICU,admit,92,108,ALIVE,7.28,43.6,4.0,9.8,1.2,21.0,34.0,1,1,32.8
+Other Hospital,Female,83,71.0,CTICU,admit,31,48,ALIVE,-1.0,-1.0,11.0,4.5,1.27,14.0,60.0,0,1,36.3
+Other Hospital,Female,83,60.0,CTICU,admit,37,54,ALIVE,-1.0,-1.0,37.0,9.3,0.73,10.0,108.0,0,0,36.6
+Other Hospital,Female,72,48.1,SICU,admit,96,112,ALIVE,-1.0,-1.0,5.0,22.2,1.07,16.0,104.0,0,1,37.1
+Other Hospital,Female,74,61.5,CTICU,admit,25,41,ALIVE,-1.0,-1.0,60.0,4.3,0.7,9.0,52.0,0,0,36.0
+Other Hospital,Female,44,75.9,CTICU,admit,35,35,ALIVE,-1.0,-1.0,54.0,4.9,1.81,17.0,100.0,0,0,36.8
+Other Hospital,Female,44,81.6,CTICU,admit,76,76,ALIVE,-1.0,-1.0,32.0,6.6,2.98,31.0,46.0,0,0,36.7
+Other Hospital,Female,> 89,50.3,MICU,admit,49,73,ALIVE,-1.0,-1.0,11.0,12.36,1.1,26.0,107.0,0,0,36.4
+Other Hospital,Female,77,102.0,Med-Surg ICU,admit,66,83,ALIVE,7.332,47.5,4.0,10.43,1.1,46.0,51.0,1,1,35.0
+Other Hospital,Female,77,91.0,Med-Surg ICU,admit,45,62,ALIVE,-1.0,-1.0,27.0,12.71,0.7,21.0,108.0,0,0,37.5
+Other Hospital,Male,77,74.3,Med-Surg ICU,admit,35,52,ALIVE,-1.0,-1.0,27.0,1.75,1.6,16.0,96.0,0,1,35.2
+Emergency Department,Female,42,82.6,Med-Surg ICU,admit,58,58,ALIVE,-1.0,-1.0,40.0,-1.0,20.2,114.0,100.0,0,0,34.6
+Emergency Department,Female,69,68.0,Neuro ICU,admit,20,43,ALIVE,-1.0,-1.0,34.0,12.9,0.71,13.0,100.0,0,0,36.3
+Emergency Department,Female,68,80.7,Neuro ICU,admit,29,42,ALIVE,-1.0,-1.0,59.0,9.4,0.77,14.0,105.0,0,0,36.3
+Operating Room,Female,68,86.5,Neuro ICU,readmit,28,41,ALIVE,-1.0,-1.0,59.0,-1.0,-1.0,-1.0,104.0,0,0,36.4
+Emergency Department,Male,47,,Med-Surg ICU,admit,73,78,ALIVE,-1.0,-1.0,10.0,5.4,0.6,11.0,126.0,0,1,36.6
+Emergency Department,Male,65,77.1,CTICU,admit,55,68,ALIVE,-1.0,-1.0,58.0,4.0,4.87,32.0,116.0,0,0,36.7
+Emergency Department,Male,44,93.5,CTICU,admit,54,64,ALIVE,-1.0,-1.0,38.0,3.8,10.52,51.0,132.0,0,0,36.2
+Emergency Department,Female,40,,CTICU,admit,82,82,ALIVE,7.48,27.0,24.0,17.6,0.88,10.0,118.0,0,0,36.2
+Emergency Department,Female,55,70.7,Med-Surg ICU,admit,18,33,ALIVE,-1.0,-1.0,34.0,-1.0,-1.0,-1.0,48.0,0,0,36.7
+Emergency Department,Female,37,61.2,Med-Surg ICU,admit,29,29,ALIVE,-1.0,-1.0,12.0,7.9,0.82,5.0,108.0,0,0,36.8
+Emergency Department,Male,21,,Med-Surg ICU,admit,34,34,ALIVE,-1.0,-1.0,38.0,13.8,1.32,16.0,116.0,0,0,36.8
+Emergency Department,Female,55,71.6,Med-Surg ICU,admit,21,36,ALIVE,-1.0,-1.0,36.0,4.8,-1.0,-1.0,50.0,0,0,36.6
+Emergency Department,Female,52,,Med-Surg ICU,admit,25,30,ALIVE,-1.0,-1.0,14.0,11.5,0.69,8.0,122.0,0,0,37.2
+Emergency Department,Male,53,64.8,MICU,admit,29,34,ALIVE,-1.0,-1.0,32.0,12.2,1.13,12.0,89.0,0,0,36.6
+Emergency Department,Female,51,70.3,MICU,admit,31,36,ALIVE,-1.0,-1.0,59.0,-1.0,-1.0,-1.0,138.0,0,0,36.9
+Emergency Department,Female,66,86.8,MICU,admit,45,68,ALIVE,7.42,35.0,10.0,7.3,0.84,19.0,120.0,0,0,36.5
+Emergency Department,Male,53,69.5,MICU,admit,52,57,ALIVE,-1.0,-1.0,29.0,10.7,1.41,39.0,96.0,0,0,39.0
+Emergency Department,Female,63,89.6,MICU,admit,34,45,ALIVE,7.32,50.0,44.0,4.8,0.95,14.0,41.0,0,1,35.7
+Emergency Department,Male,65,77.1,MICU,admit,43,56,ALIVE,-1.0,-1.0,16.0,5.4,4.31,41.0,124.0,0,0,36.6
+Operating Room,Female,81,54.6,MICU,admit,33,50,ALIVE,-1.0,-1.0,12.0,15.1,0.74,36.0,104.0,0,0,36.4
+Emergency Department,Female,59,58.1,MICU,admit,10,15,ALIVE,-1.0,-1.0,18.0,15.5,-1.0,-1.0,58.0,0,0,36.4
+Emergency Department,Female,57,,MICU,admit,33,49,ALIVE,-1.0,-1.0,20.0,6.0,1.07,18.0,114.0,0,0,36.7
+Emergency Department,Male,52,70.7,MICU,admit,44,49,ALIVE,-1.0,-1.0,37.0,4.2,1.23,11.0,108.0,0,0,37.6
+Emergency Department,Female,66,76.2,MICU,admit,61,74,ALIVE,7.4,31.0,36.0,7.6,1.21,38.0,120.0,0,0,40.2
+Emergency Department,Male,27,75.5,Med-Surg ICU,admit,57,57,ALIVE,-1.0,-1.0,4.0,18.4,2.07,24.0,90.0,0,0,35.6
+Emergency Department,Female,51,68.0,Med-Surg ICU,admit,19,24,ALIVE,-1.0,-1.0,33.0,4.2,0.73,4.0,106.0,0,0,36.6
+Emergency Department,Female,18,,Med-Surg ICU,admit,17,17,ALIVE,-1.0,-1.0,16.0,7.5,0.76,9.0,102.0,0,0,36.7
+Emergency Department,Male,58,99.7,Med-Surg ICU,admit,30,35,ALIVE,-1.0,-1.0,12.0,-1.0,-1.0,-1.0,64.0,0,0,36.6
+Emergency Department,Female,38,,Med-Surg ICU,admit,37,37,ALIVE,-1.0,-1.0,58.0,7.5,0.78,7.0,102.0,0,0,36.5
+Emergency Department,Male,16,121.0,Med-Surg ICU,admit,42,42,ALIVE,-1.0,-1.0,45.0,16.8,1.36,16.0,144.0,0,0,36.7
+Emergency Department,Male,53,,Med-Surg ICU,admit,20,25,ALIVE,-1.0,-1.0,8.0,5.6,0.83,15.0,48.0,0,0,36.3
+Emergency Department,Male,64,95.6,Med-Surg ICU,admit,13,24,ALIVE,-1.0,-1.0,35.0,-1.0,-1.0,-1.0,96.0,0,0,36.8
+Emergency Department,Male,56,67.1,Med-Surg ICU,admit,25,30,ALIVE,-1.0,-1.0,7.0,5.9,-1.0,-1.0,106.0,0,0,36.7
+Emergency Department,Female,> 89,51.1,Med-Surg ICU,admit,29,53,ALIVE,-1.0,-1.0,39.0,5.6,0.9,13.0,42.0,0,0,35.2
+Emergency Department,Male,54,90.7,Med-Surg ICU,admit,24,29,ALIVE,-1.0,-1.0,37.0,18.8,0.71,16.0,110.0,0,0,36.6
+Emergency Department,Male,59,130.5,Med-Surg ICU,admit,24,29,ALIVE,-1.0,-1.0,33.0,4.8,-1.0,-1.0,38.0,0,0,36.0
+Emergency Department,Female,70,108.9,Med-Surg ICU,admit,21,37,ALIVE,-1.0,-1.0,45.0,-1.0,-1.0,-1.0,98.0,0,0,36.2
+Emergency Department,Male,57,109.9,Med-Surg ICU,admit,46,51,ALIVE,-1.0,-1.0,27.0,7.1,1.58,25.0,144.0,0,0,36.8
+Emergency Department,Male,58,130.2,Med-Surg ICU,admit,20,25,ALIVE,-1.0,-1.0,8.0,-1.0,-1.0,-1.0,48.0,0,0,36.7
+Emergency Department,Male,50,111.1,Med-Surg ICU,admit,27,32,ALIVE,-1.0,-1.0,4.0,8.2,1.05,9.0,52.0,0,0,36.7
+Direct Admit,Male,59,114.8,Med-Surg ICU,admit,17,22,ALIVE,-1.0,-1.0,16.0,2.5,0.84,16.0,102.0,0,0,36.8
+Emergency Department,Male,> 89,109.3,Med-Surg ICU,admit,21,45,ALIVE,-1.0,-1.0,27.0,6.5,1.28,-1.0,42.0,0,0,36.3
+Emergency Department,Male,31,,Med-Surg ICU,admit,29,29,ALIVE,-1.0,-1.0,37.0,12.9,0.88,24.0,50.0,0,0,36.6
+Emergency Department,Male,56,62.7,Med-Surg ICU,admit,32,37,ALIVE,-1.0,-1.0,30.0,-1.0,1.39,19.0,124.0,0,0,36.7
+Emergency Department,Male,60,138.8,Med-Surg ICU,admit,53,64,ALIVE,7.17,44.0,29.0,18.6,-1.0,-1.0,112.0,1,1,36.8
+Emergency Department,Female,63,65.7,Med-Surg ICU,admit,28,39,ALIVE,-1.0,-1.0,50.0,3.8,1.15,-1.0,104.0,0,0,36.6
+Emergency Department,Male,67,177.8,Med-Surg ICU,admit,52,65,ALIVE,-1.0,-1.0,52.0,12.9,2.04,52.0,100.0,0,0,36.5
+Emergency Department,Male,82,56.7,Med-Surg ICU,admit,41,58,ALIVE,7.37,62.0,41.0,4.0,1.5,47.0,120.0,0,1,36.5
+Emergency Department,Male,57,117.9,Med-Surg ICU,admit,40,45,ALIVE,-1.0,-1.0,36.0,9.5,1.57,21.0,112.0,0,0,36.7
+Emergency Department,Female,52,95.3,Med-Surg ICU,admit,13,18,ALIVE,-1.0,-1.0,37.0,10.7,0.97,8.0,60.0,0,0,36.6
+Emergency Department,Female,29,58.96,Med-Surg ICU,admit,62,62,ALIVE,-1.0,-1.0,27.0,3.5,0.76,5.0,118.0,0,0,36.8
+Emergency Department,Female,81,62.5,Med-Surg ICU,admit,-1,-1,ALIVE,-1.0,-1.0,14.0,6.4,1.0,14.0,114.0,0,0,36.9
+Emergency Department,Female,61,,Med-Surg ICU,admit,32,43,ALIVE,-1.0,-1.0,44.0,-1.0,-1.0,-1.0,166.0,0,0,36.9
+Emergency Department,Male,83,103.9,Med-Surg ICU,admit,113,130,EXPIRED,7.2,46.0,36.0,13.2,1.88,52.0,136.0,1,1,37.0
+Emergency Department,Female,> 89,45.36,Med-Surg ICU,admit,43,67,ALIVE,-1.0,-1.0,34.0,8.5,1.06,46.0,92.0,0,0,36.4
+Operating Room,Female,86,54.6,Med-Surg ICU,readmit,18,42,ALIVE,7.42,35.0,31.0,9.9,-1.0,-1.0,99.0,1,0,35.9
+Emergency Department,Female,86,54.6,Med-Surg ICU,admit,16,40,ALIVE,-1.0,-1.0,36.0,-1.0,-1.0,-1.0,52.0,0,0,36.8
+Emergency Department,Male,86,83.5,Med-Surg ICU,admit,47,71,ALIVE,-1.0,-1.0,52.0,21.3,1.4,28.0,113.0,0,0,36.7
+Emergency Department,Male,84,91.0,Med-Surg ICU,admit,29,46,ALIVE,-1.0,-1.0,39.0,8.3,1.0,8.0,43.0,0,0,36.5
+Emergency Department,Male,35,127.6,Med-Surg ICU,admit,31,31,ALIVE,-1.0,-1.0,58.0,12.7,1.4,17.0,109.0,0,0,36.3
+Emergency Department,Female,63,111.1,Med-Surg ICU,admit,35,56,ALIVE,-1.0,-1.0,27.0,-1.0,1.8,41.0,44.0,0,0,36.4
+Emergency Department,Male,51,53.0,Med-Surg ICU,admit,86,91,EXPIRED,7.27,52.0,51.0,2.2,0.4,28.0,166.0,1,0,35.6
+Emergency Department,Female,58,77.1,Med-Surg ICU,admit,25,30,ALIVE,-1.0,-1.0,49.0,-1.0,-1.0,-1.0,126.0,0,0,36.7
+Emergency Department,Male,27,71.3,Med-Surg ICU,admit,20,20,ALIVE,-1.0,-1.0,42.0,4.4,1.08,12.0,111.0,0,0,36.6
+Emergency Department,Male,89,100.0,CCU-CTICU,admit,44,78,ALIVE,-1.0,-1.0,51.0,6.5,1.73,28.0,61.0,0,0,36.4
+Emergency Department,Female,78,66.6,CCU-CTICU,admit,44,61,ALIVE,7.27,35.0,47.0,13.7,1.24,21.0,136.0,0,0,36.2
+Emergency Department,Female,51,92.0,CCU-CTICU,admit,22,27,ALIVE,-1.0,-1.0,11.0,6.6,0.67,6.0,98.0,0,1,35.7
+Emergency Department,Male,54,73.0,CCU-CTICU,admit,19,24,ALIVE,-1.0,-1.0,28.0,11.9,0.84,14.0,106.0,0,0,36.5
+Emergency Department,Male,57,100.0,CCU-CTICU,admit,7,12,ALIVE,-1.0,-1.0,14.0,8.4,1.03,11.0,92.0,0,0,36.7
+Emergency Department,Male,43,130.4,CCU-CTICU,admit,49,49,ALIVE,-1.0,-1.0,39.0,24.7,3.51,37.0,134.0,0,0,36.7
+Emergency Department,Female,59,109.9,CCU-CTICU,admit,40,45,ALIVE,-1.0,-1.0,52.0,9.1,1.06,13.0,113.0,0,0,37.0
+Emergency Department,Male,49,127.0,Med-Surg ICU,admit,15,20,ALIVE,-1.0,-1.0,15.0,7.0,0.8,14.0,92.0,0,0,36.7
+Emergency Department,Male,84,59.0,Med-Surg ICU,admit,49,66,ALIVE,-1.0,-1.0,9.0,7.9,1.6,30.0,48.0,0,0,36.2
+Emergency Department,Male,> 89,103.69,Med-Surg ICU,admit,57,81,EXPIRED,-1.0,-1.0,25.0,-1.0,2.0,71.0,97.0,0,0,36.3
+Emergency Department,Female,> 89,86.0,Med-Surg ICU,admit,29,53,ALIVE,-1.0,-1.0,38.0,-1.0,-1.0,-1.0,29.0,0,1,36.1
+Emergency Department,Female,88,65.1,Med-Surg ICU,admit,38,62,ALIVE,-1.0,-1.0,29.0,-1.0,-1.0,-1.0,87.0,0,0,35.2
+Emergency Department,Male,70,99.79,Med-Surg ICU,admit,33,49,ALIVE,-1.0,-1.0,4.0,7.3,1.0,17.0,98.0,0,0,36.3
+Emergency Department,Male,69,105.0,Med-Surg ICU,admit,16,29,ALIVE,-1.0,-1.0,37.0,-1.0,-1.0,-1.0,106.0,0,0,36.4
+Direct Admit,Female,52,75.1,Med-Surg ICU,admit,47,52,ALIVE,-1.0,-1.0,5.0,-1.0,0.7,6.0,89.0,0,0,36.7
+Emergency Department,Male,71,90.7,Med-Surg ICU,admit,29,45,ALIVE,-1.0,-1.0,5.0,-1.0,-1.0,-1.0,115.0,0,0,36.4
+Emergency Department,Male,27,65.7,Med-Surg ICU,admit,31,31,ALIVE,-1.0,-1.0,11.0,-1.0,0.9,17.0,114.0,0,0,36.6
+Operating Room,Male,20,81.6,Med-Surg ICU,admit,22,22,ALIVE,-1.0,-1.0,31.0,9.3,0.8,9.0,109.0,0,0,36.8
+Emergency Department,Female,88,68.49,Med-Surg ICU,admit,26,50,ALIVE,-1.0,-1.0,14.0,-1.0,1.8,31.0,95.0,0,0,36.3
+Emergency Department,Male,64,140.2,Med-Surg ICU,admit,11,22,ALIVE,-1.0,-1.0,13.0,-1.0,-1.0,-1.0,99.0,0,0,36.6
+Direct Admit,Male,84,65.5,Med-Surg ICU,admit,57,74,ALIVE,-1.0,-1.0,8.0,9.1,1.8,33.0,46.0,0,0,36.5
+Emergency Department,Male,68,61.2,Med-Surg ICU,admit,18,31,ALIVE,-1.0,-1.0,32.0,-1.0,-1.0,-1.0,113.0,0,1,36.9
+Emergency Department,Female,66,63.5,Med-Surg ICU,admit,22,35,ALIVE,-1.0,-1.0,30.0,-1.0,-1.0,-1.0,118.0,0,0,36.6
+Emergency Department,Female,32,84.41,Med-Surg ICU,admit,42,42,ALIVE,-1.0,-1.0,33.0,7.7,0.8,11.0,52.0,0,0,36.3
+Emergency Department,Female,74,82.1,Med-Surg ICU,admit,39,68,ALIVE,-1.0,-1.0,30.0,-1.0,-1.0,-1.0,149.0,0,0,36.6
+Emergency Department,Male,67,67.1,Med-Surg ICU,admit,26,39,ALIVE,-1.0,-1.0,25.0,10.2,1.1,18.0,93.0,0,0,35.8
+Emergency Department,Male,65,86.6,Med-Surg ICU,admit,22,35,ALIVE,-1.0,-1.0,26.0,-1.0,-1.0,-1.0,91.0,0,0,36.9
+Emergency Department,Female,76,84.3,Med-Surg ICU,admit,55,72,ALIVE,-1.0,-1.0,25.0,8.1,1.4,28.0,160.0,0,0,36.3
+Emergency Department,Male,61,102.4,Med-Surg ICU,admit,16,27,ALIVE,-1.0,-1.0,27.0,10.1,-1.0,-1.0,98.0,0,0,36.6
+Emergency Department,Male,67,79.3,Med-Surg ICU,admit,95,108,ALIVE,-1.0,-1.0,48.0,16.1,0.5,18.0,136.0,0,1,35.6
+Emergency Department,Female,78,100.5,Med-Surg ICU,admit,22,39,ALIVE,-1.0,-1.0,13.0,-1.0,-1.0,-1.0,96.0,0,0,36.6
+Emergency Department,Male,79,82.7,Med-Surg ICU,admit,35,52,ALIVE,-1.0,-1.0,8.0,8.3,1.2,24.0,56.0,0,0,36.7
+Emergency Department,Female,75,39.9,Med-Surg ICU,admit,64,81,ALIVE,-1.0,-1.0,58.0,-1.0,0.7,49.0,115.0,0,0,36.9
+Emergency Department,Male,71,98.9,Med-Surg ICU,admit,47,63,ALIVE,-1.0,-1.0,30.0,-1.0,-1.0,-1.0,144.0,0,0,36.9
+Emergency Department,Female,74,77.1,Med-Surg ICU,admit,39,55,ALIVE,-1.0,-1.0,26.0,-1.0,-1.0,-1.0,96.0,0,0,36.8
+Emergency Department,Male,68,61.23,Med-Surg ICU,admit,26,39,ALIVE,-1.0,-1.0,33.0,-1.0,1.1,19.0,114.0,0,1,36.1
+Emergency Department,Female,78,56.06,Med-Surg ICU,admit,28,45,ALIVE,-1.0,-1.0,14.0,7.2,1.7,31.0,48.0,0,0,36.3
+Emergency Department,Male,71,103.0,Med-Surg ICU,admit,29,45,ALIVE,-1.0,-1.0,12.0,-1.0,0.9,25.0,94.0,0,0,36.6
+Emergency Department,Male,69,127.5,Med-Surg ICU,admit,12,25,ALIVE,-1.0,-1.0,26.0,-1.0,-1.0,-1.0,53.0,0,1,36.5
+Emergency Department,Male,69,129.3,Med-Surg ICU,admit,66,79,ALIVE,-1.0,-1.0,29.0,-1.0,-1.0,-1.0,52.0,0,1,35.8
+Emergency Department,Female,17,50.8,Med-Surg ICU,admit,20,20,ALIVE,-1.0,-1.0,33.0,-1.0,-1.0,-1.0,121.0,0,0,36.1
+Emergency Department,Male,64,75.6,Med-Surg ICU,admit,22,33,ALIVE,-1.0,-1.0,10.0,-1.0,-1.0,-1.0,55.0,0,0,36.6
+Emergency Department,Female,84,53.1,Med-Surg ICU,admit,37,54,ALIVE,-1.0,-1.0,60.0,-1.0,-1.0,-1.0,107.0,0,0,36.5
+Emergency Department,Male,54,75.3,Med-Surg ICU,admit,28,33,ALIVE,-1.0,-1.0,11.0,-1.0,-1.0,-1.0,45.0,0,0,36.4
+Floor,Male,69,80.3,Med-Surg ICU,readmit,-1,-1,ALIVE,-1.0,-1.0,16.0,1.4,2.4,36.0,87.0,0,0,36.4
+Emergency Department,Male,69,79.4,Med-Surg ICU,admit,65,78,ALIVE,-1.0,-1.0,14.0,0.7,2.1,56.0,118.0,0,0,36.7
+Emergency Department,Male,69,114.8,Med-Surg ICU,admit,69,82,ALIVE,-1.0,-1.0,11.0,5.4,5.9,61.0,90.0,0,0,36.6
+Emergency Department,Male,74,109.0,Med-Surg ICU,admit,48,64,ALIVE,-1.0,-1.0,54.0,-1.0,-1.0,-1.0,112.0,0,0,36.3
+Emergency Department,Male,65,74.84,Med-Surg ICU,admit,26,39,ALIVE,-1.0,-1.0,44.0,-1.0,-1.0,-1.0,115.0,0,0,36.1
+Emergency Department,Male,55,86.18,Med-Surg ICU,admit,24,29,ALIVE,-1.0,-1.0,6.0,-1.0,-1.0,-1.0,49.0,0,0,36.5
+Emergency Department,Male,47,90.71,Med-Surg ICU,admit,33,38,ALIVE,-1.0,-1.0,42.0,11.4,0.8,11.0,86.0,0,0,36.3
+Emergency Department,Female,18,54.4,Med-Surg ICU,admit,41,41,ALIVE,-1.0,-1.0,41.0,4.4,0.7,9.0,137.0,0,0,36.3
+Emergency Department,Female,50,110.2,Med-Surg ICU,admit,97,102,ALIVE,7.3,42.0,34.0,20.6,0.4,12.0,43.0,1,1,33.0
+Operating Room,Male,61,100.7,Med-Surg ICU,admit,56,67,ALIVE,7.36,40.0,56.0,15.4,1.2,36.0,113.0,1,0,37.1
+Floor,Female,51,51.8,Med-Surg ICU,readmit,32,47,ALIVE,7.428,75.6,31.0,14.1,0.4,25.0,100.0,0,1,36.8
+Emergency Department,Female,51,56.7,Med-Surg ICU,admit,28,33,ALIVE,7.35,80.0,14.0,-1.0,-1.0,-1.0,111.0,1,1,36.8
+Emergency Department,Male,55,136.7,Med-Surg ICU,admit,17,22,ALIVE,-1.0,-1.0,34.0,-1.0,-1.0,-1.0,61.0,0,0,38.61
+Emergency Department,Male,55,129.3,Med-Surg ICU,admit,22,27,ALIVE,7.417,46.0,26.0,-1.0,-1.0,-1.0,109.0,0,0,36.8
+Emergency Department,Male,76,66.1,Med-Surg ICU,admit,54,71,ALIVE,7.38,39.0,47.0,16.3,0.6,8.0,120.0,1,1,35.89
+Emergency Department,Male,85,67.1,Med-Surg ICU,admit,48,72,ALIVE,-1.0,-1.0,9.0,-1.0,-1.0,-1.0,51.0,0,0,-1.0
+Emergency Department,Male,29,87.8,Med-Surg ICU,admit,42,42,ALIVE,7.32,40.0,40.0,15.5,0.7,11.0,136.0,1,0,36.3
+Emergency Department,Male,31,81.6,Med-Surg ICU,admit,43,43,ALIVE,7.43,32.0,28.0,15.5,0.9,14.0,116.0,0,0,36.9
+Emergency Department,Male,74,92.0,Med-Surg ICU,admit,40,56,ALIVE,7.43,40.0,8.0,-1.0,-1.0,-1.0,101.0,1,1,36.89
+Emergency Department,Male,55,68.0,Med-Surg ICU,admit,91,96,EXPIRED,7.343,44.1,47.0,-1.0,-1.0,-1.0,176.0,0,0,-1.0
+Emergency Department,Female,55,110.0,Med-Surg ICU,admit,47,52,ALIVE,7.37,54.0,53.0,-1.0,-1.0,-1.0,144.0,0,1,36.83
+Emergency Department,Male,66,83.9,Med-Surg ICU,admit,31,44,ALIVE,-1.0,-1.0,10.0,-1.0,1.26,31.0,50.0,0,0,35.1
+Emergency Department,Male,62,77.11,Med-Surg ICU,admit,54,65,ALIVE,-1.0,-1.0,37.0,3.28,1.84,36.0,132.0,0,0,36.6
+Emergency Department,Male,58,102.1,Med-Surg ICU,admit,26,31,ALIVE,-1.0,-1.0,4.0,-1.0,-1.0,-1.0,105.0,0,0,36.7
+Emergency Department,Male,67,94.2,Med-Surg ICU,admit,25,38,ALIVE,-1.0,-1.0,11.0,-1.0,-1.0,-1.0,105.0,0,0,36.4
+Emergency Department,Male,78,90.7,Med-Surg ICU,admit,63,80,ALIVE,-1.0,-1.0,4.0,6.94,2.69,53.0,65.0,0,0,36.4
+Emergency Department,Male,66,92.5,Med-Surg ICU,admit,24,48,ALIVE,-1.0,-1.0,11.0,-1.0,0.68,4.0,123.0,0,0,36.6
+Emergency Department,Female,66,69.8,Med-Surg ICU,admit,42,55,ALIVE,-1.0,-1.0,4.0,10.66,0.97,19.0,57.0,0,0,36.7
+Emergency Department,Female,50,93.5,Med-Surg ICU,admit,29,34,ALIVE,-1.0,-1.0,33.0,-1.0,-1.0,-1.0,109.0,0,0,37.2
+Emergency Department,Male,> 89,61.4,Med-Surg ICU,admit,15,39,ALIVE,-1.0,-1.0,12.0,-1.0,-1.0,-1.0,104.0,0,0,36.7
+Emergency Department,Female,78,63.5,Med-Surg ICU,admit,13,30,ALIVE,-1.0,-1.0,26.0,-1.0,-1.0,-1.0,96.0,0,0,36.8
+Emergency Department,Female,> 89,49.89,Med-Surg ICU,admit,73,97,ALIVE,-1.0,-1.0,30.0,11.25,2.62,102.0,133.0,0,0,36.6
+Emergency Department,Female,81,54.4,Med-Surg ICU,admit,41,58,ALIVE,-1.0,-1.0,30.0,6.75,0.76,22.0,105.0,0,0,36.2
+Emergency Department,Male,> 89,70.8,Med-Surg ICU,admit,20,44,ALIVE,-1.0,-1.0,26.0,-1.0,-1.0,-1.0,57.0,0,0,36.3
+Emergency Department,Female,56,120.2,Med-Surg ICU,admit,20,25,ALIVE,-1.0,-1.0,27.0,-1.0,-1.0,-1.0,132.0,0,0,37.2
+Emergency Department,Female,76,61.1,Med-Surg ICU,admit,75,92,ALIVE,7.34,38.1,4.0,14.38,1.59,27.0,110.0,0,0,37.1
+Emergency Department,Male,61,123.4,Med-Surg ICU,admit,27,38,ALIVE,-1.0,-1.0,28.0,8.59,0.64,20.0,112.0,0,0,36.4
+Emergency Department,Male,66,105.7,Med-Surg ICU,admit,48,61,EXPIRED,-1.0,-1.0,31.0,10.78,0.93,20.0,134.0,0,0,35.6
+Emergency Department,Male,22,70.3,Med-Surg ICU,admit,19,19,ALIVE,-1.0,-1.0,10.0,-1.0,-1.0,-1.0,102.0,0,0,36.7
+Emergency Department,Female,61,59.0,Med-Surg ICU,admit,37,48,ALIVE,-1.0,-1.0,28.0,-1.0,0.48,5.0,117.0,0,0,37.0
+Emergency Department,Male,26,88.45,Med-Surg ICU,admit,34,34,ALIVE,-1.0,-1.0,11.0,-1.0,2.39,18.0,113.0,0,0,36.7
+Emergency Department,Female,61,99.8,Med-Surg ICU,admit,28,39,ALIVE,-1.0,-1.0,24.0,9.29,0.49,16.0,118.0,0,0,37.0
+Emergency Department,Male,88,45.4,Med-Surg ICU,admit,48,72,EXPIRED,-1.0,-1.0,34.0,14.57,1.69,58.0,108.0,0,0,36.3
+Emergency Department,Female,80,51.7,Med-Surg ICU,admit,49,79,ALIVE,-1.0,-1.0,26.0,1.19,0.67,16.0,142.0,0,0,36.6
+Emergency Department,Female,55,136.07,Med-Surg ICU,admit,47,52,ALIVE,7.35,55.0,33.0,-1.0,1.2,16.0,186.0,0,1,36.6
+Operating Room,Male,85,110.8,Med-Surg ICU,admit,35,59,ALIVE,-1.0,-1.0,27.0,3.21,1.07,28.0,91.0,0,0,36.7
+Emergency Department,Male,70,61.23,Med-Surg ICU,admit,41,61,ALIVE,-1.0,-1.0,33.0,10.86,0.87,25.0,109.0,0,0,36.9
+Emergency Department,Female,59,93.89,Med-Surg ICU,admit,25,30,ALIVE,-1.0,-1.0,27.0,-1.0,0.84,15.0,134.0,0,0,36.6
+Emergency Department,Female,85,47.0,Med-Surg ICU,admit,58,82,ALIVE,-1.0,-1.0,4.0,6.01,0.66,21.0,148.0,0,0,36.5
+Emergency Department,Male,63,72.6,Med-Surg ICU,admit,31,42,ALIVE,-1.0,-1.0,28.0,5.81,0.96,17.0,50.0,0,0,36.6
+Emergency Department,Female,87,78.01,Med-Surg ICU,admit,38,62,ALIVE,-1.0,-1.0,13.0,-1.0,-1.0,-1.0,83.0,0,0,36.8
+Emergency Department,Male,82,72.6,Med-Surg ICU,admit,41,58,ALIVE,-1.0,-1.0,28.0,15.23,1.19,39.0,96.0,0,0,36.5
+Emergency Department,Female,85,68.1,Med-Surg ICU,admit,51,75,ALIVE,-1.0,-1.0,10.0,9.45,1.44,46.0,120.0,0,0,36.5
+Emergency Department,Male,65,123.37,Med-Surg ICU,admit,30,43,ALIVE,-1.0,-1.0,8.0,-1.0,1.5,20.0,44.0,0,0,-1.0
+Emergency Department,Female,62,96.1,Med-Surg ICU,admit,10,21,ALIVE,-1.0,-1.0,24.0,-1.0,-1.0,-1.0,107.0,0,0,36.6
+Emergency Department,Male,59,141.9,Med-Surg ICU,admit,23,28,ALIVE,-1.0,-1.0,35.0,-1.0,-1.0,-1.0,107.0,0,0,36.3
+Emergency Department,Male,62,50.1,Med-Surg ICU,admit,52,63,ALIVE,7.464,50.7,14.0,7.9,0.56,14.0,105.0,1,1,36.9
+Emergency Department,Female,54,72.57,Med-Surg ICU,admit,25,30,ALIVE,7.422,35.2,8.0,-1.0,0.98,6.0,115.0,0,0,37.2
+Emergency Department,Male,60,63.51,Med-Surg ICU,admit,79,90,ALIVE,7.462,48.4,57.0,26.0,0.56,9.0,116.0,1,1,36.6
+Emergency Department,Male,51,127.0,Med-Surg ICU,admit,26,31,ALIVE,-1.0,-1.0,44.0,7.2,0.75,16.0,112.0,0,0,39.2
+Emergency Department,Female,55,158.3,Med-Surg ICU,admit,51,56,ALIVE,7.304,59.7,36.0,8.9,1.13,29.0,124.0,0,0,36.3
+Emergency Department,Female,63,93.6,Med-Surg ICU,admit,76,87,ALIVE,7.431,41.5,37.0,8.2,0.83,10.0,49.0,0,0,36.6
+Emergency Department,Male,54,81.64,Med-Surg ICU,admit,33,38,ALIVE,7.357,37.3,37.0,-1.0,-1.0,-1.0,90.0,0,0,36.6
+Emergency Department,Female,57,89.5,Med-Surg ICU,admit,25,30,ALIVE,-1.0,-1.0,12.0,-1.0,-1.0,-1.0,92.0,0,0,37.3
+Emergency Department,Male,66,90.71,Med-Surg ICU,admit,15,28,ALIVE,-1.0,-1.0,31.0,-1.0,-1.0,-1.0,51.0,0,0,36.4
+Emergency Department,Female,58,110.3,Med-Surg ICU,admit,46,51,ALIVE,-1.0,-1.0,56.0,8.3,0.87,14.0,62.0,0,0,36.8
+Emergency Department,Male,78,103.1,Med-Surg ICU,admit,119,136,EXPIRED,7.341,46.5,56.0,21.0,0.61,24.0,67.0,1,1,32.9
+Emergency Department,Male,71,83.4,Med-Surg ICU,admit,41,57,ALIVE,7.427,40.3,34.0,-1.0,1.38,14.0,96.0,0,0,36.1
+Emergency Department,Male,83,95.3,Med-Surg ICU,admit,31,48,ALIVE,-1.0,-1.0,31.0,-1.0,2.42,68.0,94.0,0,0,36.9
+Emergency Department,Male,79,72.6,Med-Surg ICU,admit,85,102,EXPIRED,7.282,37.8,36.0,20.5,1.68,23.0,163.0,1,1,36.2
+Emergency Department,Male,67,74.8,Med-Surg ICU,admit,15,28,ALIVE,-1.0,-1.0,11.0,-1.0,-1.0,-1.0,91.0,0,0,36.7
+Floor,Male,67,70.7,Med-Surg ICU,readmit,16,29,ALIVE,-1.0,-1.0,27.0,9.6,0.98,7.0,108.0,0,0,36.5
+Emergency Department,Female,64,129.7,Med-Surg ICU,admit,22,33,ALIVE,7.293,52.6,11.0,-1.0,-1.0,-1.0,94.0,0,1,35.0
+Emergency Department,Female,33,81.6,Med-Surg ICU,admit,50,50,ALIVE,7.296,48.8,6.0,6.3,0.65,8.0,142.0,0,0,36.1
+Emergency Department,Male,72,80.3,Med-Surg ICU,admit,55,71,ALIVE,7.312,48.4,6.0,19.6,0.82,27.0,95.0,1,1,36.2
+Emergency Department,Female,52,68.03,Med-Surg ICU,admit,23,28,ALIVE,-1.0,-1.0,9.0,6.2,0.67,25.0,102.0,0,0,36.5
+Emergency Department,Female,54,165.56,Med-Surg ICU,admit,43,48,ALIVE,-1.0,-1.0,42.0,27.7,1.22,19.0,102.0,0,0,36.2
+Emergency Department,Female,35,97.7,Med-Surg ICU,admit,26,26,ALIVE,-1.0,-1.0,36.0,-1.0,0.59,6.0,108.0,0,0,36.3
+Direct Admit,Male,62,46.8,Med-Surg ICU,admit,40,51,ALIVE,7.253,94.0,35.0,32.6,0.37,9.0,123.0,0,0,36.9
+Emergency Department,Male,65,98.5,Med-Surg ICU,admit,44,57,EXPIRED,-1.0,-1.0,57.0,-1.0,1.3,23.0,43.0,0,0,36.0
+Emergency Department,Female,73,108.86,Med-Surg ICU,admit,33,49,ALIVE,-1.0,-1.0,4.0,-1.0,0.52,13.0,117.0,0,0,36.8
+Direct Admit,Male,61,47.5,Med-Surg ICU,admit,37,48,ALIVE,7.275,93.1,34.0,5.7,0.36,10.0,122.0,0,0,36.6
+Emergency Department,Female,58,58.2,Med-Surg ICU,admit,40,56,ALIVE,-1.0,-1.0,43.0,7.9,0.44,10.0,127.0,0,0,35.8
+Floor,Female,58,69.5,Med-Surg ICU,readmit,63,68,ALIVE,7.195,62.1,43.0,5.8,0.7,25.0,147.0,0,1,36.2
+Floor,Female,58,70.3,Med-Surg ICU,readmit,86,102,ALIVE,7.471,52.5,40.0,7.4,0.6,22.0,125.0,0,1,35.5
+Emergency Department,Male,82,94.7,Med-Surg ICU,admit,46,63,ALIVE,-1.0,-1.0,58.0,-1.0,-1.0,-1.0,131.0,0,0,36.9
+Emergency Department,Male,85,97.52,Med-Surg ICU,admit,26,50,ALIVE,-1.0,-1.0,60.0,-1.0,-1.0,-1.0,101.0,0,1,36.6
+Emergency Department,Male,86,78.92,Med-Surg ICU,admit,47,71,EXPIRED,7.453,27.6,34.0,27.0,1.18,15.0,107.0,0,0,36.6
+Emergency Department,Female,76,82.6,Med-Surg ICU,admit,21,38,ALIVE,-1.0,-1.0,11.0,8.1,1.25,15.0,106.0,0,0,36.7
+Emergency Department,Male,65,49.6,Med-Surg ICU,admit,87,100,EXPIRED,7.17,71.0,31.0,11.5,1.3,53.0,110.0,0,0,36.4
+Emergency Department,Female,29,74.5,Med-Surg ICU,admit,57,57,ALIVE,7.23,29.0,6.0,9.0,0.6,20.0,122.0,0,0,36.8
+Floor,Female,80,96.5,Med-Surg ICU,admit,37,54,ALIVE,-1.0,-1.0,23.0,-1.0,7.0,123.0,89.0,0,0,-1.0
+Emergency Department,Male,49,77.5,Med-Surg ICU,admit,29,34,ALIVE,7.41,36.0,30.0,8.8,0.9,9.0,127.0,0,0,40.0
+Emergency Department,Female,87,51.2,Med-Surg ICU,admit,37,61,ALIVE,-1.0,-1.0,26.0,9.2,0.9,21.0,94.0,0,1,36.2
+Emergency Department,Male,48,103.5,Med-Surg ICU,admit,31,36,ALIVE,-1.0,-1.0,14.0,-1.0,5.2,56.0,96.0,0,0,36.4
+Emergency Department,Male,84,70.5,Med-Surg ICU,admit,32,49,ALIVE,-1.0,-1.0,40.0,-1.0,0.7,20.0,63.0,0,0,36.6
+Emergency Department,Male,84,58.1,Med-Surg ICU,admit,49,66,ALIVE,-1.0,-1.0,32.0,-1.0,2.7,73.0,132.0,0,0,37.7
+Emergency Department,Male,> 89,85.6,Med-Surg ICU,admit,72,96,EXPIRED,-1.0,-1.0,29.0,18.0,3.2,43.0,30.0,0,1,35.9
+Emergency Department,Female,47,58.0,Med-Surg ICU,admit,26,31,ALIVE,7.41,33.0,28.0,6.0,0.5,11.0,104.0,1,0,37.11
+Emergency Department,Female,77,54.4,Med-Surg ICU,admit,37,54,ALIVE,7.26,47.0,31.0,-1.0,0.8,-1.0,129.0,0,1,35.7
+Floor,Female,77,65.3,Med-Surg ICU,readmit,54,71,ALIVE,7.56,57.0,30.0,-1.0,-1.0,-1.0,137.0,1,0,36.8
+Emergency Department,Female,51,66.4,Med-Surg ICU,admit,37,52,ALIVE,-1.0,-1.0,8.0,10.1,0.8,13.0,107.0,0,0,36.7
+Emergency Department,Female,35,107.5,Med-Surg ICU,admit,53,53,ALIVE,7.4,35.0,13.0,16.9,3.4,52.0,115.0,0,0,36.8
+Emergency Department,Male,64,99.79,Med-Surg ICU,admit,24,35,ALIVE,7.41,42.0,27.0,8.7,0.9,16.0,91.0,0,0,36.7
+Emergency Department,Male,20,75.0,Med-Surg ICU,admit,56,56,ALIVE,7.47,29.0,34.0,-1.0,0.8,7.0,108.0,1,1,37.0
+Emergency Department,Male,58,112.4,Med-Surg ICU,admit,21,26,ALIVE,-1.0,-1.0,12.0,10.1,0.9,18.0,98.0,0,0,36.8
+Emergency Department,Male,27,71.7,Med-Surg ICU,admit,61,61,ALIVE,-1.0,-1.0,12.0,21.3,0.6,48.0,121.0,0,0,36.3
+Emergency Department,Female,28,52.2,Med-Surg ICU,admit,28,28,ALIVE,-1.0,-1.0,30.0,-1.0,-1.0,-1.0,139.0,0,0,37.1
+Emergency Department,Female,87,52.2,Med-Surg ICU,admit,46,70,ALIVE,7.43,34.0,25.0,9.6,2.1,43.0,51.0,0,1,36.7
+Emergency Department,Female,88,62.76,Med-Surg ICU,admit,51,75,ALIVE,-1.0,-1.0,34.0,12.1,0.7,28.0,148.0,0,0,36.67
+Emergency Department,Female,51,81.7,Med-Surg ICU,admit,36,41,ALIVE,-1.0,-1.0,12.0,-1.0,-1.0,-1.0,102.0,0,0,36.9
+Emergency Department,Male,26,104.3,Med-Surg ICU,admit,47,47,ALIVE,7.37,35.0,7.0,14.4,0.5,6.0,97.0,1,1,36.1
+Emergency Department,Female,35,99.79,Med-Surg ICU,admit,47,47,ALIVE,7.37,39.0,11.0,17.7,0.5,18.0,119.0,1,1,36.5
+Emergency Department,Female,51,69.0,Med-Surg ICU,admit,48,53,ALIVE,-1.0,-1.0,30.0,11.7,1.7,41.0,132.0,0,0,36.9
+Emergency Department,Male,49,76.6,Med-Surg ICU,admit,39,44,ALIVE,-1.0,-1.0,11.0,-1.0,-1.0,-1.0,122.0,0,0,36.8
+Emergency Department,Male,31,227.7,Med-Surg ICU,admit,25,25,ALIVE,-1.0,-1.0,28.0,-1.0,-1.0,-1.0,68.0,0,0,38.55
+Emergency Department,Female,35,101.7,Med-Surg ICU,admit,57,67,ALIVE,7.39,33.0,6.0,26.9,0.8,23.0,112.0,0,0,36.4
+Emergency Department,Female,48,85.1,Med-Surg ICU,admit,15,20,ALIVE,-1.0,-1.0,9.0,7.8,0.7,10.0,50.0,0,0,36.0
+Floor,Female,35,104.6,Med-Surg ICU,readmit,26,26,ALIVE,-1.0,-1.0,11.0,-1.0,-1.0,-1.0,119.0,0,0,36.1
+Emergency Department,Female,35,90.7,Med-Surg ICU,admit,58,58,ALIVE,-1.0,-1.0,7.0,17.5,2.0,31.0,96.0,0,0,36.0
+Emergency Department,Female,89,52.2,Med-Surg ICU,admit,33,57,ALIVE,-1.0,-1.0,43.0,-1.0,-1.0,-1.0,132.0,0,0,36.5
+Emergency Department,Male,76,114.3,Med-Surg ICU,admit,48,65,ALIVE,-1.0,-1.0,38.0,8.7,1.6,24.0,23.0,0,0,35.8
+Emergency Department,Female,> 89,73.0,Med-Surg ICU,admit,21,45,ALIVE,-1.0,-1.0,41.0,-1.0,-1.0,-1.0,59.0,0,0,36.2
+Emergency Department,Male,44,74.55,Med-Surg ICU,admit,40,40,ALIVE,-1.0,-1.0,53.0,-1.0,-1.0,-1.0,129.0,0,0,36.2
+Emergency Department,Male,48,73.57,Med-Surg ICU,admit,77,82,ALIVE,7.4,43.0,31.0,16.4,2.2,38.0,58.0,1,1,35.4
+Emergency Department,Male,53,85.9,Med-Surg ICU,admit,37,42,ALIVE,-1.0,-1.0,59.0,11.3,1.1,12.0,48.0,0,0,36.3
+Emergency Department,Female,> 89,58.7,Med-Surg ICU,admit,38,62,ALIVE,7.38,43.0,7.0,8.2,0.7,30.0,57.0,0,0,35.7
+Emergency Department,Male,82,140.1,Med-Surg ICU,admit,55,72,EXPIRED,7.37,56.0,34.0,6.2,1.2,21.0,89.0,1,1,36.1
+Emergency Department,Male,59,77.3,Med-Surg ICU,admit,62,67,ALIVE,7.4,42.0,59.0,8.0,0.6,15.0,135.0,1,1,36.4
+Emergency Department,Male,67,79.2,Med-Surg ICU,admit,108,121,ALIVE,-1.0,-1.0,27.0,4.4,2.0,113.0,102.0,0,0,35.2
+Emergency Department,Female,66,54.4,Med-Surg ICU,admit,67,80,EXPIRED,-1.0,-1.0,38.0,-1.0,-1.0,-1.0,137.0,0,1,35.6
+Emergency Department,Female,53,70.3,Med-Surg ICU,admit,46,51,ALIVE,-1.0,-1.0,35.0,8.5,0.7,10.0,106.0,0,0,36.7
+Emergency Department,Female,> 89,95.5,Med-Surg ICU,admit,25,49,ALIVE,-1.0,-1.0,47.0,-1.0,-1.0,-1.0,139.0,0,0,36.4
+Emergency Department,Female,53,62.7,Med-Surg ICU,admit,44,49,ALIVE,7.34,38.0,42.0,15.7,0.7,6.0,119.0,0,0,36.5
+Emergency Department,Female,84,60.1,Med-Surg ICU,admit,32,49,ALIVE,-1.0,-1.0,35.0,-1.0,-1.0,-1.0,115.0,0,1,36.4
+Emergency Department,Female,> 89,70.6,Med-Surg ICU,admit,47,71,ALIVE,-1.0,-1.0,55.0,-1.0,-1.0,-1.0,202.0,0,0,35.1
+Emergency Department,Female,72,54.8,Med-Surg ICU,admit,34,50,ALIVE,-1.0,-1.0,40.0,-1.0,-1.0,-1.0,145.0,0,0,36.3
+Emergency Department,Female,66,59.09,Med-Surg ICU,admit,60,73,ALIVE,7.47,34.0,9.0,8.7,1.4,107.0,52.0,1,1,35.3
+Emergency Department,Male,53,82.3,Med-Surg ICU,admit,27,32,ALIVE,-1.0,-1.0,41.0,8.6,1.1,17.0,52.0,0,0,35.6
+Emergency Department,Male,62,73.5,Med-Surg ICU,admit,45,56,ALIVE,-1.0,-1.0,8.0,8.1,0.8,15.0,119.0,0,0,36.1
+Emergency Department,Female,63,66.0,Med-Surg ICU,admit,50,71,ALIVE,-1.0,-1.0,59.0,3.4,0.7,16.0,123.0,0,0,35.9
+Emergency Department,Male,63,86.38,Med-Surg ICU,admit,49,60,ALIVE,-1.0,-1.0,54.0,-1.0,1.3,24.0,116.0,0,0,36.1
+Step-Down Unit (SDU),Female,81,67.6,Med-Surg ICU,readmit,42,59,ALIVE,-1.0,-1.0,44.0,-1.0,-1.0,-1.0,130.0,0,0,36.5
+Emergency Department,Female,89,74.6,Med-Surg ICU,admit,36,60,ALIVE,-1.0,-1.0,33.0,10.9,1.3,37.0,68.0,0,1,35.6
+Emergency Department,Female,82,83.82,Med-Surg ICU,admit,75,92,EXPIRED,-1.0,-1.0,56.0,23.4,1.6,56.0,138.0,0,0,36.1
+Emergency Department,Female,73,56.88,Med-Surg ICU,admit,25,41,ALIVE,-1.0,-1.0,39.0,24.2,0.6,12.0,93.0,0,0,36.7
+Step-Down Unit (SDU),Male,66,76.7,Cardiac ICU,admit,17,41,ALIVE,-1.0,-1.0,34.0,-1.0,-1.0,-1.0,88.0,0,0,36.6
+Emergency Department,Male,67,74.84,Cardiac ICU,admit,31,44,ALIVE,-1.0,-1.0,35.0,-1.0,-1.0,-1.0,52.0,0,0,36.5
+Emergency Department,Female,84,62.8,Cardiac ICU,admit,26,43,ALIVE,-1.0,-1.0,30.0,-1.0,-1.0,-1.0,58.0,0,1,-1.0
+Emergency Department,Female,76,78.1,Cardiac ICU,admit,23,50,ALIVE,-1.0,-1.0,49.0,-1.0,-1.0,-1.0,64.0,0,0,-1.0
+Emergency Department,Female,> 89,74.84,Cardiac ICU,admit,75,99,EXPIRED,7.18,28.0,33.0,-1.0,2.74,33.0,23.0,0,0,35.7
+Emergency Department,Male,80,86.36,Cardiac ICU,admit,47,64,ALIVE,-1.0,-1.0,43.0,10.5,0.95,25.0,194.0,0,0,36.2
+Emergency Department,Male,50,60.8,Cardiac ICU,admit,107,135,EXPIRED,7.31,29.0,52.0,-1.0,4.11,52.0,128.0,0,0,36.1
+Emergency Department,Female,87,56.42,Neuro ICU,admit,40,64,ALIVE,-1.0,-1.0,54.0,-1.0,-1.0,-1.0,110.0,0,0,36.3
+Emergency Department,Male,75,110.42,Neuro ICU,admit,20,48,ALIVE,-1.0,-1.0,33.0,-1.0,-1.0,-1.0,116.0,0,0,36.3
+Emergency Department,Female,32,55.84,Neuro ICU,admit,-1,-1,ALIVE,-1.0,-1.0,-1.0,4.4,1.88,64.0,155.0,0,0,36.3
+Emergency Department,Female,50,69.55,Neuro ICU,admit,53,58,ALIVE,7.45,24.0,35.0,10.7,0.52,18.0,106.0,1,1,36.4
+Emergency Department,Female,52,124.97,Neuro ICU,admit,16,21,ALIVE,-1.0,-1.0,9.0,-1.0,0.66,7.0,111.0,0,1,36.3
+Emergency Department,Female,52,120.47,Neuro ICU,admit,54,59,ALIVE,7.59,22.0,4.0,-1.0,0.58,11.0,97.0,1,1,36.8
+Emergency Department,Female,88,58.29,Neuro ICU,admit,49,73,ALIVE,7.51,42.0,43.0,20.2,0.39,17.0,60.0,0,0,36.1
+Emergency Department,Female,88,68.04,Med-Surg ICU,admit,81,105,EXPIRED,7.24,31.0,7.0,-1.0,1.77,70.0,116.0,0,0,35.6
+Emergency Department,Male,80,86.36,Med-Surg ICU,admit,25,42,ALIVE,-1.0,-1.0,35.0,-1.0,-1.0,-1.0,44.0,0,0,36.7
+Emergency Department,Female,82,81.0,Med-Surg ICU,admit,35,52,ALIVE,-1.0,-1.0,46.0,-1.0,-1.0,-1.0,98.0,0,0,37.2
+Emergency Department,Female,80,41.1,Med-Surg ICU,admit,61,78,EXPIRED,-1.0,-1.0,28.0,15.2,0.81,29.0,120.0,0,0,37.2
+Floor,Female,76,78.1,Med-Surg ICU,readmit,38,65,ALIVE,-1.0,-1.0,50.0,-1.0,-1.0,-1.0,92.0,0,0,36.4
+Emergency Department,Female,59,116.8,Med-Surg ICU,admit,53,58,ALIVE,-1.0,-1.0,44.0,14.3,0.84,32.0,138.0,0,0,36.7
+Emergency Department,Female,86,81.81,Med-Surg ICU,admit,41,65,ALIVE,-1.0,-1.0,29.0,8.2,0.48,20.0,56.0,0,0,36.3
+Emergency Department,Female,> 89,49.9,Med-Surg ICU,admit,84,108,EXPIRED,7.48,38.0,37.0,-1.0,0.59,23.0,100.0,1,1,35.4
+Other ICU,Female,84,145.8,Med-Surg ICU,admit,48,65,ALIVE,7.33,47.0,41.0,-1.0,0.95,28.0,113.0,0,1,36.4
+Emergency Department,Female,89,48.1,Med-Surg ICU,admit,26,50,ALIVE,-1.0,-1.0,43.0,-1.0,-1.0,-1.0,86.0,0,0,36.4
+Emergency Department,Female,55,90.72,Med-Surg ICU,admit,27,32,ALIVE,-1.0,-1.0,41.0,-1.0,-1.0,-1.0,96.0,0,0,35.6
+Emergency Department,Female,66,90.91,Med-Surg ICU,admit,45,58,ALIVE,7.62,36.0,27.0,-1.0,-1.0,-1.0,105.0,1,1,36.8
+Emergency Department,Male,68,59.7,Med-Surg ICU,admit,74,87,ALIVE,-1.0,-1.0,59.0,14.0,1.61,71.0,100.0,0,0,36.1
+Recovery Room,Female,72,59.0,Med-Surg ICU,admit,42,58,ALIVE,-1.0,-1.0,57.0,-1.0,-1.0,-1.0,116.0,0,0,36.4
+Emergency Department,Male,60,70.3,Med-Surg ICU,admit,16,27,ALIVE,-1.0,-1.0,12.0,-1.0,-1.0,-1.0,98.0,0,0,36.1
+Emergency Department,Female,> 89,45.5,Med-Surg ICU,admit,57,81,ALIVE,7.47,26.0,40.0,18.7,-1.0,-1.0,114.0,0,0,38.6
+Floor,Male,50,60.8,Med-Surg ICU,readmit,75,103,EXPIRED,-1.0,-1.0,44.0,4.3,1.33,15.0,160.0,0,0,36.0
+Floor,Male,50,60.8,Med-Surg ICU,readmit,49,77,EXPIRED,7.33,35.0,49.0,7.7,0.77,15.0,156.0,0,0,35.8
+Emergency Department,Male,70,74.8,Med-Surg ICU,admit,33,49,ALIVE,-1.0,-1.0,44.0,6.5,1.04,6.0,92.0,0,0,36.2
+Emergency Department,Female,57,110.68,Med-Surg ICU,admit,60,65,ALIVE,7.31,45.0,38.0,18.2,1.75,32.0,120.0,0,0,36.8
+Emergency Department,Female,66,69.54,Cardiac ICU,admit,43,56,ALIVE,-1.0,-1.0,40.0,10.4,0.69,37.0,58.0,0,0,36.7
+Emergency Department,Female,82,83.48,Cardiac ICU,admit,63,80,ALIVE,-1.0,-1.0,55.0,-1.0,5.76,98.0,38.0,0,0,36.5
+Emergency Department,Female,63,80.9,Cardiac ICU,admit,27,38,ALIVE,-1.0,-1.0,6.0,8.6,0.95,12.0,105.0,0,0,36.8
+Emergency Department,Female,56,39.2,Cardiac ICU,admit,46,51,ALIVE,-1.0,-1.0,10.0,28.9,-1.0,-1.0,123.0,0,0,36.6
+Floor,Female,77,76.24,Cardiac ICU,readmit,40,57,ALIVE,-1.0,-1.0,36.0,-1.0,-1.0,-1.0,106.0,0,0,36.5
+Emergency Department,Female,67,107.27,Cardiac ICU,admit,28,41,ALIVE,7.31,54.0,31.0,15.4,0.53,15.0,45.0,0,0,36.0
+Emergency Department,Female,84,82.27,Cardiac ICU,admit,65,82,EXPIRED,-1.0,-1.0,12.0,-1.0,-1.0,-1.0,101.0,0,1,36.3
+Emergency Department,Female,73,49.69,Cardiac ICU,admit,34,50,ALIVE,-1.0,-1.0,12.0,-1.0,-1.0,-1.0,84.0,0,0,36.8
+Emergency Department,Male,63,91.17,Cardiac ICU,admit,65,92,ALIVE,-1.0,-1.0,36.0,14.5,2.32,62.0,114.0,0,0,36.0
+Emergency Department,Male,64,97.07,Cardiac ICU,admit,17,28,ALIVE,-1.0,-1.0,7.0,6.2,0.93,14.0,90.0,0,0,36.5
+Emergency Department,Female,77,60.33,Cardiac ICU,admit,79,96,EXPIRED,-1.0,-1.0,31.0,10.3,1.53,51.0,118.0,0,0,36.9
+Emergency Department,Female,80,55.45,Cardiac ICU,admit,42,59,ALIVE,-1.0,-1.0,37.0,-1.0,2.11,33.0,102.0,0,1,36.6
+Emergency Department,Female,87,66.22,Cardiac ICU,admit,57,81,ALIVE,-1.0,-1.0,56.0,19.6,0.433,17.0,53.0,0,1,35.6
+Emergency Department,Female,48,135.9,Med-Surg ICU,admit,33,38,ALIVE,-1.0,-1.0,42.0,11.9,0.82,10.0,125.0,0,0,36.4
+Emergency Department,Female,78,68.04,Med-Surg ICU,admit,27,44,ALIVE,-1.0,-1.0,12.0,9.2,0.72,11.0,96.0,0,0,36.7
+Emergency Department,Female,> 89,49.2,Med-Surg ICU,admit,29,53,ALIVE,-1.0,-1.0,51.0,-1.0,-1.0,-1.0,105.0,0,1,36.6
+Emergency Department,Female,82,62.73,Med-Surg ICU,admit,33,50,ALIVE,-1.0,-1.0,9.0,9.5,0.81,13.0,89.0,0,0,36.1
+Emergency Department,Female,79,83.9,Med-Surg ICU,admit,24,51,ALIVE,-1.0,-1.0,38.0,-1.0,-1.0,-1.0,124.0,0,0,36.2
+Emergency Department,Female,52,64.82,Med-Surg ICU,admit,27,43,ALIVE,-1.0,-1.0,33.0,10.3,0.22,12.0,131.0,0,0,36.5
+Emergency Department,Female,61,57.2,Med-Surg ICU,admit,31,42,ALIVE,-1.0,-1.0,8.0,-1.0,-1.0,-1.0,104.0,0,0,36.2
+Emergency Department,Female,83,68.3,Med-Surg ICU,admit,33,50,ALIVE,7.31,47.0,31.0,13.0,1.3,15.0,101.0,0,1,36.2
+Emergency Department,Female,52,93.64,Med-Surg ICU,admit,57,62,EXPIRED,7.25,30.0,58.0,-1.0,1.32,14.0,135.0,0,0,36.3
+Emergency Department,Female,78,56.7,Med-Surg ICU,admit,27,44,EXPIRED,-1.0,-1.0,34.0,-1.0,-1.0,-1.0,101.0,0,0,36.8
+Emergency Department,Female,> 89,65.7,Med-Surg ICU,admit,58,82,EXPIRED,-1.0,-1.0,27.0,-1.0,-1.0,-1.0,178.0,0,0,36.6
+Emergency Department,Male,63,97.57,Med-Surg ICU,admit,57,72,ALIVE,-1.0,-1.0,6.0,9.6,4.2,82.0,110.0,0,0,36.4
+Emergency Department,Female,62,108.2,Med-Surg ICU,admit,40,51,ALIVE,-1.0,-1.0,9.0,7.7,1.65,46.0,53.0,0,0,36.3
+Emergency Department,Female,88,98.7,Med-Surg ICU,admit,32,56,ALIVE,-1.0,-1.0,29.0,6.1,1.64,27.0,92.0,0,1,36.1
+Emergency Department,Female,60,49.2,CSICU,admit,26,37,ALIVE,7.33,64.0,31.0,6.6,0.82,9.0,113.0,0,0,36.6
+Emergency Department,Female,60,55.5,CSICU,admit,32,43,ALIVE,-1.0,-1.0,16.0,-1.0,0.57,10.0,122.0,0,0,36.6
+Emergency Department,Female,81,50.9,CSICU,admit,15,32,ALIVE,-1.0,-1.0,14.0,-1.0,0.95,22.0,89.0,0,0,36.6
+Floor,Female,62,108.2,CSICU,readmit,15,26,ALIVE,-1.0,-1.0,22.0,-1.0,-1.0,-1.0,86.0,0,0,37.2
+Emergency Department,Female,70,63.68,Med-Surg ICU,admit,49,65,ALIVE,-1.0,-1.0,11.0,-1.0,6.65,57.0,89.0,0,0,36.3
+Emergency Department,Female,87,40.4,Med-Surg ICU,admit,56,80,EXPIRED,-1.0,-1.0,36.0,39.5,1.03,22.0,130.0,0,0,36.2
+Floor,Female,86,55.5,Med-Surg ICU,readmit,39,74,EXPIRED,-1.0,-1.0,9.0,-1.0,-1.0,-1.0,24.0,0,0,36.1
+Emergency Department,Female,86,55.5,Med-Surg ICU,admit,35,59,EXPIRED,-1.0,-1.0,5.0,4.1,0.652,14.0,60.0,0,0,36.2
+Emergency Department,Female,82,95.25,Med-Surg ICU,admit,60,77,ALIVE,7.3,44.0,43.0,11.1,3.36,94.0,47.0,0,0,36.2
+Emergency Department,Female,70,79.5,Med-Surg ICU,admit,93,119,ALIVE,-1.0,-1.0,30.0,0.7,1.91,72.0,173.0,0,0,36.7
+Emergency Department,Female,72,60.2,Med-Surg ICU,admit,39,55,ALIVE,-1.0,-1.0,33.0,8.6,0.557,40.0,100.0,0,0,35.6
+Emergency Department,Female,86,75.25,Med-Surg ICU,admit,30,54,ALIVE,-1.0,-1.0,27.0,5.5,0.672,17.0,93.0,0,0,36.2
+Emergency Department,Female,77,81.4,Med-Surg ICU,admit,77,94,ALIVE,7.4,42.0,31.0,12.2,0.74,13.0,134.0,1,1,36.1
+Floor,Female,> 89,79.6,Med-Surg ICU,admit,49,73,ALIVE,7.41,41.0,38.0,6.3,0.76,12.0,105.0,0,0,35.9
+Emergency Department,Female,77,89.81,Med-Surg ICU,admit,28,45,ALIVE,-1.0,-1.0,36.0,-1.0,-1.0,-1.0,97.0,0,0,36.3
+Emergency Department,Female,85,67.13,Med-Surg ICU,admit,62,86,EXPIRED,-1.0,-1.0,56.0,3.9,1.43,89.0,96.0,0,0,35.9
+Emergency Department,Male,68,119.6,Med-Surg ICU,admit,61,74,EXPIRED,-1.0,-1.0,39.0,18.4,10.13,49.0,122.0,0,0,36.4
+Emergency Department,Male,77,59.2,Med-Surg ICU,admit,40,57,ALIVE,-1.0,-1.0,6.0,3.2,1.07,24.0,105.0,0,0,36.7
+Emergency Department,Female,38,76.1,MICU,transfer,63,63,ALIVE,-1.0,-1.0,44.0,8.4,1.8,9.0,168.0,0,0,36.9
+Emergency Department,Male,42,67.5,MICU,transfer,47,47,ALIVE,-1.0,-1.0,10.0,15.4,1.7,21.0,100.0,0,1,36.8
+Emergency Department,Male,49,144.7,MICU,transfer,48,53,ALIVE,-1.0,-1.0,27.0,19.3,2.39,24.0,98.0,0,1,36.6
+Emergency Department,Male,68,76.0,MICU,transfer,-1,-1,ALIVE,7.18,74.5,-1.0,7.9,3.3,33.0,77.0,0,0,36.8
+Emergency Department,Female,52,89.2,MICU,admit,42,47,ALIVE,7.34,66.8,49.0,17.3,0.4,7.0,113.0,1,1,36.1
+Emergency Department,Male,45,112.0,MICU,transfer,33,38,ALIVE,-1.0,-1.0,10.0,9.3,0.5,16.0,123.0,0,0,36.7
+Emergency Department,Female,61,119.3,MICU,transfer,28,39,ALIVE,-1.0,-1.0,25.0,7.4,1.0,16.0,116.0,0,0,36.6
+Emergency Department,Male,53,89.8,CCU-CTICU,admit,11,16,ALIVE,-1.0,-1.0,32.0,-1.0,0.77,12.0,50.0,0,0,36.4
+Emergency Department,Female,52,63.5,CCU-CTICU,admit,22,27,ALIVE,-1.0,-1.0,9.0,-1.0,0.89,8.0,42.0,0,0,36.5
+Emergency Department,Female,23,163.3,CCU-CTICU,admit,11,11,ALIVE,-1.0,-1.0,16.0,-1.0,-1.0,-1.0,89.0,0,0,36.5
+Emergency Department,Male,54,61.2,CCU-CTICU,admit,66,71,EXPIRED,-1.0,-1.0,51.0,19.0,2.13,28.0,137.0,0,0,37.2
+Emergency Department,Male,45,111.7,CCU-CTICU,admit,38,59,ALIVE,-1.0,-1.0,28.0,15.8,-1.0,-1.0,119.0,0,0,35.9
+Emergency Department,Female,65,149.6,CCU-CTICU,admit,53,66,ALIVE,7.489,46.7,58.0,-1.0,-1.0,-1.0,103.0,1,1,36.6
+Emergency Department,Female,73,72.57,CCU-CTICU,admit,51,67,ALIVE,-1.0,-1.0,60.0,-1.0,-1.0,-1.0,109.0,0,0,36.6
+Emergency Department,Female,64,93.7,CCU-CTICU,admit,41,52,ALIVE,-1.0,-1.0,34.0,11.8,1.22,26.0,124.0,0,0,36.6
+Floor,Female,31,67.63,CCU-CTICU,readmit,7,7,ALIVE,-1.0,-1.0,13.0,-1.0,-1.0,-1.0,96.0,0,0,36.4
+Emergency Department,Female,58,60.32,CCU-CTICU,admit,11,16,ALIVE,-1.0,-1.0,14.0,-1.0,-1.0,-1.0,107.0,0,0,36.6
+Emergency Department,Male,81,72.8,CCU-CTICU,admit,48,65,ALIVE,-1.0,-1.0,57.0,-1.0,2.01,37.0,45.0,0,0,36.5
+Emergency Department,Female,65,93.75,CCU-CTICU,admit,26,39,ALIVE,-1.0,-1.0,41.0,-1.0,-1.0,-1.0,125.0,0,0,36.3
+Emergency Department,Male,52,125.0,Med-Surg ICU,admit,38,43,ALIVE,-1.0,-1.0,32.0,5.4,1.4,16.0,103.0,0,1,36.9
+Emergency Department,Male,27,39.0,Med-Surg ICU,admit,33,33,ALIVE,-1.0,-1.0,8.0,6.0,0.9,8.0,92.0,0,0,36.8
+Emergency Department,Male,52,81.0,Med-Surg ICU,transfer,41,46,ALIVE,-1.0,-1.0,11.0,8.6,1.8,65.0,99.0,0,0,36.4
+Emergency Department,Male,29,83.2,Med-Surg ICU,transfer,27,27,ALIVE,-1.0,-1.0,37.0,-1.0,-1.0,-1.0,131.0,0,0,37.3
+Emergency Department,Male,27,35.0,Med-Surg ICU,transfer,63,63,ALIVE,-1.0,-1.0,26.0,27.0,0.6,26.0,119.0,0,0,36.5
+Emergency Department,Female,54,106.0,Neuro ICU,transfer,25,30,ALIVE,-1.0,-1.0,12.0,7.2,0.6,10.0,59.0,0,0,36.8
+Emergency Department,Male,57,100.8,Neuro ICU,admit,61,66,ALIVE,7.32,47.1,7.0,15.4,0.8,18.0,155.0,1,1,36.7
+Emergency Department,Male,37,96.2,Neuro ICU,admit,51,51,ALIVE,7.42,44.0,10.0,4.0,0.51,17.0,99.0,1,1,36.5
+Emergency Department,Male,56,135.8,Neuro ICU,admit,21,26,ALIVE,-1.0,-1.0,12.0,9.2,0.75,16.0,52.0,0,0,36.3
+Emergency Department,Female,68,72.0,CCU-CTICU,admit,31,44,ALIVE,-1.0,-1.0,8.0,7.9,0.6,7.0,48.0,0,0,36.4
+Emergency Department,Male,63,100.0,CCU-CTICU,admit,162,173,EXPIRED,7.18,34.9,4.0,-1.0,2.18,26.0,101.0,1,1,31.9
+Emergency Department,Male,65,83.4,CCU-CTICU,admit,17,30,ALIVE,-1.0,-1.0,14.0,-1.0,0.9,16.0,101.0,0,0,36.6
+Emergency Department,Male,69,110.7,CCU-CTICU,transfer,41,54,ALIVE,-1.0,-1.0,10.0,6.9,1.1,38.0,32.0,0,0,36.5
+Emergency Department,Male,56,89.6,CCU-CTICU,admit,27,32,ALIVE,-1.0,-1.0,10.0,-1.0,-1.0,-1.0,111.0,0,0,36.5
+Emergency Department,Male,54,79.9,CCU-CTICU,admit,33,38,ALIVE,-1.0,-1.0,7.0,-1.0,-1.0,-1.0,45.0,0,0,36.5
+Direct Admit,Male,66,121.9,CCU-CTICU,admit,17,30,ALIVE,-1.0,-1.0,13.0,7.2,-1.0,-1.0,104.0,0,0,36.5
+Other Hospital,Female,85,51.0,CTICU,admit,24,48,ALIVE,-1.0,-1.0,13.0,8.1,1.43,26.0,56.0,0,0,-1.0
+Operating Room,Female,63,100.2,CTICU,admit,22,33,ALIVE,-1.0,-1.0,25.0,14.4,0.82,19.0,100.0,0,0,36.0
+Emergency Department,Male,56,96.4,CTICU,admit,88,93,ALIVE,7.37,41.2,14.0,23.0,1.33,16.0,117.0,1,1,33.6
+Emergency Department,Male,50,59.1,CTICU,admit,43,48,ALIVE,-1.0,-1.0,29.0,4.9,8.48,38.0,98.0,0,0,36.4
+Emergency Department,Female,86,63.6,CTICU,admit,68,92,ALIVE,-1.0,-1.0,38.0,6.6,1.69,39.0,62.0,0,0,36.8
+Emergency Department,Male,38,72.0,CTICU,admit,46,56,ALIVE,-1.0,-1.0,30.0,0.3,-1.0,-1.0,118.0,0,0,38.5
+Emergency Department,Male,67,60.5,Med-Surg ICU,admit,31,44,ALIVE,-1.0,-1.0,11.0,-1.0,-1.0,-1.0,39.0,0,0,36.7
+Emergency Department,Female,89,59.5,Med-Surg ICU,admit,30,54,ALIVE,-1.0,-1.0,25.0,13.6,-1.0,-1.0,115.0,0,0,36.7
+Floor,Female,57,46.3,Med-Surg ICU,readmit,49,54,ALIVE,-1.0,-1.0,11.0,3.4,5.56,37.0,68.0,0,0,36.6
+Emergency Department,Female,57,54.5,Med-Surg ICU,admit,41,46,ALIVE,-1.0,-1.0,8.0,3.3,3.33,20.0,94.0,0,0,36.9
+Emergency Department,Female,81,45.5,Med-Surg ICU,admit,14,31,ALIVE,-1.0,-1.0,12.0,-1.0,-1.0,-1.0,52.0,0,0,36.3
+Emergency Department,Male,70,73.5,Med-Surg ICU,admit,29,45,ALIVE,-1.0,-1.0,9.0,8.3,0.89,18.0,105.0,0,0,36.8
+Emergency Department,Female,65,159.1,Med-Surg ICU,admit,59,72,ALIVE,-1.0,-1.0,46.0,4.7,2.28,40.0,55.0,0,1,36.6
+Emergency Department,Male,72,73.0,Med-Surg ICU,admit,28,44,ALIVE,-1.0,-1.0,10.0,6.7,0.93,16.0,97.0,0,0,36.5
+Emergency Department,Female,84,67.3,Med-Surg ICU,admit,26,43,ALIVE,-1.0,-1.0,11.0,-1.0,-1.0,-1.0,98.0,0,0,-1.0
+Emergency Department,Female,60,57.0,Med-Surg ICU,admit,31,42,ALIVE,-1.0,-1.0,9.0,4.5,1.57,24.0,63.0,0,0,36.0
+Emergency Department,Male,52,57.1,Med-Surg ICU,admit,45,50,ALIVE,-1.0,-1.0,28.0,13.0,1.0,13.0,110.0,0,1,37.0
+Emergency Department,Male,55,166.0,Med-Surg ICU,admit,35,40,ALIVE,-1.0,-1.0,32.0,8.6,1.3,32.0,107.0,0,0,36.9
+Emergency Department,Male,53,141.8,Med-Surg ICU,admit,16,21,ALIVE,-1.0,-1.0,25.0,7.7,0.67,12.0,98.0,0,0,36.7
+Emergency Department,Male,27,69.5,Med-Surg ICU,admit,33,33,ALIVE,-1.0,-1.0,10.0,6.4,0.72,12.0,125.0,0,0,36.7
+Emergency Department,Female,> 89,55.5,Med-Surg ICU,admit,72,96,ALIVE,-1.0,-1.0,12.0,13.8,2.63,78.0,120.0,0,0,36.3
+Emergency Department,Female,74,81.8,Med-Surg ICU,admit,35,51,EXPIRED,-1.0,-1.0,38.0,27.7,1.07,26.0,45.0,0,1,36.6
+Emergency Department,Male,55,113.6,Med-Surg ICU,admit,115,120,EXPIRED,-1.0,-1.0,8.0,14.0,3.35,28.0,155.0,0,1,36.3
+Emergency Department,Male,85,74.8,Med-Surg ICU,admit,43,67,ALIVE,-1.0,-1.0,11.0,7.9,0.35,17.0,119.0,0,0,36.4
+Emergency Department,Male,75,72.7,Med-Surg ICU,admit,91,108,ALIVE,-1.0,-1.0,4.0,6.6,2.51,83.0,100.0,0,0,35.8
+Emergency Department,Female,82,68.2,Med-Surg ICU,admit,42,59,ALIVE,-1.0,-1.0,31.0,4.8,1.11,27.0,26.0,0,0,36.5
+Step-Down Unit (SDU),Female,66,50.0,Med-Surg ICU,admit,30,43,ALIVE,-1.0,-1.0,10.0,10.6,1.88,77.0,89.0,0,0,36.5
+Emergency Department,Male,18,61.8,Med-Surg ICU,admit,44,44,ALIVE,-1.0,-1.0,9.0,8.2,0.88,19.0,104.0,0,0,36.3
+Emergency Department,Male,54,82.3,Med-Surg ICU,admit,20,25,ALIVE,-1.0,-1.0,8.0,-1.0,-1.0,-1.0,118.0,0,0,36.4
+Emergency Department,Female,27,29.9,CTICU,admit,19,19,ALIVE,-1.0,-1.0,36.0,7.7,-1.0,6.0,108.0,0,0,37.1
+Emergency Department,Female,70,69.1,SICU,admit,62,78,ALIVE,-1.0,-1.0,52.0,23.5,0.55,23.0,141.0,0,1,36.9
+Emergency Department,Female,58,73.1,SICU,admit,68,73,ALIVE,-1.0,-1.0,42.0,3.0,1.15,54.0,127.0,0,0,36.0
+Emergency Department,Female,42,72.7,SICU,admit,58,58,ALIVE,-1.0,-1.0,58.0,3.3,12.7,61.0,130.0,0,0,35.0
+Emergency Department,Female,49,77.0,SICU,admit,30,35,ALIVE,-1.0,-1.0,35.0,-1.0,8.72,32.0,96.0,0,0,38.6
+Emergency Department,Male,61,81.8,SICU,admit,76,87,ALIVE,-1.0,-1.0,57.0,-1.0,10.04,43.0,144.0,0,0,36.2
+Emergency Department,Female,70,81.8,SICU,admit,23,39,ALIVE,-1.0,-1.0,33.0,7.8,0.92,19.0,45.0,0,0,36.2
+Emergency Department,Male,56,72.7,Cardiac ICU,admit,48,53,ALIVE,-1.0,-1.0,27.0,21.3,2.23,40.0,86.0,0,0,36.2
+Emergency Department,Female,51,59.1,Cardiac ICU,admit,140,158,EXPIRED,7.55,28.1,8.0,26.1,1.59,44.0,143.0,0,0,37.2
+Emergency Department,Female,77,77.3,Cardiac ICU,admit,34,51,EXPIRED,7.46,30.8,32.0,13.9,1.52,36.0,133.0,0,0,36.3
+Emergency Department,Female,79,72.7,Cardiac ICU,admit,50,67,ALIVE,-1.0,-1.0,29.0,20.1,0.72,24.0,102.0,0,0,35.8
+Floor,Female,58,110.4,Cardiac ICU,admit,43,48,ALIVE,-1.0,-1.0,7.0,8.1,2.85,54.0,63.0,0,0,36.5
+Emergency Department,Female,56,79.5,Cardiac ICU,admit,24,29,ALIVE,-1.0,-1.0,14.0,9.0,0.77,21.0,127.0,0,0,36.0
+Emergency Department,Female,74,113.6,Cardiac ICU,admit,25,41,ALIVE,-1.0,-1.0,27.0,6.6,1.5,19.0,56.0,0,0,36.1
+Operating Room,Female,76,77.7,CTICU,readmit,16,33,ALIVE,-1.0,-1.0,27.0,13.3,0.91,13.0,103.0,0,0,36.4
+Emergency Department,Female,76,65.9,SICU,admit,47,64,ALIVE,-1.0,-1.0,55.0,17.9,1.25,44.0,96.0,0,0,36.4
+Emergency Department,Female,69,88.2,SICU,admit,41,54,ALIVE,-1.0,-1.0,48.0,9.4,0.79,20.0,31.0,0,0,36.3
+Emergency Department,Female,48,72.7,SICU,admit,64,69,ALIVE,-1.0,-1.0,40.0,7.3,2.26,27.0,160.0,0,0,40.2
+Emergency Department,Female,42,72.7,SICU,readmit,76,76,ALIVE,-1.0,-1.0,37.0,2.2,9.28,40.0,121.0,0,1,36.5
+Emergency Department,Female,65,100.5,SICU,admit,35,48,ALIVE,-1.0,-1.0,43.0,5.4,1.43,36.0,113.0,0,0,36.3
+Emergency Department,Female,80,112.0,SICU,admit,140,157,EXPIRED,-1.0,-1.0,47.0,26.7,3.59,37.0,178.0,0,1,34.6
+Emergency Department,Female,80,95.5,SICU,admit,45,62,ALIVE,-1.0,-1.0,31.0,3.7,3.01,22.0,122.0,0,0,36.2
+Emergency Department,Male,31,102.3,MICU,admit,51,51,ALIVE,-1.0,-1.0,6.0,8.8,1.0,15.0,127.0,0,0,35.7
+Emergency Department,Female,79,70.5,MICU,admit,60,77,EXPIRED,-1.0,-1.0,30.0,12.7,0.67,27.0,114.0,0,1,36.2
+Emergency Department,Female,71,77.3,MICU,admit,26,42,ALIVE,-1.0,-1.0,10.0,8.9,0.72,13.0,66.0,0,0,36.6
+Emergency Department,Female,65,105.5,MICU,admit,66,79,ALIVE,-1.0,-1.0,10.0,13.7,2.37,84.0,97.0,0,0,36.3
+Emergency Department,Female,64,64.5,MICU,admit,54,65,ALIVE,-1.0,-1.0,31.0,15.6,0.65,26.0,138.0,0,0,36.8
+Emergency Department,Female,61,68.2,MICU,admit,37,48,ALIVE,-1.0,-1.0,10.0,11.1,0.72,10.0,98.0,0,0,35.7
+Emergency Department,Female,76,113.0,MICU,admit,39,56,ALIVE,-1.0,-1.0,36.0,-1.0,-1.0,-1.0,129.0,0,0,36.7
+Emergency Department,Female,59,79.1,MICU,admit,65,70,ALIVE,-1.0,-1.0,36.0,27.7,1.4,19.0,122.0,0,1,32.2
+Emergency Department,Female,69,112.3,MICU,admit,44,57,ALIVE,-1.0,-1.0,10.0,9.3,0.9,16.0,109.0,0,0,35.7
+Emergency Department,Female,59,,MICU,admit,75,80,ALIVE,-1.0,-1.0,4.0,12.5,2.6,63.0,55.0,0,0,35.8
+Emergency Department,Female,68,126.3,MICU,admit,26,39,ALIVE,-1.0,-1.0,13.0,-1.0,-1.0,-1.0,101.0,0,0,35.8
+Emergency Department,Female,63,110.0,MICU,admit,33,44,ALIVE,-1.0,-1.0,7.0,-1.0,-1.0,-1.0,48.0,0,0,36.4
+Emergency Department,Female,62,75.0,MICU,admit,36,47,ALIVE,-1.0,-1.0,24.0,9.2,0.8,15.0,136.0,0,1,36.1
+Emergency Department,Female,67,54.6,MICU,admit,32,61,ALIVE,-1.0,-1.0,25.0,18.2,2.6,64.0,102.0,0,0,36.2
+Emergency Department,Female,81,68.4,MICU,admit,46,63,ALIVE,-1.0,-1.0,12.0,-1.0,-1.0,-1.0,133.0,0,0,36.1
+Emergency Department,Female,62,58.4,MICU,admit,48,59,ALIVE,-1.0,-1.0,31.0,17.5,4.1,90.0,105.0,0,0,36.3
+Emergency Department,Male,34,137.4,MICU,admit,40,40,ALIVE,-1.0,-1.0,5.0,8.9,1.3,12.0,100.0,0,0,36.3
+Emergency Department,Female,69,53.6,MICU,admit,49,62,ALIVE,-1.0,-1.0,36.0,-1.0,0.6,14.0,125.0,0,0,36.8
+Emergency Department,Male,49,77.0,MICU,admit,17,22,ALIVE,-1.0,-1.0,28.0,-1.0,-1.0,-1.0,62.0,0,0,35.8
+Emergency Department,Female,88,53.6,MICU,admit,78,102,ALIVE,-1.0,-1.0,29.0,20.8,5.0,32.0,117.0,0,0,36.1
+Emergency Department,Female,64,109.1,MICU,admit,21,32,ALIVE,-1.0,-1.0,30.0,6.7,-1.0,-1.0,108.0,0,0,36.7
+Emergency Department,Female,71,80.0,MICU,admit,21,37,ALIVE,-1.0,-1.0,11.0,-1.0,-1.0,-1.0,92.0,0,0,36.2
+Floor,Male,58,97.7,MICU,admit,128,133,EXPIRED,-1.0,-1.0,34.0,36.5,6.3,54.0,132.0,0,1,35.3
+Emergency Department,Male,63,50.1,MICU,admit,80,91,ALIVE,-1.0,-1.0,12.0,18.9,2.2,128.0,92.0,0,0,36.3
+Emergency Department,Female,50,93.4,MICU,admit,27,32,ALIVE,-1.0,-1.0,10.0,-1.0,-1.0,-1.0,124.0,0,0,36.2
+Emergency Department,Female,78,57.2,MICU,admit,40,57,ALIVE,7.422,49.6,35.0,-1.0,-1.0,-1.0,119.0,0,1,36.9
+Emergency Department,Female,78,83.9,Med-Surg ICU,admit,26,43,ALIVE,-1.0,-1.0,10.0,4.34,0.6,8.0,57.0,0,0,36.0
+Emergency Department,Female,79,51.0,Med-Surg ICU,admit,19,36,ALIVE,-1.0,-1.0,27.0,-1.0,-1.0,-1.0,92.0,0,1,35.6
+Emergency Department,Male,77,74.0,Med-Surg ICU,admit,37,54,ALIVE,-1.0,-1.0,31.0,11.53,0.8,19.0,106.0,0,1,36.5
+Emergency Department,Unknown,> 89,82.0,Med-Surg ICU,admit,84,108,EXPIRED,7.251,29.8,55.0,-1.0,1.9,21.0,170.0,1,1,36.1
+Emergency Department,Female,78,47.2,Med-Surg ICU,admit,44,61,ALIVE,-1.0,-1.0,32.0,13.2,0.9,28.0,118.0,0,0,36.1
+Emergency Department,Male,79,82.3,Med-Surg ICU,admit,28,45,ALIVE,-1.0,-1.0,24.0,15.32,-1.0,-1.0,44.0,0,0,36.0
+Emergency Department,Male,79,102.5,Med-Surg ICU,admit,22,39,ALIVE,-1.0,-1.0,10.0,-1.0,-1.0,-1.0,53.0,0,0,37.1
+Emergency Department,Female,77,74.8,Med-Surg ICU,admit,48,65,ALIVE,7.422,57.6,14.0,-1.0,-1.0,-1.0,87.0,1,1,36.7
+Emergency Department,Male,78,83.9,Med-Surg ICU,admit,33,50,ALIVE,-1.0,-1.0,33.0,11.5,0.7,14.0,123.0,0,0,36.4
+Step-Down Unit (SDU),Female,78,125.0,Med-Surg ICU,admit,80,97,EXPIRED,7.362,49.5,26.0,-1.0,5.4,33.0,116.0,1,1,36.1
+Step-Down Unit (SDU),Female,78,56.6,Med-Surg ICU,readmit,37,64,ALIVE,-1.0,-1.0,35.0,-1.0,-1.0,-1.0,159.0,0,1,36.0
+Emergency Department,Female,78,,Med-Surg ICU,admit,45,72,ALIVE,-1.0,-1.0,27.0,-1.0,0.7,38.0,145.0,0,0,35.9
+Emergency Department,Male,78,86.0,Med-Surg ICU,admit,90,107,ALIVE,7.214,48.6,26.0,6.14,0.9,22.0,111.0,1,1,33.7
+Emergency Department,Male,78,100.0,Med-Surg ICU,admit,59,87,EXPIRED,7.474,30.5,9.0,5.6,1.0,46.0,98.0,0,0,35.9
+Emergency Department,Female,63,58.51,Med-Surg ICU,admit,33,44,ALIVE,-1.0,-1.0,22.0,20.5,-1.0,-1.0,143.0,0,0,37.4
+Emergency Department,Female,78,58.6,Med-Surg ICU,admit,32,49,ALIVE,-1.0,-1.0,24.0,-1.0,0.62,8.0,161.0,0,0,36.2
+Emergency Department,Male,25,68.85,Med-Surg ICU,admit,16,16,ALIVE,-1.0,-1.0,18.0,-1.0,-1.0,-1.0,114.0,0,0,36.8
+Emergency Department,Male,84,77.1,Med-Surg ICU,admit,100,117,EXPIRED,7.042,15.0,12.0,18.0,2.82,27.0,140.0,1,1,-1.0
+Emergency Department,Male,39,123.9,Med-Surg ICU,admit,49,49,ALIVE,-1.0,-1.0,16.0,8.7,1.28,39.0,161.0,0,0,36.2
+Emergency Department,Male,50,83.9,Med-Surg ICU,admit,33,38,ALIVE,-1.0,-1.0,16.0,12.0,0.58,16.0,123.0,0,0,38.1
+Emergency Department,Female,75,54.4,Med-Surg ICU,admit,84,101,ALIVE,7.531,32.2,24.0,7.7,0.9,16.0,194.0,0,1,36.7
+Step-Down Unit (SDU),Female,75,60.6,Med-Surg ICU,readmit,20,37,ALIVE,-1.0,-1.0,18.0,-1.0,-1.0,-1.0,102.0,0,1,36.1
+Emergency Department,Female,76,61.23,Med-Surg ICU,admit,25,42,ALIVE,-1.0,-1.0,12.0,-1.0,-1.0,-1.0,48.0,0,0,36.2
+Emergency Department,Female,31,62.5,Med-Surg ICU,admit,19,19,ALIVE,-1.0,-1.0,16.0,-1.0,0.67,-1.0,112.0,0,0,36.7
+Step-Down Unit (SDU),Male,86,133.5,Med-Surg ICU,readmit,-1,-1,EXPIRED,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,136.0,0,0,-1.0
+Emergency Department,Male,86,117.9,Med-Surg ICU,admit,37,61,EXPIRED,-1.0,-1.0,22.0,-1.0,0.81,15.0,134.0,0,1,36.6
+Emergency Department,Male,62,54.8,Med-Surg ICU,admit,38,49,ALIVE,-1.0,-1.0,21.0,8.5,0.8,26.0,111.0,0,0,36.3
+Emergency Department,Female,60,115.7,Med-Surg ICU,admit,38,49,ALIVE,-1.0,-1.0,20.0,10.2,3.17,35.0,113.0,0,0,36.4
+Floor,Male,83,167.6,Med-Surg ICU,readmit,48,65,ALIVE,-1.0,-1.0,22.0,29.0,1.58,30.0,120.0,0,0,36.3
+Other Hospital,Male,83,70.9,Med-Surg ICU,admit,61,78,ALIVE,-1.0,-1.0,12.0,24.7,1.42,25.0,167.0,0,0,36.7
+Emergency Department,Female,76,58.4,Med-Surg ICU,admit,14,31,ALIVE,-1.0,-1.0,22.0,-1.0,-1.0,-1.0,100.0,0,0,36.6
+Emergency Department,Male,43,99.79,Med-Surg ICU,admit,12,12,ALIVE,-1.0,-1.0,16.0,-1.0,-1.0,-1.0,112.0,0,0,36.7
+Emergency Department,Male,44,70.3,Med-Surg ICU,admit,-1,-1,ALIVE,-1.0,-1.0,-1.0,-1.0,-1.0,-1.0,84.0,0,0,36.6
+Emergency Department,Male,62,59.0,Med-Surg ICU,admit,111,122,EXPIRED,-1.0,-1.0,24.0,-1.0,-1.0,-1.0,142.0,0,1,32.6
+Emergency Department,Male,79,92.8,Med-Surg ICU,admit,4,21,ALIVE,-1.0,-1.0,16.0,-1.0,-1.0,-1.0,93.0,0,0,36.6
+Emergency Department,Female,73,81.9,Med-Surg ICU,admit,85,117,ALIVE,-1.0,-1.0,16.0,10.5,1.62,46.0,155.0,0,0,36.3
+Emergency Department,Female,75,54.2,Med-Surg ICU,admit,18,35,ALIVE,-1.0,-1.0,16.0,-1.0,-1.0,-1.0,47.0,0,0,36.1
+Emergency Department,Female,70,56.2,Med-Surg ICU,admit,13,29,ALIVE,-1.0,-1.0,24.0,-1.0,0.77,11.0,104.0,0,0,36.9
+Emergency Department,Female,25,66.3,Med-Surg ICU,admit,24,24,ALIVE,-1.0,-1.0,16.0,6.5,0.71,13.0,65.0,0,0,36.6
+Emergency Department,Female,75,55.0,Med-Surg ICU,admit,29,46,ALIVE,-1.0,-1.0,18.0,10.7,0.82,19.0,99.0,0,0,36.8
+Emergency Department,Male,39,85.1,Med-Surg ICU,admit,34,34,ALIVE,-1.0,-1.0,16.0,-1.0,-1.0,-1.0,174.0,0,0,36.3
+Emergency Department,Male,40,107.5,Med-Surg ICU,admit,32,32,ALIVE,-1.0,-1.0,20.0,-1.0,-1.0,-1.0,194.0,0,0,36.7
+Emergency Department,Male,61,52.0,Med-Surg ICU,admit,56,67,ALIVE,-1.0,-1.0,37.0,-1.0,-1.0,-1.0,121.0,0,1,37.0
+Emergency Department,Female,54,,Med-Surg ICU,admit,58,63,ALIVE,7.41,40.3,38.0,9.6,1.2,20.0,171.0,0,0,37.6
+Emergency Department,Female,55,77.1,Med-Surg ICU,admit,43,48,ALIVE,-1.0,-1.0,47.0,21.0,1.4,21.0,113.0,0,0,37.1
+Emergency Department,Male,51,132.2,Med-Surg ICU,admit,29,34,ALIVE,-1.0,-1.0,41.0,-1.0,-1.0,-1.0,55.0,0,0,36.1
+Emergency Department,Male,62,108.8,Med-Surg ICU,admit,41,52,ALIVE,-1.0,-1.0,51.0,-1.0,-1.0,-1.0,147.0,0,0,36.8
+Emergency Department,Male,59,62.2,Med-Surg ICU,admit,73,78,ALIVE,7.48,33.1,45.0,18.3,2.0,123.0,151.0,0,0,36.9
+Emergency Department,Female,56,132.7,Med-Surg ICU,admit,21,26,ALIVE,-1.0,-1.0,42.0,-1.0,-1.0,-1.0,50.0,0,0,36.2
+Emergency Department,Male,57,77.1,Med-Surg ICU,admit,96,101,ALIVE,7.19,59.2,29.0,19.3,5.7,84.0,121.0,1,1,37.2
+Emergency Department,Male,23,73.2,Med-Surg ICU,admit,24,24,ALIVE,-1.0,-1.0,5.0,5.7,0.8,7.0,58.0,0,0,36.2
+Emergency Department,Male,51,103.2,Med-Surg ICU,admit,102,107,ALIVE,7.13,33.3,57.0,17.3,3.9,25.0,151.0,1,1,-1.0
+Emergency Department,Female,46,71.0,Med-Surg ICU,admit,54,59,ALIVE,7.26,39.7,10.0,21.8,1.4,44.0,100.0,1,1,37.4
+Direct Admit,Female,87,71.2,Med-Surg ICU,admit,34,58,ALIVE,-1.0,-1.0,53.0,7.7,0.8,15.0,94.0,0,0,36.7
+Emergency Department,Male,54,72.6,Med-Surg ICU,admit,40,45,ALIVE,-1.0,-1.0,33.0,12.2,1.2,13.0,106.0,0,0,36.6
+Emergency Department,Male,23,86.2,Med-Surg ICU,admit,34,34,ALIVE,-1.0,-1.0,7.0,-1.0,-1.0,-1.0,125.0,0,0,36.5
+Emergency Department,Male,60,,Med-Surg ICU,admit,65,76,ALIVE,7.19,52.0,14.0,11.3,2.8,44.0,103.0,0,0,38.6
+Emergency Department,Male,31,72.8,Med-Surg ICU,admit,30,30,ALIVE,-1.0,-1.0,4.0,5.0,0.7,5.0,109.0,0,0,37.3
+Emergency Department,Male,44,108.8,Med-Surg ICU,admit,69,69,ALIVE,7.31,49.1,6.0,11.1,3.3,22.0,54.0,0,0,36.4
+Emergency Department,Male,89,68.7,Med-Surg ICU,admit,74,98,ALIVE,-1.0,-1.0,5.0,10.9,2.2,124.0,69.0,0,0,35.6
+Emergency Department,Male,71,90.1,Med-Surg ICU,admit,62,78,EXPIRED,7.36,33.4,31.0,14.1,3.8,77.0,31.0,0,1,-1.0
+Emergency Department,Male,54,72.5,Med-Surg ICU,admit,102,107,ALIVE,7.3,34.1,41.0,24.3,1.7,29.0,113.0,1,1,38.5
+Emergency Department,Female,27,,Med-Surg ICU,admit,57,57,ALIVE,-1.0,-1.0,49.0,9.6,1.0,21.0,135.0,0,0,37.6
+Emergency Department,Male,70,89.7,Med-Surg ICU,admit,49,75,ALIVE,7.5,30.8,34.0,0.7,0.9,16.0,86.0,0,0,36.7
+Emergency Department,Male,61,95.0,Med-Surg ICU,admit,22,33,ALIVE,-1.0,-1.0,9.0,6.9,0.7,13.0,106.0,0,0,37.1
+Emergency Department,Female,54,109.1,Med-Surg ICU,admit,40,45,ALIVE,7.37,40.6,4.0,6.9,1.5,29.0,52.0,0,0,37.0
+Emergency Department,Female,27,61.9,Med-Surg ICU,admit,24,24,ALIVE,-1.0,-1.0,32.0,6.0,0.7,11.0,114.0,0,0,36.4
+Emergency Department,Female,44,70.76,Med-Surg ICU,admit,31,31,ALIVE,-1.0,-1.0,8.0,6.5,0.8,7.0,84.0,0,0,36.7
+Emergency Department,Male,62,109.3,Med-Surg ICU,admit,42,53,ALIVE,-1.0,-1.0,52.0,-1.0,-1.0,-1.0,56.0,0,1,37.0
+Emergency Department,Female,50,60.45,Med-Surg ICU,admit,23,28,ALIVE,-1.0,-1.0,7.0,11.9,0.7,7.0,93.0,0,0,36.4
+Emergency Department,Male,46,87.0,Med-Surg ICU,admit,15,20,ALIVE,-1.0,-1.0,7.0,-1.0,-1.0,-1.0,101.0,0,0,36.8
+Emergency Department,Male,25,99.79,Med-Surg ICU,admit,23,23,ALIVE,7.42,40.8,34.0,12.1,1.0,6.0,102.0,0,0,36.1
+Emergency Department,Male,60,106.1,Med-Surg ICU,admit,32,43,ALIVE,-1.0,-1.0,49.0,12.7,0.9,21.0,99.0,0,0,36.6
+Emergency Department,Female,33,72.5,Med-Surg ICU,admit,44,44,ALIVE,-1.0,-1.0,53.0,15.8,-1.0,-1.0,100.0,0,0,37.1
+Emergency Department,Female,41,59.9,Med-Surg ICU,admit,21,21,ALIVE,-1.0,-1.0,35.0,9.4,0.7,7.0,88.0,0,0,36.4
+Step-Down Unit (SDU),Male,72,,MICU,admit,125,141,EXPIRED,7.07,38.2,32.0,13.8,3.3,80.0,95.0,0,0,35.7
+Step-Down Unit (SDU),Male,53,83.0,MICU,admit,34,39,ALIVE,-1.0,-1.0,24.0,6.4,0.8,23.0,113.0,0,0,36.6
+Step-Down Unit (SDU),Male,26,49.2,Med-Surg ICU,admit,29,29,ALIVE,-1.0,-1.0,12.0,-1.0,-1.0,-1.0,116.0,0,0,37.3
+Step-Down Unit (SDU),Male,77,75.3,MICU,admit,32,49,ALIVE,-1.0,-1.0,28.0,15.72,1.5,27.0,112.0,0,1,36.0
+Step-Down Unit (SDU),Female,78,110.4,Med-Surg ICU,admit,30,47,ALIVE,-1.0,-1.0,15.0,-1.0,-1.0,-1.0,126.0,0,0,36.2
+Step-Down Unit (SDU),Female,78,63.5,Med-Surg ICU,admit,24,41,ALIVE,-1.0,-1.0,34.0,-1.0,-1.0,-1.0,108.0,0,1,37.0
