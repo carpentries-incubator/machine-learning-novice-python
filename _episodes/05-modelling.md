@@ -17,9 +17,9 @@ keypoints:
 
 ## Regression vs classification
 
-In our previous example, we predicted blood length of hospital stay from a severity of illness score using linear regression. The task of predicting a continuous variable is called a "regression". 
+In our previous example, we predicted blood length of hospital stay from a severity of illness score using linear regression. The task of predicting a continuous variable is typically referred to as a *regression*. 
 
-Our new goal is to predict the outcome (in-hospital mortality) of hospital patients. We will use a single feature for simplicity - the APACHE severity of illness score. Tasks to predict one or more classes are typically called "classification". 
+Our new goal is to predict the outcome (in-hospital mortality) of hospital patients. Predicting one or more classes is typically referred to as *classification*.  Slightly confusingly regression models can be used for both regression tasks and classification tasks. Don't let this throw you off!
 
 Recall that our function for a linear regression is:
 
@@ -27,7 +27,7 @@ $$
 \hat{y} = wX + b
 $$
 
-Our prediction target (in-hospital mortality) is denoted by $\hat{y}$ and our explanatory variables or "features" are denoted by $X$ (in our case, just APACHE score). $w$ is weight and $b$ is bias. Could we use a linear regression for our classification task? Let's try fitting a line to our outcome data.
+Our prediction target (in-hospital mortality) is denoted by $\hat{y}$ and our explanatory variables or "features" are denoted by $X$. In our case, we will use a single feature: the APACHE-IV score, another measure of severity of illness. $w$ is weight and $b$ is bias. Could we use a linear regression for our classification task? Let's try fitting a line to our outcome data.
 
 ```python
 # import the regression model
@@ -100,9 +100,9 @@ As an added benefit, we can interpret the output value as a probability. The pro
 
 ## Loss function
 
-We need to find the parameters for the best-fitting logistic model given our data. As before, we do this by defining a loss function that quantifies error. Our goal is to find the parameters of the model that minimise the error.
+We need to find the parameters for the best-fitting logistic model given our data. As before, we do this with the help of a loss function that quantifies error. Our goal is to find the parameters of the model that minimise the error.
 
-With this model, we can no longer use least squares due to its non-linear properties. Instead we compute the maximum likelihood estimate (MLE). We are quantifying our model error so that we can search our parameter space for the optimal model.
+With this model, we no longer use least squares due to the model's non-linear properties. Instead we compute the maximum likelihood estimate (MLE). As is typically the case when using machine learning packages, we don't need to code the loss function ourselves. The function is implemented as part of our machine learning package (in this case [scikit-learn](https://scikit-learn.org/stable/))
 
 Let's try again, this time with Logistic Regression.
 
