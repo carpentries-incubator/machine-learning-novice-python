@@ -37,11 +37,9 @@ Data preparation is often the most time consuming aspect of a machine learning p
 
 ## Sourcing and accessing data
 
-Sourcing and accessing data for a project may be challenging, especially in cases such as health where patient privacy must be respected. For this project, we will be using an open access subset of the eICU Collaborative Research Database, a publicly available dataset comprising deidentified physiological data collected from critically ill patients.
+Sourcing and accessing data for a project may be challenging, especially in cases such as health where patient privacy must be respected. For this project, we will be using an open access subset of the [eICU Collaborative Research Database](https://eicu-crd.mit.edu/about/eicu/), a publicly available dataset comprising deidentified physiological data collected from critically ill patients.
 
-Learning to extract data from sources such as databases and file systems is a key skill in machine learning. Familiarity with Python and Structured Query Language (SQL) will equip you well for these tasks.
-
-For simplicity, we will be working with a pre-prepared CSV file that comprises data extracted from the eICU Collaborative Research Database (Demo). 
+Learning to extract data from sources such as databases and file systems is a key skill in machine learning. Familiarity with Python and Structured Query Language (SQL) will equip you well for these tasks. For simplicity, we will be working with a pre-prepared CSV file that comprises data extracted from the [eICU Collaborative Research Database (Demo)](https://doi.org/10.13026/4mxk-na84). 
 
 ```python
 import pandas as pd
@@ -127,32 +125,6 @@ print(t1.tabulate(tablefmt = "github"))
 ```
 {: .output}
 
-## Partitioning
-
-Typically we will want to split our data into a training set and "held-out" test set. The training set is used for building our model and our test set is used for evaluation. A split of ~70% training, 30% test is common.
-
-To ensure reproducibility, we should set the random state of the splitting method. This means that Python's random number generator will produce the same "random" split in future.
-
-```python
-from sklearn.model_selection import train_test_split
-
-x = cohort.drop('actualhospitalmortality', axis=1)
-y = cohort['actualhospitalmortality']
-x_train, x_test, y_train, y_test = train_test_split(x, y , train_size = 0.7,
-                                                    random_state =  42)
-```
-
-## Data leakage
-
-Any data preparation prior to fitting the model should be carried out before partitioning. This helps us to avoid "data leakage", where knowledge of the test dataset is used to improve the model. 
-
-For example, if done prior to partitioning, both of the following steps could leak information about our test set into our training set:
-
-- Filling missing data.
-- Scaling the range of a variable.
-
-Data leakage can invalidate our results, for example by giving us an overly optimistic estimates of model performance.
-
 ## Encoding
 
 It is often the case that our data includes categorical values. In our case, for example, the binary outcome we are trying to predict - in hospital mortality - is recorded as "ALIVE" and "EXPIRED". Some models can cope with taking this text as an input, but many cannot. 
@@ -179,6 +151,32 @@ cohort[['actualhospitalmortality_enc','actualhospitalmortality']].head()
 3                            1                 EXPIRED
 4                            0                   ALIVE
 ```
+
+## Partitioning
+
+Typically we will want to split our data into a training set and "held-out" test set. The training set is used for building our model and our test set is used for evaluation. A split of ~70% training, 30% test is common.
+
+To ensure reproducibility, we should set the random state of the splitting method. This means that Python's random number generator will produce the same "random" split in future.
+
+```python
+from sklearn.model_selection import train_test_split
+
+x = cohort.drop('actualhospitalmortality', axis=1)
+y = cohort['actualhospitalmortality']
+x_train, x_test, y_train, y_test = train_test_split(x, y , train_size = 0.7,
+                                                    random_state =  42)
+```
+
+## Data leakage
+
+Any data preparation prior to fitting the model should be carried out before partitioning. This helps us to avoid "data leakage", where knowledge of the test dataset is used to improve the model. 
+
+For example, if done prior to partitioning, both of the following steps could leak information about our test set into our training set:
+
+- Filling missing data.
+- Scaling the range of a variable.
+
+Data leakage can invalidate our results, for example by giving us an overly optimistic estimates of model performance.
 
 ## Missing data
 
