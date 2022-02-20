@@ -17,6 +17,15 @@ keypoints:
 
 ---
 
+<!-- 
+TODO: reorganise. let's make the first section about the prediction task.
+
+# Guidelines and quality criteria for artificial intelligence-based prediction models in healthcare
+https://www.nature.com/articles/s41746-021-00549-7
+
+Reference OECD definition: https://oecd.ai/en/wonk/a-first-look-at-the-oecds-framework-for-the-classification-of-ai-systems-for-policymakers
+-->
+
 ## Traditional programming
 
 We are all familiar with the idea of applying rules to data to gain insights and make decisions. From our parents or teachers, for example, we learn that the normal body temperature is ~37 °C (~98.5 °F), and that higher or lower temperatures can be cause for concern.
