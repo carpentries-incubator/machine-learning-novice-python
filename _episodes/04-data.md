@@ -8,11 +8,9 @@ questions:
 - "What do we partition data at the start of a project?"
 - "What is the purpose of setting a random state when partitioning?"
 - "Should we impute missing values before or after partitioning?"
-- "What are the implications of data leakage?"
 objectives:
 - "Explore characteristics of our dataset."
 - "Partition data into training and test sets."
-- "Recognise the kind of problem that can arise with data leakage."
 - "Encode categorical values."
 - "Use scaling to pre-process features."
 keypoints:
@@ -20,7 +18,6 @@ keypoints:
 - "SQL is the tool that we use to extract data from database systems."
 - "Data is typically partitioned into training and test sets."
 - "Setting random states helps to promote reproducibility."
-- "Steps such as imputation of missing values should be done after partitioning to avoid data leakage."
 ---
 
 ## Mortality prediction
@@ -166,17 +163,6 @@ y = cohort['actualhospitalmortality']
 x_train, x_test, y_train, y_test = train_test_split(x, y , train_size = 0.7,
                                                     random_state =  42)
 ```
-
-## Data leakage
-
-Any data preparation prior to fitting the model should be carried out before partitioning. This helps us to avoid "data leakage", where knowledge of the test dataset is used to improve the model. 
-
-For example, if done prior to partitioning, both of the following steps could leak information about our test set into our training set:
-
-- Filling missing data.
-- Scaling the range of a variable.
-
-Data leakage can invalidate our results, for example by giving us an overly optimistic estimates of model performance.
 
 ## Missing data
 
