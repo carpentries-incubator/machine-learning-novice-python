@@ -197,6 +197,8 @@ plt.ylabel('Loss (squared error)')
 
 As we can see, our loss rapidly increases as predictions ($$\hat{y}$$) move away from the true values ($y$). This can mean that outliers can have a strong influence on our model fit. 
 
-So how do we minimise the loss function? We'll look at that next. 
+## Optimisation
+
+In machine learning, there is typically a training step where an algorithm such as gradient descent is used to find the optimal set of model parameters (i.e. those parameters that give the minimum possible error). This is the essence of machine learning. 
 
 {% include links.md %}
