@@ -56,7 +56,7 @@ In this introductory lesson we develop and evaluate a simple predictive model, t
 
 > ## Exercise
 > A) We have data on credit card transactions and are looking for fraudulent activity. There are no labels to indicate which transactions were fraudulent, but we believe that fraudulent transactions will have very different characteristics to "normal" transactions. Do we look for a supervised or unsupervised machine learning approach?   
-> B) We would like to predict whether or not patients will respond to a new drug that is under development based on several genetic markers. We have a large corpus of clinical trial data that includes both genetic markers of patients and their response the new drug.
+> B) We would like to predict whether or not patients will respond to a new drug that is under development based on several genetic markers. We have a large corpus of clinical trial data that includes both genetic markers of patients and their response the new drug. Do we use a supervised or unsupervised approach?
 > 
 > > ## Solution
 > > A) The prediction targets are not labelled, so an unsupervised learning approach would be appropriate. Our hope is that we can cluster transactions into "normal" and "not normal" based on the transaction profiles.  
