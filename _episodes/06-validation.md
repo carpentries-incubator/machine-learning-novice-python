@@ -82,7 +82,7 @@ Machine learning is iterative by nature. We want to improve our model, tuning an
 
 The answer is that we typically partition off part of our training set to use for validation. The "validation set" can be used to iteratively improve our model, allowing us to save our test set for the \*final\* evaluation.
 
-![Validation set](../fig/placeholder.png)
+![Validation set](../fig/training_val_set.png){: width="600px"}
 
 ## Cross validation
 
@@ -102,7 +102,7 @@ Two popular of the most popular cross-validation methods:
 
 In K-fold cross validation, "K" indicates the number of times we split our data into training/validation sets. With 5-fold cross validation, for example, we create 5 separate training/validation sets.
 
-![5-fold validation](../fig/placeholder.png)
+![5-fold validation](../fig/k_fold_cross_val.png){: width="600px"}
 
 With K-fold cross validation, we select our model to evaluate and then:
 1. Partition the training data into a training set and a validation set. An 80%, 20% split is common.
