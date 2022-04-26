@@ -96,14 +96,14 @@ If you installed Anaconda, you can launch a notebook in two ways:
 > 3\. Launch the notebook by clicking on the "New" button on the right and selecting "Python 3"
 > from the drop-down menu:
 > ![Anaconda Navigator Notebook directory](
-{{ page.root }}{% link fig/jupyter-notebook-launch-notebook2.png %})
+{{ page.root }}{% link fig/colab_files.png %})
 {: .solution}
 
 ## Option B: Cloud Notebook
 
 Colaboratory, or "Colab", is a cloud service that allows you to run a Jupyter-like Notebook in a web browser. To open a notebook, visit the [Colaboratory website][google-colab]. You can upload your datasets using the "Files" panel on the left side of the page.
 
-![File upload](fig/colab_files.png){: width="600px"}
+![Google Colab]({{ page.root }}{% link fig/colab_files.png %})
 
 
 [anaconda-install]: https://docs.anaconda.com/anaconda/install
