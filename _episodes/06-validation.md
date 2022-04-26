@@ -42,8 +42,7 @@ outcome = ['actualhospitalmortality_enc']
 # partition data into training and test sets
 X = cohort[features]
 y = cohort[outcome]
-x_train, x_test, y_train, y_test = train_test_split(X, y , train_size = 0.7,
-                                                    random_state =  42)
+x_train, x_test, y_train, y_test = train_test_split(X, y, train_size = 0.7, random_state = 42)
 
 # restructure data for input into model
 x_train = x_train.values.reshape((len(x_train.values), 1))
@@ -74,7 +73,7 @@ Accuracy on test set: 0.82
 ```
 {: .output}
 
-Not bad! There was a slight drop in performance on our test set, but that is to be expected. We now want to tweak our model to see if we can improve the accuracy. Adding features might help?
+Not bad! There was a slight drop in performance on our test set, but that is to be expected.
 
 ## Validation set
 

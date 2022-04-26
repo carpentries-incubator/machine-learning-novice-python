@@ -45,7 +45,7 @@ cohort = pd.read_csv('./data/example_los.csv')
 cohort.head()
 ```
 
-GOSSIS score is our feature (X) and number of days in hospital is our target (y). In most tasks, we have multiple features rather than a single feature. Let's take a look at the data by plotting our feature against the target.
+GOSSIS score is our feature (X) and number of days in hospital is our target (y). Let's take a look at the data by plotting our feature against the target.
 
 ```python
 # plot the data
@@ -57,17 +57,17 @@ ax.set_title('Severity score (X) vs Length of stay in hospital, days (y)');
 
 ![Severity score (X) vs Length of stay in hospital, days](../fig/gossis_vs_los.png){: width="600px"}
 
-Our goal is to predict how long patients will stay in hospital for a given severity score. We already have a set of training data with input features (X) and known prediction targets (y). This is the perfect job for supervised machine learning. We say "supervised" because our training data is able to learn from examples with known targets or labels. 
+Our goal is to predict how long patients will stay in hospital for a given severity score. We already have a set of training data with input features (X) and known prediction targets (y). 
 
 ## Linear regression
 
-We will use a linear regression, a type of model borrowed from statistics that has all of the hallmarks of machine learning (so let's call it a machine learning model!). Given that we are trying to think in terms of machine learning, we'll use a notation that may differ slightly from the one in your statistics classes:
+We will use a linear regression, a type of model borrowed from statistics that has all of the hallmarks of machine learning (so let's call it a machine learning model!), which can be written as:
 
 $$
 \hat{y} = wX + b
 $$
 
-Our prediction target (length of stay) is denoted by $\hat{y}$ (pronounced "y hat") and our explanatory variable (or "feature") is denoted by $X$. $w$ is weight and $b$ is bias. These are the parameters of the model that we would like to learn from the training data. 
+Our prediction target (length of stay) can be denoted by $\hat{y}$ (pronounced "y hat") and our explanatory variable (or "feature") denoted by $X$. There are two parameters of the model that we would like to learn from the training data - $w$, weight and $b$, bias. 
 
 While our model has only a single feature ("severity score"), in most cases we would be working with multiple features. Each feature adds a dimension to our feature space. With a single feature and a single outcome, we can model the relationship in two dimensions. With two features, we move into 3 dimensions, and so on. 
 

@@ -101,10 +101,10 @@ print(y_test[:12])
 
 It is common practice to arrange these outcome categories into a "confusion matrix", which is a grid that records our predictions against the ground truth. For a binary outcome, confusion matrices are organised as follows:
 
-|                        | Positive (actual)   | Negative  (actual)   |
+|                        | Negative (predicted)   | Positive  (predicted)   |
 | :---                   |    :----:           |          :----:      |
-| Positive (predicted)   | **TP**              | FP                   |
-| Negative (predicted)   | FN                  | **TN**               |
+| Negative (actual)   | **TN**              | FP                   |
+| Positive (actual)   | FN                  | **TP**               |
 
 The sum of the cells is the total number of predictions. The diagonal from top left to bottom right indicates correct predictions. Let's visualize the results of the model in the form of a confusion matrix:
 

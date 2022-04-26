@@ -106,9 +106,7 @@ print(t1.tabulate(tablefmt = "github"))
 
 ## Encoding
 
-It is often the case that our data includes categorical values. In our case, for example, the binary outcome we are trying to predict - in hospital mortality - is recorded as "ALIVE" and "EXPIRED". Some models can cope with taking this text as an input, but many cannot. 
-
-For our logistic regression model, we will need to encode the categorical values as numerical values. We will encode these labels by converting them to numbers. In our case, 0 for "ALIVE" and 1 for "EXPIRED". This is usually referred to as "label encoding".
+It is often the case that our data includes categorical values. In our case, for example, the binary outcome we are trying to predict - in hospital mortality - is recorded as "ALIVE" and "EXPIRED". Some models can cope with taking this text as an input, but many cannot. We can use label encoding to convert the categorical values to numerical representations.
 
 ```python
 # check current type
@@ -151,8 +149,7 @@ from sklearn.model_selection import train_test_split
 
 x = cohort.drop('actualhospitalmortality', axis=1)
 y = cohort['actualhospitalmortality']
-x_train, x_test, y_train, y_test = train_test_split(x, y , train_size = 0.7,
-                                                    random_state =  42)
+x_train, x_test, y_train, y_test = train_test_split(x, y, train_size = 0.7, random_state = 42)
 ```
 
 ## Missing data
