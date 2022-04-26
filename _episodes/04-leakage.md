@@ -51,13 +51,13 @@ The following abstract is taken from [a 2018 paper](https://www.jmir.org/2018/1/
 > ## Exercise
 > A) What is the prediction target?  
 > B) What kind of algorithm is used in the study?  
-> C) What performance metric is reported in the results?
+> C) What performance metric is reported in the results?  
 > D) How many features were included in the model? (Hint: see Appendix 3 in the paper)
 > 
 > > ## Solution
 > > A) The prediction target is "hypertension within the following year."  
 > > B) The study uses XGBoost, a tree based model.  
-> > C) The abstract reports AUC (Area under the Receiver Operating Characteristic Curve.
+> > C) The abstract reports AUC (Area under the Receiver Operating Characteristic Curve.  
 > > D) Appendix 3 includes a list of features. There are 80 in total.
 > {: .solution}
 {: .challenge}
@@ -71,11 +71,11 @@ In [a subsequent paper]((https://www.jmir.org/2018/1/e22/PDF) ), entitled Data L
 > *By including the use of antihypertensive drugs as predictors for hypertension incidence in the following year, Dr Ye and colleagues’work opens the possibility that the machine learning algorithm will focus on predicting those already with hypertension but did not have this information on their medical record at baseline. ... just one variable (the use of a hypertension drug) is sufficient for physicians to infer the presence of hypertension.*
 
 > ## Exercise
-> A) What are lisinopril, hydrochlorothiazide, enalapril maleate, amlodipine besylate, and losartan potassium?
+> A) What are lisinopril, hydrochlorothiazide, enalapril maleate, amlodipine besylate, and losartan potassium?  
 > B) Why is it problematic that these drugs are included as features in the model?
 > 
 > > ## Solution
-> > A) They are drugs that are prescribed to people with hypertension.
+> > A) They are drugs that are prescribed to people with hypertension.  
 > > B) The fact that patients were taking the drugs suggests that hypertension was already known.
 > {: .solution}
 {: .challenge}
