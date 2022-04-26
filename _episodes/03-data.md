@@ -137,6 +137,7 @@ cohort['gender'] = cohort['gender'].astype('category')
 cohort['gender'] = cohort['gender'].cat.codes
 ```
 
+Another popular encoding that you will come across in machine learning is "one hot encoding". In one hot encoding, categorical variables are represented as a binary column for each category. The "one hot" refers to the fact that the category can flip between "hot" (active, 1) or inactive (0). In the example above, `actualhospitalmortality` would be encoded as two columns: `ALIVE` and `EXPIRED`, each containing a list of 0s and 1s.
 
 ## Partitioning
 
