@@ -5,6 +5,7 @@ exercises: 10
 questions:
 - "What is machine learning?"
 - "What is the relationship between machine learning, AI, and statistics?"
+- "What is meant by supervised learning?"
 
 objectives:
 - "Recognise what is meant by machine learning."
