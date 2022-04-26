@@ -15,8 +15,10 @@ objectives:
 
 keypoints:
 - "Loss functions allow us to define a good model."
-- "Mean squared error is an example of a loss function."
 - "$y$ is a known target. $yhat$ is a prediction."
+- "Mean squared error is an example of a loss function."
+- "After defining a loss function, we search for the optimal solution in a process known as 'training'."
+- "Optimisation is at the heart of machine learning."
 ---
 
 ## How do machines learn?
@@ -111,6 +113,18 @@ def model(weight, X, bias):
     return np.dot(weight, X) + bias
 ```
 
+> ## Exercise
+> A) What is typically represented by $$\hat{y}$$ in a model?  
+> B) If a model is "high-dimensional", what does this say about the number of predictor variables?   
+> C) What is the risk of including too many predictor variables in a model?  
+> 
+> > ## Solution
+> > A) $$\hat{y}$$ (pronounced y hat!) represents the predicted value.    
+> > B) A high-dimensional model includes a large number of predictor variables.  
+> > C) Including a high-number of predictor variables may increase the risk of overfitting.  
+> {: .solution}
+{: .challenge}
+
 ## Finding the best model
 
 To allow us to make the best predictions, we would like to find a weight and bias that give us $\hat{y}$ values that are as close as possible to the true $y$ values in the training data. We'll start by guesstimating values for these two parameters.
@@ -131,13 +145,25 @@ ax.plot(x, y_hat, color='red');
 
 ![Severity score (X) vs Length of stay in hospital, days](../fig/gossis_vs_los_line.png){: width="600px"}
 
-How did we do? Can you do better?
+How did we do?
+
+> ## Exercise
+> A) Have a play around with the model coefficients. Can you find a better fit?   
+> B) How would you describe your approach for finding the optimal values?
+> 
+> > ## Solution
+> > A) Slightly increasing the bias (y-axis intercept) and reducing the value of weight (gradient) should lead to a better fitted model.   
+> > B) Most likely you used some form of trial and error!
+> {: .solution}
+{: .challenge}
 
 ## Loss functions
 
-Fitting the line of best fit to the data means knowing what we mean by "best". We need to have some way of quantifying the difference between a "good" model (capable of making useful predictions) vs a "bad" model (not capable of making useful predictions). We typically define a function that quantifies goodness of fit. 
+Fitting the line of best fit means knowing what we mean by "best". We need to have some way of quantifying the difference between a "good" model (capable of making useful predictions) vs a "bad" model (not capable of making useful predictions). 
 
-This is our loss function (you will hear "objective function", "error function", and "cost function" used in a similar way). Mean squared error is one example of a loss function. We measure the distance between each known target value ($y$) and the position of our line, and then we take the square.
+We typically define a function that quantifies goodness of fit.  This is our loss function (you will hear "objective function", "error function", and "cost function" used in a similar way). 
+
+Mean squared error is one example of a loss function. We measure the distance between each known target value ($y$) and the position of our line, and then we take the square.
 
 ```python
 # plot the data
@@ -164,7 +190,7 @@ $$
 
 $mse$ is the Mean Squared Error. $y_{i}$ is the actual value and $$\hat{y}_{i}$$ is the predicted value. $\sum_{}$ is notation to indicate that we are taking the sum of the difference. $n$ is the total number of observations, so $$\frac{1}{n}$$ indicates that we are taking the mean.
 
-Let's implement this in our code:
+We could implement this in our code as follows:
 
 ```python
 def loss(y, y_hat):
@@ -182,7 +208,7 @@ $$
 argmin\frac{1}{n}\sum_{i=1}^{n}(y_{i} - \hat{y}_{i})^{2}
 $$
 
-Before going further, let's stop and look at what this loss function means. We'll plot the squared error for a range of values to demonstrate how loss scales as the difference between $y$ and $$\hat{y}$$ increases.
+Let's stop and look at what this loss function means. We'll plot the squared error for a range of values to demonstrate how loss scales as the difference between $y$ and $$\hat{y}$$ increases.
 
 ```python
 x = np.arange(-50, 50, 0.05)
@@ -195,10 +221,30 @@ plt.ylabel('Loss (squared error)')
 
 ![Mean squared error](../fig/mean_squared_error.png){: width="600px"}
 
-As we can see, our loss rapidly increases as predictions ($$\hat{y}$$) move away from the true values ($y$). This can mean that outliers can have a strong influence on our model fit. 
+As we can see, our loss rapidly increases as predictions ($$\hat{y}$$) move away from the true values ($y$). The result is that outliers have a strong influence on our model fit. 
 
 ## Optimisation
 
-In machine learning, there is typically a training step where an algorithm such as gradient descent is used to find the optimal set of model parameters (i.e. those parameters that give the minimum possible error). This is the essence of machine learning. 
+In machine learning, there is typically a training step where an algorithm is used to find the optimal set of model parameters (i.e. those parameters that give the minimum possible error). This is the essence of machine learning!
+
+There are many approaches to optimisation. [Gradient descent](https://en.wikipedia.org/wiki/Gradient_descent) is a popular approach. In gradient descent we take steps in the opposite direction of the gradient of a function, seeking the lowest point (i.e. the lowest error).
+
+In supervised learning, we seek an optimal set of parameters that minimise the error for our known prediction targets. In unsupervised learning, we seek an optimal set of clusters or separation of data points. 
+
+> ## Exercise
+> A) What does a loss function quantify?  
+> B) What is an example of a loss function?   
+> C) What are some other names used for loss functions?  
+> D) What is happening when a model is trained?  
+> 
+> > ## Solution
+> > A) A loss function quantifies the goodness of fit of a model (i.e. how closely its predictions match the known targets).  
+> > B) One example of a loss function is mean squared error (M.S.E.).  
+> > C) Objective function, error function, and cost function.  
+> > D) When a model is trained, we are attempting to find the optimal model parameters in process known as "optimisation".  
+> {: .solution}
+{: .challenge}
+
+Now that we've touched on how machines learn, we'll tackle the problem of predicting the outcome of patients admitted to intensive care units in hospitals across the United States.
 
 {% include links.md %}

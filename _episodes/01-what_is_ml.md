@@ -11,10 +11,11 @@ objectives:
 - "Have an appreciation of the difference between supervised and unsupervised learning."
 
 keypoints:
+- "Machine learning borrows heavily from fields such as statistics and computer science."
 - "In machine learning, models learn rules from data."
 - "In supervised learning, the target in our training data is labelled."
-- "Machine learning borrows heavily from fields such as statistics and computer science."
 - "A.I. has become a synonym for machine learning."
+- "A.G.I. is the loftier goal of achieving human-like intelligence."
 
 ---
 
@@ -53,10 +54,12 @@ Over the course of four half-day lessons, we will explore key concepts in machin
 In this introductory lesson we develop and evaluate a simple predictive model, touching on some of the core concepts and techniques that we come across in machine learning projects. In later lessons, we take a deeper dive into two popular families of machine learning models - decision trees and artificial neural networks. We then finish with a focus on what it means to be a responsible practitioner of machine learning. 
 
 > ## Exercise
-> A) Question
+> A) We have data on credit card transactions and are looking for fraudulent activity. There are no labels to indicate which transactions were fraudulent, but we believe that fraudulent transactions will have very different characteristics to "normal" transactions. Do we look for a supervised or unsupervised machine learning approach?   
+> B) We would like to predict whether or not patients will respond to a new drug that is under development based on several genetic markers. We have a large corpus of clinical trial data that includes both genetic markers of patients and their response the new drug.
 > 
 > > ## Solution
-> > A) Solution
+> > A) The prediction targets are not labelled, so an unsupervised learning approach would be appropriate. Our hope is that we can cluster transactions into "normal" and "not normal" based on the transaction profiles.  
+> > B) We have both genetic markers and known outcomes, so in this case supervised learning is appropriate.
 > {: .solution}
 {: .challenge}
 
