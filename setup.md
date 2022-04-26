@@ -99,11 +99,12 @@ If you installed Anaconda, you can launch a notebook in two ways:
 {{ page.root }}{% link fig/jupyter-notebook-launch-notebook2.png %})
 {: .solution}
 
-&nbsp; <!-- vertical spacer -->
-
 ## Option B: Cloud Notebook
 
-Colaboratory, or "Colab", is a cloud service that allows you to run a Jupyter-like Notebook in a web browser. To open a notebook, visit the [Colaboratory website][google-colab]
+Colaboratory, or "Colab", is a cloud service that allows you to run a Jupyter-like Notebook in a web browser. To open a notebook, visit the [Colaboratory website][google-colab]. You can upload your datasets using the "Files" panel on the left side of the page.
+
+![File upload](../fig/colab_files.png){: width="600px"}
+
 
 [anaconda-install]: https://docs.anaconda.com/anaconda/install
 [anaconda-instructions]: https://carpentries.github.io/workshop-template/#python
