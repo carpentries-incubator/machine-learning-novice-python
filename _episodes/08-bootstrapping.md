@@ -86,7 +86,7 @@ plt.xlabel("Accuracy")
 plt.show()
 ```
 
-![Bootstrapped accuracy](../fig/section8-fig1.jpg){: width="600px"}
+![Bootstrapped accuracy](../fig/section8-fig1.png){: width="600px"}
 
 We can now take the mean accuracy across the bootstrap samples, and compute confidence intervals. There are several different approaches to computing the confidence interval. We will use the percentile method, a simpler approach that does not require our sampling distribution to be normally distributed.
 
@@ -115,7 +115,7 @@ print(f"Model accuracy is reported on the test set. 1000 bootstrapped samples "
 
 ```
 Model accuracy is reported on the test set. 1000 bootstrapped samples were used to calculate 95% confidence intervals.
-Median accuracy is 0.91 with a 95% a confidence interval of [0.85,0.98].
+Median accuracy is 0.86 with a 95% a confidence interval of [0.80,0.91].
 ```
 {: .output}
 
@@ -131,7 +131,7 @@ plt.axvline(upper_ci,0, 14, linestyle="--", color="red")
 plt.show()
 ```
 
-![Bootstrapped accuracy with confidence](../fig/section8-fig2.jpg){: width="600px"}
+![Bootstrapped accuracy with confidence](../fig/section8-fig2.png){: width="600px"}
 
 Once an interval is calculated, it may or may not contain the true value of the unknown parameter. A 95% confidence level does \*not\* mean that there is a 95% probability that the population parameter lies within the interval.
 

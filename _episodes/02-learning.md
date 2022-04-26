@@ -103,8 +103,6 @@ $$
 In code, we can write our model as follows:
 
 ```python
-import numpy as np
-
 def model(weight, X, bias):
     """
     Linear regression model: y_hat = wX + b. Takes array of x-values and

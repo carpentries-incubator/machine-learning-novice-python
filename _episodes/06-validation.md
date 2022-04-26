@@ -69,8 +69,8 @@ print(f'Accuracy on test set: {acc_test:.2f}')
 ```
 
 ```
-Accuracy on training set: 0.91
-Accuracy on test set: 0.86
+Accuracy on training set: 0.86
+Accuracy on test set: 0.82
 ```
 {: .output}
 
@@ -112,7 +112,7 @@ With K-fold cross validation, we select our model to evaluate and then:
 
 When creating our training and test sets, we needed to be careful to avoid data leaks. The same applies when creating training and validation sets. We can use a `pipeline` object to help manage this issue.
 
-```
+```python
 from numpy import mean, std
 from sklearn.model_selection import cross_val_score, RepeatedStratifiedKFold
 from sklearn.preprocessing import MinMaxScaler
@@ -139,7 +139,7 @@ print('Cross-validation accuracy, mean (std): %.2f (%.2f)' % (mean(scores)*100, 
 ```
 
 ```
-Cross-validation accuracy, mean (std): 83.77 (1.63)
+Cross-validation accuracy, mean (std): 81.53 (3.31)
 ```
 {: .output}
 

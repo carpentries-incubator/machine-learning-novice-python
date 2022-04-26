@@ -60,22 +60,24 @@ y_hat_test_proba = reg.predict_proba(x_test)
 Each prediction is assigned a probability of a positive class. For example, the first 10 probabilities are:
 
 ```python
-print(y_hat_test_proba[:,1][:9])
+probs = y_hat_test_proba[:,1][:12]
+rounded_probs = [round(x,2) for x in probs]
+print(rounded_probs)
 ```
 
 ```
-[0.04 0.33 0.08 0.02 0.37 0.09 0.28 0.54 0.11]
+[0.09, 0.11, 0.23, 0.21, 0.23, 0.21, 0.19, 0.03, 0.2, 0.67, 0.54, 0.72]
 ```
 {: .output}
 
 These probabilities correspond to the following predictions, either a "0" ("ALIVE") or a 1 ("EXPIRED"):
 
 ```python
-print(y_hat_test[:9])
+print(y_hat_test[:12])
 ```
 
 ```
-[0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 0 0 0 1 1 1]
 ```
 {: .output}
 
@@ -87,11 +89,11 @@ In comparison with the known outcomes, we can put each prediction into one of th
 - False negative: we predict "0" ("EXPIRED") and the true outcome is "1".
 
 ```python
-print(y_test[:9])
+print(y_test[:12])
 ```
 
 ```
-[0 0 0 0 0 0 0 1 0]
+[0 0 0 0 0 0 1 0 0 0 0 0]
 ```
 {: .output}
 
@@ -112,7 +114,7 @@ from sklearn import metrics
 confusion = metrics.confusion_matrix(y_test, y_hat_test)
 
 class_names=cohort['actualhospitalmortality'].cat.categories
-disp = ConfusionMatrixDisplay.from_estimator(
+disp = metrics.ConfusionMatrixDisplay.from_estimator(
     reg, x_test, y_test, display_labels=class_names,
     cmap=plt.cm.Blues)
 
@@ -125,7 +127,9 @@ We have two columns and rows because we have a binary outcome, but you can also 
 
 ## Accuracy
 
-As we know, accuracy is the overall proportion of correct predictions. Think of a dartboard. How many shots did we take? How many did we hit? Divide one by the other and that's the accuracy. This can be written as:
+Accuracy is the overall proportion of correct predictions. Think of a dartboard. How many shots did we take? How many did we hit? Divide one by the other and that's the accuracy. 
+
+Accuracy can be written as:
 
 $$
 Accuracy = \frac{TP+TN}{TP+TN+FP+FN}
@@ -139,7 +143,7 @@ print(f"Accuracy (model) = {acc:.2f}")
 ```
 
 ```
-Accuracy (model) = 0.86
+Accuracy (model) = 0.82
 ```
 {: .output}
 
@@ -152,7 +156,7 @@ print(f"Accuracy (zeros) = {acc:.2f}")
 ```
 
 ```
-Accuracy (zeros) = 0.89
+Accuracy (zeros) = 0.92
 ```
 {: .output}
 
@@ -168,7 +172,7 @@ $$
 Sensitivity = Recall = \frac{TP}{TP+FN}
 $$
 
-Because an model that calls "1" for everything has perfect sensitivity, this measure is not enough on its own. Alongside sensitivity, therefore, we often report on specificity.
+Because a model that calls "1" for everything has perfect sensitivity, this measure is not enough on its own. Alongside sensitivity we often report on specificity.
 
 ## Specificity
 
@@ -188,6 +192,6 @@ metrics.plot_roc_curve(reg, x_test, y_test)
 
 An AUROC of 0.5 is terrible and an AUROC of 1.0 is perfect. An AUROC of 0.9 tells us that the 90% of times our model will assign a higher risk to a randomly selected patient with an event than to a randomly selected patient without an event
 
-![AUROC](../fig/section7-fig3.jpg){: width="600px"}
+![AUROC](../fig/section7-fig3.png){: width="600px"}
 
 {% include links.md %}

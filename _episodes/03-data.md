@@ -22,19 +22,21 @@ keypoints:
 
 ## Mortality prediction
 
-Machine learning helps us to find patterns in data, so sourcing and pre-processing the right data is key. Unsuitable or poorly managed data will lead to a poor project outcome, regardless of the modelling approach.
-
-For the rest of this lesson, we will develop a model for predicting the outcome of critical care patients using physiological data available on the first day of admission to the intensive care unit.
-
-Intensive care units are home to sophisticated monitoring systems, helping carers to support the lives of the sickest patients within a hospital. 
+Intensive care units are home to sophisticated monitoring systems, helping carers to support the lives of the sickest patients within a hospital. These monitoring systems produce large volumes of data that could be used to improve patient care.
 
 ![Patient in the ICU](../fig/icu_patient.png){: width="600px"}
+
+There is benefit in being able to predict the outcome of patients, for example for resource planning and to assist with family discussions. This is a task that is well-suited to machine learning.
+
+For the remainder of this lesson, we will develop a model for predicting the outcome of critical care patients using physiological data available on the first day of admission to the intensive care unit.
 
 Data preparation is often the most time consuming aspect of a machine learning project. In this section, we will touch on some common themes in data preparation.
 
 ## Sourcing and accessing data
 
-Sourcing and accessing data for a project may be challenging, especially in cases such as health where patient privacy must be respected. For this project, we will be using an open access subset of the [eICU Collaborative Research Database](https://eicu-crd.mit.edu/about/eicu/), a publicly available dataset comprising deidentified physiological data collected from critically ill patients.
+Machine learning helps us to find patterns in data, so sourcing and pre-processing the right data is key. Unsuitable or poorly managed data will lead to a poor project outcome, regardless of the modelling approach.
+
+For this project, we will be using an open access subset of the [eICU Collaborative Research Database](https://eicu-crd.mit.edu/about/eicu/), a publicly available dataset comprising deidentified physiological data collected from critically ill patients.
 
 Learning to extract data from sources such as databases and file systems is a key skill in machine learning. Familiarity with Python and Structured Query Language (SQL) will equip you well for these tasks. For simplicity, we will be working with a pre-prepared CSV file that comprises data extracted from the [eICU Collaborative Research Database (Demo)](https://doi.org/10.13026/4mxk-na84). 
 
@@ -42,7 +44,7 @@ Learning to extract data from sources such as databases and file systems is a ke
 import pandas as pd
 
 # load the data
-cohort = pd.read_csv('./data/eicu_cohort.csv')
+cohort = pd.read_csv('./eicu_cohort.csv')
 cohort.head()
 ```
 
@@ -53,12 +55,10 @@ For reference, the query used to extract the dataset is outlined below. Briefly,
 - `WHERE` certain conditions are met.
 
 ```sql
-SELECT p.unitadmitsource, p.gender, SAFE_CAST(p.age as int64) as age, p.admissionweight,
-       a.actualiculos, a.unabridgedhosplos, p.unittype, p.unitstaytype, a.acutephysiologyscore,
-       p.dischargeweight, p.admissionheight, a.apachescore, a.actualhospitalmortality,
-       av.heartrate, av.meanbp, av.creatinine, av.bun, av.temperature, av.respiratoryrate,
-       av.pco2, av.pao2, av.ph, av.wbc, av.vent, av.hematocrit, a.unabridgedunitlos, 
-       a.predictedicumortality, a.apachescore, a.actualicumortality, a.predictediculos
+SELECT p.gender, SAFE_CAST(p.age as int64) as age, p.admissionweight,
+       a.unabridgedhosplos, a.acutephysiologyscore, a.apachescore, a.actualhospitalmortality,
+       av.heartrate, av.meanbp, av.creatinine, av.temperature, av.respiratoryrate,
+       av.wbc, p.admissionheight
 FROM `physionet-data.eicu_crd_demo.patient` p
 INNER JOIN `physionet-data.eicu_crd_demo.apachepatientresult` a
 ON p.patientunitstayid = a.patientunitstayid
@@ -69,11 +69,12 @@ WHERE apacheversion LIKE 'IVa'
 
 ## Knowing your data
 
-Before moving ahead on a project, it is important to understand the data that we are working with. Having someone with domain knowledge - and ideally first hand knowledge of the data collection process - helps us to design a sensible task and to use data effectively.
+Before moving ahead on a project, it is important to understand the data. Having someone with domain knowledge - and ideally first hand knowledge of the data collection process - helps us to design a sensible task and to use data effectively.
 
 Summarizing data is an important first step. We will want to know aspects of the data such as: extent of missingness; data types; numbers of observations. One common step is to view summary characteristics.
 
 ```python
+!pip install tableone
 from tableone import tableone
 
 # view summary characteristics
@@ -82,43 +83,24 @@ print(t1.tabulate(tablefmt = "github"))
 ```
 
 ```
-|                                        |                      | Missing   | Overall      | ALIVE        | EXPIRED      |
-|----------------------------------------|----------------------|-----------|--------------|--------------|--------------|
-| n                                      |                      |           | 117          | 98           | 19           |
-| unitadmitsource, n (%)                 | Direct Admit         | 1         | 12 (10.3)    | 12 (12.4)    |              |
-|                                        | Emergency Department |           | 53 (45.7)    | 41 (42.3)    | 12 (63.2)    |
-|                                        | Floor                |           | 19 (16.4)    | 13 (13.4)    | 6 (31.6)     |
-|                                        | Operating Room       |           | 28 (24.1)    | 28 (28.9)    |              |
-|                                        | Recovery Room        |           | 2 (1.7)      | 2 (2.1)      |              |
-|                                        | Step-Down Unit (SDU) |           | 2 (1.7)      | 1 (1.0)      | 1 (5.3)      |
-| gender, n (%)                          | Female               | 0         | 60 (51.3)    | 51 (52.0)    | 9 (47.4)     |
-|                                        | Male                 |           | 57 (48.7)    | 47 (48.0)    | 10 (52.6)    |
-| age, mean (SD)                         |                      | 6         | 60.4 (14.5)  | 59.3 (14.4)  | 66.3 (13.8)  |
-| admissionweight, mean (SD)             |                      | 4         | 87.5 (31.0)  | 90.3 (32.4)  | 72.9 (16.2)  |
-| unittype, n (%)                        | CCU-CTICU            | 0         | 12 (10.3)    | 12 (12.2)    |              |
-|                                        | CSICU                |           | 3 (2.6)      | 3 (3.1)      |              |
-|                                        | CTICU                |           | 10 (8.5)     | 10 (10.2)    |              |
-|                                        | Cardiac ICU          |           | 12 (10.3)    | 4 (4.1)      | 8 (42.1)     |
-|                                        | MICU                 |           | 7 (6.0)      | 6 (6.1)      | 1 (5.3)      |
-|                                        | Med-Surg ICU         |           | 68 (58.1)    | 58 (59.2)    | 10 (52.6)    |
-|                                        | Neuro ICU            |           | 3 (2.6)      | 3 (3.1)      |              |
-|                                        | SICU                 |           | 2 (1.7)      | 2 (2.0)      |              |
-| unitstaytype, n (%)                    | admit                | 0         | 111 (94.9)   | 93 (94.9)    | 18 (94.7)    |
-|                                        | readmit              |           | 4 (3.4)      | 3 (3.1)      | 1 (5.3)      |
-|                                        | transfer             |           | 2 (1.7)      | 2 (2.0)      |              |
-| acutephysiologyscore, mean (SD)        |                      | 0         | 52.0 (22.9)  | 47.4 (17.9)  | 75.7 (30.9)  |
-| apachescore, mean (SD)                 |                      | 0         | 63.1 (24.9)  | 57.4 (19.2)  | 92.4 (30.6)  |
-| ph, mean (SD)                          |                      | 0         | 7.4 (0.1)    | 7.4 (0.1)    | 7.3 (0.1)    |
-| pco2, mean (SD)                        |                      | 0         | 42.9 (12.7)  | 43.2 (12.2)  | 41.1 (15.4)  |
-| respiratoryrate, mean (SD)             |                      | 0         | 29.7 (14.9)  | 29.1 (14.8)  | 33.0 (15.3)  |
-| wbc, mean (SD)                         |                      | 0         | 10.3 (8.4)   | 10.7 (8.0)   | 8.1 (10.3)   |
-| creatinine, mean (SD)                  |                      | 0         | 0.9 (1.6)    | 0.8 (1.5)    | 1.5 (2.0)    |
-| bun, mean (SD)                         |                      | 0         | 20.6 (24.2)  | 18.5 (23.6)  | 31.7 (24.6)  |
-| heartrate, mean (SD)                   |                      | 0         | 105.1 (31.0) | 103.2 (28.9) | 115.0 (39.6) |
-| intubated, mean (SD)                   |                      | 0         | 0.3 (0.5)    | 0.3 (0.5)    | 0.3 (0.5)    |
-| vent, mean (SD)                        |                      | 0         | 0.0 (0.0)    | 0.0 (0.0)    | 0.0 (0.0)    |
-| temperature, mean (SD)                 |                      | 0         | 35.8 (4.9)   | 36.2 (3.9)   | 34.0 (8.5)   |
-| actualhospitalmortality_enc, mean (SD) |                      | 0         | 0.2 (0.4)    | 0.0 (0.0)    | 1.0 (0.0)    |
+|                                 |         | Missing   | Overall      | ALIVE        | EXPIRED      |
+|---------------------------------|---------|-----------|--------------|--------------|--------------|
+| n                               |         |           | 235          | 195          | 40           |
+| gender, n (%)                   | Female  | 0         | 116 (49.4)   | 101 (51.8)   | 15 (37.5)    |
+|                                 | Male    |           | 118 (50.2)   | 94 (48.2)    | 24 (60.0)    |
+|                                 | Unknown |           | 1 (0.4)      |              | 1 (2.5)      |
+| age, mean (SD)                  |         | 9         | 61.9 (15.5)  | 60.5 (15.8)  | 69.3 (11.5)  |
+| admissionweight, mean (SD)      |         | 5         | 87.6 (28.0)  | 88.6 (28.8)  | 82.3 (23.3)  |
+| unabridgedhosplos, mean (SD)    |         | 0         | 9.2 (8.6)    | 9.6 (7.5)    | 6.9 (12.5)   |
+| acutephysiologyscore, mean (SD) |         | 0         | 59.9 (28.1)  | 54.5 (23.1)  | 86.7 (34.7)  |
+| apachescore, mean (SD)          |         | 0         | 71.2 (30.3)  | 64.6 (24.5)  | 103.5 (34.9) |
+| heartrate, mean (SD)            |         | 0         | 108.7 (33.1) | 107.9 (30.6) | 112.9 (43.2) |
+| meanbp, mean (SD)               |         | 0         | 93.2 (47.0)  | 92.1 (45.4)  | 98.6 (54.5)  |
+| creatinine, mean (SD)           |         | 0         | 1.0 (1.7)    | 0.9 (1.7)    | 1.7 (1.6)    |
+| temperature, mean (SD)          |         | 0         | 35.2 (6.5)   | 36.1 (3.9)   | 31.2 (12.4)  |
+| respiratoryrate, mean (SD)      |         | 0         | 30.7 (15.2)  | 29.9 (15.1)  | 34.3 (15.6)  |
+| wbc, mean (SD)                  |         | 0         | 10.5 (8.4)   | 10.7 (8.2)   | 9.7 (9.7)    |
+| admissionheight, mean (SD)      |         | 2         | 168.0 (12.8) | 167.7 (13.4) | 169.4 (9.1)  |
 ```
 {: .output}
 
@@ -137,7 +119,7 @@ cohort['actualhospitalmortality'] = cohort['actualhospitalmortality'].astype('ca
 
 # add the encoded value to a new column
 cohort['actualhospitalmortality_enc'] = cohort['actualhospitalmortality'].cat.codes
-cohort[['actualhospitalmortality_enc','actualhospitalmortality']].head()
+cohort[['actualhospitalmortality_enc','actualhospitalmortality']].tail(7)
 ```
 
 ```
@@ -146,8 +128,17 @@ cohort[['actualhospitalmortality_enc','actualhospitalmortality']].head()
 1                            0                   ALIVE
 2                            0                   ALIVE
 3                            1                 EXPIRED
-4                            0                   ALIVE
+4                            1                 EXPIRED
 ```
+
+We'll encode the gender in the same way:
+
+```python
+# convert to a categorical type
+cohort['gender'] = cohort['gender'].astype('category')
+cohort['gender'] = cohort['gender'].cat.codes
+```
+
 
 ## Partitioning
 
@@ -168,7 +159,7 @@ x_train, x_test, y_train, y_test = train_test_split(x, y , train_size = 0.7,
 
 Certain types of models - for example some decision trees - are able to implicitly handle missing data. For our logistic regression, we will need to impute values. We will take a simple approach of replacing with the median. 
 
-With physiological data, imputing from the median typically implies that the missing observation is a "healthy" normal. As the clinicians say, in hospital you do not want to be the interesting patient!
+With physiological data, imputing from the median typically implies that the missing observation is a "healthy" normal. In hospital you do not want to be the interesting patient!
 
 To avoid data leaking between our training and test sets, we take the median from the training set only. The training median is then used to impute missing values in the held-out test set.
 
@@ -194,13 +185,13 @@ from sklearn.preprocessing import MinMaxScaler
 scaler = MinMaxScaler()
 
 # fit the scaler on the training dataset
-scaler.fit(X_train)
+scaler.fit(x_train)
 
 # scale the training set
-X_train = scaler.transform(X_train)
+x_train = scaler.transform(x_train)
 
 # scale the test set
-X_test = scaler.transform(X_test)
+x_test = scaler.transform(x_test)
 ```
 
 {% include links.md %}
