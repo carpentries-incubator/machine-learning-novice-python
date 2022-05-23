@@ -27,155 +27,34 @@ How do humans learn? Typically we are given examples and we learn rules through 
 
 In prediction tasks we seek to learn a relationship between observations or "features" (`X`) and known target values (`y`). We fit our model to data to learn a set of parameters for making predictions in a process known as "training".
 
-## Predicting length of hospital stay
-
-Let's say that our goal is to predict how long patients will stay in hospital, given an indicator of their severity of illness. We will use some pre-prepared synthetic data that a Global Open Source Severity of Illness Score ("GOSSIS") calculated on patient admission, along with length of hospital stay in days. 
-
-```python
-# import libraries
-import os
-import numpy as np
-import pandas as pd
-from matplotlib import pyplot as plt
-
-# load the data
-cohort = pd.read_csv('./example_los.csv')
-
-# Display the first 5 rows of the data
-cohort.head()
-```
-
-GOSSIS score is our feature (X) and number of days in hospital is our target (y). Let's take a look at the data by plotting our feature against the target.
-
-```python
-# plot the data
-ax = cohort.plot(x='gossis', y='hospital_los', kind='scatter')
-ax.set_xlim(0, 70)
-ax.set_ylim(0, 20)
-ax.set_title('Severity score (X) vs Length of stay in hospital, days (y)');
-```
-
-![Severity score (X) vs Length of stay in hospital, days](../fig/gossis_vs_los.png){: width="600px"}
-
-Our goal is to predict how long patients will stay in hospital for a given severity score. We already have a set of training data with input features (X) and known prediction targets (y). 
-
-## Linear regression
-
-We will use a linear regression, a type of model borrowed from statistics that has all of the hallmarks of machine learning (so let's call it a machine learning model!), which can be written as:
-
-$$
-\hat{y} = wX + b
-$$
-
-Our prediction target (length of stay) can be denoted by $\hat{y}$ (pronounced "y hat") and our explanatory variable (or "feature") denoted by $X$. There are two parameters of the model that we would like to learn from the training data - $w$, weight and $b$, bias. 
-
-While our model has only a single feature ("severity score"), in most cases we would be working with multiple features. Each feature adds a dimension to our feature space. With a single feature and a single outcome, we can model the relationship in two dimensions. With two features, we move into 3 dimensions, and so on. 
-
-When we add a feature, we also need to add a new weight as a modifier for that feature. As a general rule, adding more features to our model improves predictive performance (though, as we will learn later, too many features can cause a problem known as "overfitting"). 
-
-Practically speaking, the components of a model with 3 features and 5 training examples look like this: 
-
-$$
-X =
-\begin{bmatrix}
-  x_{1}^1 & x_{2}^1 & x_{3}^1 \\ 
-  x_{1}^2 & x_{2}^2 & x_{3}^2 \\
-  x_{1}^3 & x_{2}^3 & x_{3}^3 \\
-  x_{1}^4 & x_{2}^4 & x_{3}^4 \\
-  x_{1}^5 & x_{2}^5 & x_{3}^5 \\
-\end{bmatrix}
-
-weights =
-\begin{bmatrix}
-  w_{1} \\ 
-  w_{2} \\
-  w_{3} \\
-\end{bmatrix}
-
-bias =
-\begin{bmatrix}
-  b_{1} \\ 
-  b_{2} \\
-  b_{3} \\
-\end{bmatrix}
-$$
-
-In code, we can write our model as follows:
-
-```python
-def model(weight, X, bias):
-    """
-    Linear regression model: y_hat = wX + b. Takes array of x-values and
-    outputs corresponding y-values.
-    """
-    return np.dot(weight, X) + bias
-```
-
-> ## Exercise
-> A) What is typically represented by $$\hat{y}$$ in a model?  
-> B) If a model is "high-dimensional", what does this say about the number of predictor variables?   
-> C) What is the risk of including too many predictor variables in a model?  
-> 
-> > ## Solution
-> > A) $$\hat{y}$$ (pronounced y hat!) represents the predicted value.    
-> > B) A high-dimensional model includes a large number of predictor variables.  
-> > C) Including a high-number of predictor variables may increase the risk of overfitting.  
-> {: .solution}
-{: .challenge}
-
-## Finding the best model
-
-To allow us to make the best predictions, we would like to find a weight and bias that give us $\hat{y}$ values that are as close as possible to the true $y$ values in the training data. We'll start by guesstimating values for these two parameters.
-
-```python
-# Select coefficients
-w = 0.5
-b = 0
-
-# Get x, y_true, and y_pred
-x = cohort.gossis.values
-y_true = cohort.hospital_los.values
-y_hat = model(w, x, b)
-
-ax = cohort.plot(x='gossis', y='hospital_los', kind='scatter')
-ax.plot(x, y_hat, color='red');
-```
-
-![Severity score (X) vs Length of stay in hospital, days](../fig/gossis_vs_los_line.png){: width="600px"}
-
-How did we do?
-
-> ## Exercise
-> A) Have a play around with the model coefficients. Can you find a better fit?   
-> B) How would you describe your approach for finding the optimal values?
-> 
-> > ## Solution
-> > A) Slightly increasing the bias (y-axis intercept) and reducing the value of weight (gradient) should lead to a better fitted model.   
-> > B) Most likely you used some form of trial and error!
-> {: .solution}
-{: .challenge}
-
 ## Loss functions
 
-Fitting the line of best fit means knowing what we mean by "best". We need to have some way of quantifying the difference between a "good" model (capable of making useful predictions) vs a "bad" model (not capable of making useful predictions). 
+Finding the best model means defining "best". We need to have some way of quantifying the difference between a "good" model (capable of making useful predictions) vs a "bad" model (not capable of making useful predictions). 
 
-We typically define a function that quantifies goodness of fit.  This is our loss function (you will hear "objective function", "error function", and "cost function" used in a similar way). 
+We typically define a function that quantifies how closely our predictions fit to the known target values.  This is our loss function (you will hear "objective function", "error function", and "cost function" used in a similar way). 
 
-Mean squared error is one example of a loss function. We measure the distance between each known target value ($y$) and the position of our line, and then we take the square.
+Mean squared error is one example of a loss function. We measure the distance between each known target value ($y$) and our prediction ($y_{hat}$), and then we take the square.
 
 ```python
+import pandas as pd
+
+# Create sample labelled data
+data = {'x': [1, 2, 3, 4, 5], 'y': [-0.5, 1, 2, 4, 7]}
+df = pd.DataFrame(data)
+
+# Add predictions
+df['y_hat'] = [0, 2, 4, 6, 8]
+
 # plot the data
-ax = cohort.plot(x='gossis', y='hospital_los', kind='scatter')
+ax = df.plot(x='x', y='y', kind='scatter')
 
 # plot approx line of best fit
-ax.plot(x, y_hat, color='red');
+ax.plot(x, df['y_hat'], color='blue');
 
-# plot a vertical line
-idx = 50
-ax.vlines(x=x[idx], ymin=y_true[idx], ymax=y_hat[idx],
-          color='red', linestyle='dashed')
-ax.text(x=x[idx]+2, y=y_true[idx]+5, s='Error')
-ax.set_title('Severity score (X) vs Length of stay in hospital, days (y)')
+# plot error
+ax.vlines(x=df['x'], ymin=df['y'], ymax=df['y_hat'], color='red', linestyle='dashed')
+ax.text(x=3.1, y=3, s='Error')
+ax.set_title('Prediction error')
 ```
 
 ![Distance from target](../fig/gossis_vs_los_line_error.png){: width="600px"}
