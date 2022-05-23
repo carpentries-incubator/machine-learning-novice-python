@@ -17,11 +17,13 @@ keypoints:
 
 ## Regression vs classification
 
-In our previous example, we predicted blood length of hospital stay from a severity of illness score using linear regression. The task of predicting a continuous variable is typically referred to as a *regression*. 
+Our goal is to predict the outcome (in-hospital mortality) of hospital patients. Predicting one or more classes is typically referred to as *classification*.
 
-Our new goal is to predict the outcome (in-hospital mortality) of hospital patients. Predicting one or more classes is typically referred to as *classification*.  Slightly confusingly regression models can be used for both regression tasks and classification tasks. Don't let this throw you off!
+The task of predicting a continuous variable (for example, length of hospital stay) is typically referred to as a *regression*. 
 
-Recall that our function for a linear regression is:
+Slightly confusingly regression models can be used for both regression tasks and classification tasks. Don't let this throw you off!
+
+The function for a linear regression is:
 
 $$
 \hat{y} = wX + b
