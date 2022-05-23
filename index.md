@@ -8,13 +8,17 @@ This lesson provides an introduction to some of the common methods and terminolo
 
 It is a prerequisite for the other lessons in the machine learning curriculum. In later lessons we explore tree-based models for prediction, neural networks for image classification, and responsible machine learning. 
 
-## Scenario: Prediction of patient outcomes in the intensive care
+## Predicting the outcome of critical care patients
 
-Intensive care units are home to sophisticated monitoring systems, helping carers to support the lives of the sickest patients within a hospital. These monitoring systems produce large volumes of data that could be used to improve patient care.
+Critical care units are home to sophisticated monitoring systems, helping carers to support the lives of the sickest patients within a hospital. These monitoring systems produce large volumes of data that could be used to improve patient care.
 
-One potential use of the data is to predict the outcome of patients using information available on the day of admission. The predictions may be helpful for resource planning and to assist with family discussions. Prediction is a task that is well-suited to machine learning. 
+![Patient in the ICU](../fig/icu_patient.png){: width="600px"}
 
-We will be using a set of data that has been extracted from the eICU Collaborative Research Database, a publicly available dataset comprising deidentified physiological data collected from critically ill patients.
+There is benefit in being able to predict the outcome of patients, for example for resource planning and to assist with family discussions. This is a task that is well-suited to machine learning.
+
+We will develop a model for predicting the outcome of critical care patients using physiological data available on the first day of admission to the intensive care unit.
+
+The dataset used in this lesson was extracted from the [eICU Collaborative Research Database](http://dx.doi.org/10.1038/sdata.2018.178), a publicly available dataset comprising deidentified physiological data collected from critically ill patients.
 
 <!-- this is an html comment -->
 
