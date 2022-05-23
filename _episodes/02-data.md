@@ -20,16 +20,6 @@ keypoints:
 - "Setting random states helps to promote reproducibility."
 ---
 
-## Mortality prediction
-
-Intensive care units are home to sophisticated monitoring systems, helping carers to support the lives of the sickest patients within a hospital. These monitoring systems produce large volumes of data that could be used to improve patient care.
-
-![Patient in the ICU](../fig/icu_patient.png){: width="600px"}
-
-There is benefit in being able to predict the outcome of patients, for example for resource planning and to assist with family discussions. This is a task that is well-suited to machine learning.
-
-For the remainder of this lesson, we will develop a model for predicting the outcome of critical care patients using physiological data available on the first day of admission to the intensive care unit.
-
 Data preparation is often the most time consuming aspect of a machine learning project. In this section, we will touch on some common themes in data preparation.
 
 ## Sourcing and accessing data
