@@ -57,7 +57,7 @@ ax.text(x=3.1, y=3, s='Error')
 ax.set_title('Prediction error')
 ```
 
-![Distance from target](../fig/gossis_vs_los_line_error.png){: width="600px"}
+![Distance from target](../fig/loss_line_error.png){: width="600px"}
 
 The further away from the data points our line gets, the bigger the error. Our best model is the one with the smallest error. Mathematically, we can define the mean squared error as:
 
