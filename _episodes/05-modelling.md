@@ -31,6 +31,8 @@ Our prediction target (in-hospital mortality) is denoted by $\hat{y}$ and our ex
 
 ```python
 # import the regression model
+import numpy as np
+from matplotlib import pyplot as plt
 from sklearn.linear_model import LinearRegression
 reg = LinearRegression()
 

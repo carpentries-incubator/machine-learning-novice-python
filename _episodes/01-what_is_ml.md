@@ -27,7 +27,7 @@ We are all familiar with the idea of applying rules to data to gain insights and
 As programmers we understand how to codify these rules. If we were developing software for a hospital to flag patients at risk of deterioration, we might create early-warning rules such as those below:
 
 ```python
-def has_fever(temp_c)
+def has_fever(temp_c):
     if temp_c > 38:
         return True
     else:

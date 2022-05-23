@@ -39,7 +39,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 # load the data
-cohort = pd.read_csv('./data/example_los.csv')
+cohort = pd.read_csv('./example_los.csv')
 
 # Display the first 5 rows of the data
 cohort.head()
