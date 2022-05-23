@@ -33,7 +33,7 @@ Finding the best model means defining "best". We need to have some way of quanti
 
 We typically define a function that quantifies how closely our predictions fit to the known target values.  This is our loss function (you will hear "objective function", "error function", and "cost function" used in a similar way). 
 
-Mean squared error is one example of a loss function. We measure the distance between each known target value ($y$) and our prediction ($y_{hat}$), and then we take the square.
+Mean squared error is a common example of a loss function, often used for linear regression. We measure the distance between each known target value ($y$) and our prediction ($y_{hat}$), and then we take the square.
 
 ```python
 import pandas as pd
@@ -49,7 +49,7 @@ df['y_hat'] = [0, 2, 4, 6, 8]
 ax = df.plot(x='x', y='y', kind='scatter')
 
 # plot approx line of best fit
-ax.plot(x, df['y_hat'], color='blue');
+ax.plot(df['x'], df['y_hat'], color='blue');
 
 # plot error
 ax.vlines(x=df['x'], ymin=df['y'], ymax=df['y_hat'], color='red', linestyle='dashed')
