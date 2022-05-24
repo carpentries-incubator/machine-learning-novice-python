@@ -22,13 +22,11 @@ keypoints:
 
 ## Sourcing and accessing data
 
-Machine learning helps us to find patterns in data, so sourcing and pre-processing the right data is key. Unsuitable or poorly managed data will lead to a poor project outcome, regardless of the modelling approach.
+Machine learning helps us to find patterns in data, so sourcing and understanding data is key. Unsuitable or poorly managed data will lead to a poor project outcome, regardless of the modelling approach. 
 
-Data preparation is often the most time consuming aspect of a machine learning project. In this section, we will touch on some common themes in data preparation.
+We will be using an open access subset of the [eICU Collaborative Research Database](https://eicu-crd.mit.edu/about/eicu/), a publicly available dataset comprising deidentified physiological data collected from critically ill patients. For simplicity, we will be working with a pre-prepared CSV file that comprises data extracted from a [demo version of the dataset](https://doi.org/10.13026/4mxk-na84). 
 
-For this project, we will be using an open access subset of the [eICU Collaborative Research Database](https://eicu-crd.mit.edu/about/eicu/), a publicly available dataset comprising deidentified physiological data collected from critically ill patients.
-
-Learning to extract data from sources such as databases and file systems is a key skill in machine learning. Familiarity with Python and Structured Query Language (SQL) will equip you well for these tasks. For simplicity, we will be working with a pre-prepared CSV file that comprises data extracted from the [eICU Collaborative Research Database (Demo)](https://doi.org/10.13026/4mxk-na84). 
+Let's begin by loading this data:
 
 ```python
 import pandas as pd
@@ -38,7 +36,7 @@ cohort = pd.read_csv('./eicu_cohort.csv')
 cohort.head()
 ```
 
-For reference, the query used to extract the dataset is outlined below. Briefly, this query:
+Learning to extract data from sources such as databases and file systems is a key skill in machine learning. Familiarity with Python and Structured Query Language (SQL) will equip you well for these tasks. For reference, the query used to extract the dataset is outlined below. Briefly, this query:
 
 - `SELECTs` multiple columns
 - `FROM` the `patient`, `apachepatientresult`, and `apacheapsvar` tables
@@ -57,18 +55,26 @@ ON p.patientunitstayid = av.patientunitstayid
 WHERE apacheversion LIKE 'IVa'
 ```
 
-## Knowing your data
+## Knowing the data
 
 Before moving ahead on a project, it is important to understand the data. Having someone with domain knowledge - and ideally first hand knowledge of the data collection process - helps us to design a sensible task and to use data effectively.
 
-Summarizing data is an important first step. We will want to know aspects of the data such as: extent of missingness; data types; numbers of observations. One common step is to view summary characteristics.
+Summarizing data is an important first step. We will want to know aspects of the data such as: extent of missingness; data types; numbers of observations. One common step is to view summary characteristics (for example, see [Table 1](https://www.nature.com/articles/s41746-018-0029-1/tables/1) of the paper by Rajkomar et al.).
+
+Let's generate a similar table for ourselves:
+
 
 ```python
 # !pip install tableone
 from tableone import tableone
 
+# rename columns
+rename = {"unabridgedhosplos":"length of stay",
+          "meanbp": "mean blood pressure",
+          "wbc": "white cell count"}
+
 # view summary characteristics
-t1 = tableone(cohort, groupby="actualhospitalmortality")
+t1 = tableone(cohort, groupby="actualhospitalmortality", rename=rename)
 print(t1.tabulate(tablefmt = "github"))
 ```
 
@@ -81,18 +87,29 @@ print(t1.tabulate(tablefmt = "github"))
 |                                 | Unknown |           | 1 (0.4)      |              | 1 (2.5)      |
 | age, mean (SD)                  |         | 9         | 61.9 (15.5)  | 60.5 (15.8)  | 69.3 (11.5)  |
 | admissionweight, mean (SD)      |         | 5         | 87.6 (28.0)  | 88.6 (28.8)  | 82.3 (23.3)  |
-| unabridgedhosplos, mean (SD)    |         | 0         | 9.2 (8.6)    | 9.6 (7.5)    | 6.9 (12.5)   |
+| length of stay, mean (SD)       |         | 0         | 9.2 (8.6)    | 9.6 (7.5)    | 6.9 (12.5)   |
 | acutephysiologyscore, mean (SD) |         | 0         | 59.9 (28.1)  | 54.5 (23.1)  | 86.7 (34.7)  |
 | apachescore, mean (SD)          |         | 0         | 71.2 (30.3)  | 64.6 (24.5)  | 103.5 (34.9) |
 | heartrate, mean (SD)            |         | 0         | 108.7 (33.1) | 107.9 (30.6) | 112.9 (43.2) |
-| meanbp, mean (SD)               |         | 0         | 93.2 (47.0)  | 92.1 (45.4)  | 98.6 (54.5)  |
+| mean blood pressure, mean (SD)  |         | 0         | 93.2 (47.0)  | 92.1 (45.4)  | 98.6 (54.5)  |
 | creatinine, mean (SD)           |         | 0         | 1.0 (1.7)    | 0.9 (1.7)    | 1.7 (1.6)    |
 | temperature, mean (SD)          |         | 0         | 35.2 (6.5)   | 36.1 (3.9)   | 31.2 (12.4)  |
 | respiratoryrate, mean (SD)      |         | 0         | 30.7 (15.2)  | 29.9 (15.1)  | 34.3 (15.6)  |
-| wbc, mean (SD)                  |         | 0         | 10.5 (8.4)   | 10.7 (8.2)   | 9.7 (9.7)    |
+| white cell count, mean (SD)     |         | 0         | 10.5 (8.4)   | 10.7 (8.2)   | 9.7 (9.7)    |
 | admissionheight, mean (SD)      |         | 2         | 168.0 (12.8) | 167.7 (13.4) | 169.4 (9.1)  |
 ```
 {: .output}
+
+> ## Exercise
+> A) What is the approximate percent mortality in the eICU cohort?  
+> B) Which variables appear noticeably different in the "Alive" and "Expired"  groups?  
+> C) How does the in-hospital mortality differ between the eICU cohort and the ones in Rajkomar et al?  
+> > ## Solution
+> > A) Approximately 17% (40/235)   
+> > B) Several variables differ, including age, length of stay, acute physiology score, heart rate, etc.  
+> > A) The Rajkomar et al dataset has signficantly lower in-hospital mortality (~2% vs 17%).  
+> {: .solution}
+{: .challenge}
 
 ## Encoding
 
