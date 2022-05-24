@@ -12,24 +12,22 @@ objectives:
 keypoints:
 - "Linear regression is a popular model for regression tasks."
 - "Logistic regression is a popular model for classification tasks."
-- "The sigmoid function maps a linear output to a binary outcome."
+- "Probabilities that can be mapped to a prediction class."
 ---
 
 ## Regression vs classification
 
-Our goal is to predict the outcome (in-hospital mortality) of hospital patients. Predicting one or more classes is typically referred to as *classification*.
+Our goal is to predict the in-hospital mortality of hospital patients.  We already have a set of training data with input features and known prediction targets. Predicting one or more classes is typically referred to as *classification*. The task of predicting a continuous variable on the other hand (for example, length of hospital stay) is typically referred to as a *regression*. 
 
-The task of predicting a continuous variable (for example, length of hospital stay) is typically referred to as a *regression*. 
-
-Slightly confusingly regression models can be used for both regression tasks and classification tasks. Don't let this throw you off!
-
-The function for a linear regression is:
+We will begin with a linear regression, a type of model borrowed from statistics that has all of the hallmarks of machine learning (so let's call it a machine learning model!), which can be written as:
 
 $$
 \hat{y} = wX + b
 $$
 
-Our prediction target (in-hospital mortality) is denoted by $\hat{y}$ and our explanatory variables or "features" are denoted by $X$. In our case, we will use a single feature: the APACHE-IV score, another measure of severity of illness. $w$ is weight and $b$ is bias. Could we use a linear regression for our classification task? Let's try fitting a line to our outcome data.
+Our predictions can be denoted by $\hat{y}$ (pronounced "y hat") and our explanatory variables (or "features") denoted by $X$. In our case, we will use a single feature: the APACHE-IV score, a measure of severity of illness.
+
+There are two parameters of the model that we would like to learn from the training data - $w$, weight and $b$, bias. Could we use a linear regression for our classification task? Let's try fitting a line to our outcome data.
 
 ```python
 # import the regression model
@@ -59,7 +57,7 @@ plt.show()
 
 ![Linear regression with binary outcome](../fig/section5-fig1.png){: width="600px"}
 
-Linear regression is used to place a line through a set of data points that minimizes error between the line and the points. It is difficult to see how a meaningful threshold could be set to predict the binary outcome in our task. The predicted values can exceed our range of outcomes.
+Linear regression places a line through a set of data points that minimizes the error between the line and the points. It is difficult to see how a meaningful threshold could be set to predict the binary outcome in our task. The predicted values can exceed our range of outcomes.
 
 ## Sigmoid function
 
@@ -99,11 +97,15 @@ $$
 
 As an added benefit, we can interpret the output value as a probability. The probability relates to the positive class (the outcome with value "1"), which in our case is in-hospital mortality ("EXPIRED").
 
+This is a logistic regression model. "Regression models" can be used for both regression tasks and classification tasks. Don't let this throw you off! 
+
 ## Training (or fitting) the model
 
 We need to find the parameters for the best-fitting logistic model given our data. As before, we do this with the help of a loss function that quantifies error. Our goal is to find the parameters of the model that minimise the error.
 
-With this model, we no longer use least squares due to the model's non-linear properties. Instead we compute the maximum likelihood estimate (MLE). As is typically the case when using machine learning packages, we don't need to code the loss function ourselves. The function is implemented as part of our machine learning package (in this case [scikit-learn](https://scikit-learn.org/stable/))
+With this model, we no longer use least squares due to the model's non-linear properties. Instead we will use log loss. 
+
+As is typically the case when using machine learning packages, we don't need to code the loss function ourselves. The function is implemented as part of our machine learning package (in this case [scikit-learn](https://scikit-learn.org/stable/))
 
 Let's try again, this time with Logistic Regression.
 
