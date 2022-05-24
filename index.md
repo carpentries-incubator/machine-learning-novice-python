@@ -12,7 +12,7 @@ It is a prerequisite for the other lessons in the machine learning curriculum. I
 
 Critical care units are home to sophisticated monitoring systems, helping carers to support the lives of the sickest patients within a hospital. These monitoring systems produce large volumes of data that could be used to improve patient care.
 
-![Patient in the ICU](../fig/icu_patient.png){: width="600px"}
+![Patient in the ICU](./fig/icu_patient.png){: width="600px"}
 
 Our goal will be to predict the outcome of critical care patients using physiological data available on the first day of admission to the intensive care unit. These predictions could be used for resource planning or to assist with family discussions.
 
