@@ -176,7 +176,7 @@ Because a model that calls "1" for everything has perfect sensitivity, this meas
 
 ## Specificity
 
-Specificity is the ability of a model call a "1" when the case is actually "1". In our case, what proportion of patients who died did we predict would die? The formula for specificity is:
+Specificity relates to the test's ability to correctly classify patients who survive their stay (i.e. class "0"). Specificity is the proportion of those who survive who are predicted to survive. The formula for specificity is:
 
 $$
 Specificity = \frac{TN}{FP+TN}
