@@ -20,11 +20,11 @@ keypoints:
 - "Setting random states helps to promote reproducibility."
 ---
 
-Data preparation is often the most time consuming aspect of a machine learning project. In this section, we will touch on some common themes in data preparation.
-
 ## Sourcing and accessing data
 
 Machine learning helps us to find patterns in data, so sourcing and pre-processing the right data is key. Unsuitable or poorly managed data will lead to a poor project outcome, regardless of the modelling approach.
+
+Data preparation is often the most time consuming aspect of a machine learning project. In this section, we will touch on some common themes in data preparation.
 
 For this project, we will be using an open access subset of the [eICU Collaborative Research Database](https://eicu-crd.mit.edu/about/eicu/), a publicly available dataset comprising deidentified physiological data collected from critically ill patients.
 
@@ -64,7 +64,7 @@ Before moving ahead on a project, it is important to understand the data. Having
 Summarizing data is an important first step. We will want to know aspects of the data such as: extent of missingness; data types; numbers of observations. One common step is to view summary characteristics.
 
 ```python
-!pip install tableone
+# !pip install tableone
 from tableone import tableone
 
 # view summary characteristics
