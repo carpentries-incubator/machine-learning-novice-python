@@ -25,13 +25,15 @@ keypoints:
 
 How do humans learn? Typically we are given examples and we learn rules through trial and error. Machines aren't that different! In the context of machine learning, we talk about how a model "fits" to the data.
 
-In prediction tasks we seek to learn a relationship between observations or "features" (`X`) and known target values (`y`). We fit our model to data to learn a set of parameters for making predictions in a process known as "training".
+Our model has a number of tweakable parameters. We need to find the optimal values for those parameters such that our model outputs the "best" predictions for a set of input variables.
+
+![Model training](../fig/ml_model.png){: width="600px"}
 
 ## Loss functions
 
 Finding the best model means defining "best". We need to have some way of quantifying the difference between a "good" model (capable of making useful predictions) vs a "bad" model (not capable of making useful predictions). 
 
-We typically define a function that quantifies how closely our predictions fit to the known target values.  This is our loss function. You will hear "objective function", "error function", and "cost function" used in a similar way. 
+Loss functions are crucial for doing this. They allow us to quantify how closely our predictions fit to the known target values.  You will hear "objective function", "error function", and "cost function" used in a similar way. 
 
 Mean squared error is a common example of a loss function, often used for linear regression. For each prediction, we measure the distance between the known target value ($y$) and our prediction ($y_{hat}$), and then we take the square.
 
@@ -115,9 +117,9 @@ As we can see, our loss rapidly increases as predictions ($$\hat{y}$$) move away
 
 In machine learning, there is typically a training step where an algorithm is used to find the optimal set of model parameters (i.e. those parameters that give the minimum possible error). This is the essence of machine learning!
 
-There are many approaches to optimisation. [Gradient descent](https://en.wikipedia.org/wiki/Gradient_descent) is a popular approach. In gradient descent we take steps in the opposite direction of the gradient of a function, seeking the lowest point (i.e. the lowest error).
+![Model training](../fig/ml_model_loss.png){: width="600px"}
 
-In supervised learning, we seek an optimal set of parameters that minimise the error for our known prediction targets. In unsupervised learning, we seek an optimal set of clusters or separation of data points. 
+There are many approaches to optimisation. [Gradient descent](https://en.wikipedia.org/wiki/Gradient_descent) is a popular approach. In gradient descent we take steps in the opposite direction of the gradient of a function, seeking the lowest point (i.e. the lowest error).
 
 > ## Exercise
 > A) What does a loss function quantify?  
