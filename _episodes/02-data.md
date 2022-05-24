@@ -150,6 +150,8 @@ Another popular encoding that you will come across in machine learning is "one h
 
 Typically we will want to split our data into a training set and "held-out" test set. The training set is used for building our model and our test set is used for evaluation. A split of ~70% training, 30% test is common.
 
+![Train and test set](../fig/train_test.png){: width="600px"}
+
 To ensure reproducibility, we should set the random state of the splitting method. This means that Python's random number generator will produce the same "random" split in future.
 
 ```python
