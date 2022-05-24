@@ -36,7 +36,7 @@ def has_fever(temp_c):
 
 ## Machine learning
 
-With machine learning, we modify this approach. Instead, we give data _and_ insights to a framework that can learn and apply the rules for itself. As the volume and complexity of data increases, so does the value of having models that can generate new rules.
+With machine learning, we modify this approach. Instead, we give data _and_ insights to a framework (or "model") that can learn the rules for itself. As the volume and complexity of data increases, so does the value of having models that can generate new rules.
 
 In a 2018 paper entitled "[Scalable and accurate deep learning with electronic health records](https://www.nature.com/articles/s41746-018-0029-1)", Rajkomar and colleagues present their work to develop a "deep learning model" (a type of machine learning model) for predicting hospital mortality. A segment of the paper's introduction is reproduced below:
 
@@ -45,6 +45,16 @@ In a 2018 paper entitled "[Scalable and accurate deep learning with electronic h
 > Another challenge is that the number of potential predictor variables in the electronic health record (EHR) may easily number in the thousands, particularly if free-text notes from doctors, nurses, and other providers are included. Traditional modeling approaches have dealt with this complexity simply by choosing a very limited number of commonly collected variables to consider.
 > 
 > ... Recent developments in deep learning and artificial neural networks may allow us to address many of these challenges and unlock the information in the EHR. ... These systems are known for their ability to handle large volumes of relatively messy data, including errors in labels and large numbers of input variables. A key advantage is that investigators do not generally need to specify which potential predictor variables to consider and in what combinations; instead neural networks are able to learn representations of the key factors and interactions from the data itself.
+
+> ## Exercise
+> A) What is the most time consuming aspect of developing a predictive model, according to the authors?  
+> B) How have "traditional" predictive models dealt with high numbers of predictor variables, according to the authors?  
+> 
+> > ## Solution
+> > A) 80% of effort in building models is in "preprocessing, merging, customizing, and cleaning".  
+> > B) Traditional modeling approaches have dealt with complexity by choosing a very limited number of variables to consider.
+> {: .solution}
+{: .challenge}
 
 These paragraphs provide an example of how machine learning approaches are being used to help address common issues in predictive models. They also touch on the reason that machine learning research is often criticised for lacking care. It is easy to throw machine learning at a problem without sufficient thought!
 
