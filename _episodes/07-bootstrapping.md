@@ -23,7 +23,7 @@ Typically our source data is only a small sample of the ground truth. Bootstrapp
 
 Using bootstrapping, we can generate a distribution of estimates, rather than a single point estimate. The distribution gives us information about certainty, or the lack of it.
 
-Let's see how we can use bootstrapping to calculate a confidence interval when evaluating the accuracy of a model on a held-out test set. Steps: 
+In [Figure 2 of the Rajkomar paper](https://www.nature.com/articles/s41746-018-0029-1/figures/2), the authors note that "the error bars represent the bootstrapped 95% confidence interval" for the AUROC values. Let's use the same approach to calculate a confidence interval when evaluating the accuracy of a model on a held-out test set. Steps: 
 
 1. Draw a sample of size N from the original dataset with replacement. This is a bootstrap sample.
 2. Repeat step 1 S times, so that we have S bootstrap samples.
