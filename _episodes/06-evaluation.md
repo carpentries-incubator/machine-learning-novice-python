@@ -86,7 +86,7 @@ In comparison with the known outcomes, we can put each prediction into one of th
 - True positive: we predict "1" ("EXPIRED") and the true outcome is "1".
 - True negative: we predict "0" ("ALIVE") and the true outcome is "0".
 - False positive: we predict "1" ("EXPIRED") and the true outcome is "0".
-- False negative: we predict "0" ("EXPIRED") and the true outcome is "1".
+- False negative: we predict "0" ("ALIVE") and the true outcome is "1".
 
 ```python
 print(y_test[:12])
