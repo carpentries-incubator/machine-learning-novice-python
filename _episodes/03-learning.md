@@ -101,6 +101,8 @@ $$
 Let's stop and look at what this loss function means. We'll plot the squared error for a range of values to demonstrate how loss scales as the difference between $y$ and $$\hat{y}$$ increases.
 
 ```python
+import matplotlib.pyplot as plt
+
 x = np.arange(-50, 50, 0.05)
 y = np.square(x)
 
