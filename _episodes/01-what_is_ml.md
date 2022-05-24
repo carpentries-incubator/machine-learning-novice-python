@@ -22,7 +22,7 @@ keypoints:
 
 ## Rule-based programming
 
-We are all familiar with the idea of applying rules to data to gain insights and make decisions. For example, we learn that the normal body temperature is ~37 °C (~98.5 °F), and that higher or lower temperatures can be cause for concern.
+We are all familiar with the idea of applying rules to data to gain insights and make decisions. For example, we learn that human body temperature is ~37 °C (~98.5 °F), and that higher or lower temperatures can be cause for concern.
 
 As programmers we understand how to codify these rules. If we were developing software for a hospital to flag patients at risk of deterioration, we might create early-warning rules such as those below:
 

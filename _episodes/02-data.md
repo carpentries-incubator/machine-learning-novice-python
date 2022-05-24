@@ -166,7 +166,7 @@ x_train, x_test, y_train, y_test = train_test_split(x, y, train_size = 0.7, rand
 
 Certain types of models - for example some decision trees - are able to implicitly handle missing data. For our logistic regression, we will need to impute values. We will take a simple approach of replacing with the median. 
 
-With physiological data, imputing from the median typically implies that the missing observation is a "healthy" normal. In hospital you do not want to be the interesting patient!
+With physiological data, imputing the median typically implies that the missing observation is not a cause for concern. In hospital you do not want to be the interesting patient!
 
 To avoid data leaking between our training and test sets, we take the median from the training set only. The training median is then used to impute missing values in the held-out test set.
 
