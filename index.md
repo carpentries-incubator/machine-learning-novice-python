@@ -14,9 +14,7 @@ Critical care units are home to sophisticated monitoring systems, helping carers
 
 ![Patient in the ICU](../fig/icu_patient.png){: width="600px"}
 
-There is benefit in being able to predict the outcome of patients, for example for resource planning and to assist with family discussions. This is a task that is well-suited to machine learning.
-
-We will develop a model for predicting the outcome of critical care patients using physiological data available on the first day of admission to the intensive care unit.
+Our goal will be to predict the outcome of critical care patients using physiological data available on the first day of admission to the intensive care unit. These predictions could be used for resource planning or to assist with family discussions.
 
 The dataset used in this lesson was extracted from the [eICU Collaborative Research Database](http://dx.doi.org/10.1038/sdata.2018.178), a publicly available dataset comprising deidentified physiological data collected from critically ill patients.
 
