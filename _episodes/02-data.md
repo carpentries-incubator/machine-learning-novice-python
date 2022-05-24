@@ -185,9 +185,13 @@ As with creating train and test splits, it is a common enough task that there ar
 Outliers in features can have a negative impact on the normalisation process - they can essentially squash non-outliers into a small space - so they may need special treatment.
 
 ```python
-# define the scaler
+# Define the scaler
 from sklearn.preprocessing import MinMaxScaler
 scaler = MinMaxScaler()
+
+# Alternative is zero mean, unit variance
+# Subtract mean, divide by standard deviation
+# from sklearn.preprocessing import StandardScaler
 
 # fit the scaler on the training dataset
 scaler.fit(x_train)
