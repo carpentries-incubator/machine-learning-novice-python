@@ -17,7 +17,9 @@ keypoints:
 
 ## Regression vs classification
 
-Our goal is to predict the in-hospital mortality of hospital patients.  We already have a set of training data with input features and known prediction targets. Predicting one or more classes is typically referred to as *classification*. The task of predicting a continuous variable on the other hand (for example, length of hospital stay) is typically referred to as a *regression*. 
+Predicting one or more classes is typically referred to as *classification*. The task of predicting a continuous variable on the other hand (for example, length of hospital stay) is typically referred to as a *regression*. 
+
+Note that "regression models" can be used for both regression tasks and classification tasks. Don't let this throw you off!
 
 We will begin with a linear regression, a type of model borrowed from statistics that has all of the hallmarks of machine learning (so let's call it a machine learning model!), which can be written as:
 
@@ -27,7 +29,7 @@ $$
 
 Our predictions can be denoted by $\hat{y}$ (pronounced "y hat") and our explanatory variables (or "features") denoted by $X$. In our case, we will use a single feature: the APACHE-IV score, a measure of severity of illness.
 
-There are two parameters of the model that we would like to learn from the training data - $w$, weight and $b$, bias. Could we use a linear regression for our classification task? Let's try fitting a line to our outcome data.
+There are two parameters of the model that we would like to learn from the training data: $w$, weight and $b$, bias. Could we use a linear regression for our classification task? Let's try fitting a line to our outcome data.
 
 ```python
 # import the regression model
@@ -97,42 +99,24 @@ $$
 
 As an added benefit, we can interpret the output value as a probability. The probability relates to the positive class (the outcome with value "1"), which in our case is in-hospital mortality ("EXPIRED").
 
-This is a logistic regression model. "Regression models" can be used for both regression tasks and classification tasks. Don't let this throw you off! 
+## Logistic regression
+
+Logistic regressions are powerful models that often outperform more sophisticated machine learning models.  In machine learning studies it is typical to include performance of a logistic regression model as a baseline (as they do, for example, in [Rajkomar and colleagues](https://www.nature.com/articles/s41746-018-0029-1#Sec20)).
+
+We need to find the parameters for the best-fitting logistic model given our data. As before, we do this with the help of a loss function that quantifies error. Our goal is to find the parameters of the model that minimise the error. With this model, we no longer use least squares due to the model's non-linear properties. Instead we will use log loss. 
 
 ## Training (or fitting) the model
 
-We need to find the parameters for the best-fitting logistic model given our data. As before, we do this with the help of a loss function that quantifies error. Our goal is to find the parameters of the model that minimise the error.
+As is typically the case when using machine learning packages, we don't need to code the loss function ourselves. The function is implemented as part of our machine learning package (in this case [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)). Let's try fitting a Logistic Regression to our data.
 
-With this model, we no longer use least squares due to the model's non-linear properties. Instead we will use log loss. 
 
-As is typically the case when using machine learning packages, we don't need to code the loss function ourselves. The function is implemented as part of our machine learning package (in this case [scikit-learn](https://scikit-learn.org/stable/))
-
-Let's try again, this time with Logistic Regression.
-
-```python
-# import the regression model
-from sklearn.linear_model import LogisticRegression
-reg = LogisticRegression(random_state=0)
-
-# use a single feature (apache score)
-X = cohort.apachescore.values.reshape((len(cohort.apachescore.values), 1))
-y = cohort.actualhospitalmortality_enc.values
-
-# fit the model to our data
-reg = reg.fit(X, y)
-
-# get the y values
-buffer = 0.2*max(X)
-X_fit = np.linspace(min(X) - buffer, max(X) + buffer, num=50)
-y_fit = reg.predict(X_fit)
-
-# plot
-plt.scatter(X, y,  color='black', marker = 'x')
-plt.plot(X_fit, y_fit, color='red', linewidth=2)
-plt.show()
-```
-
-![Logistic regression](../fig/section5-fig3.png){: width="600px"}
+> ## Exercise
+> A) Following the previous example for a linear regression, fit a logistic regression to your data and create a new plot. How do the predictions differ from before? Hint: `from sklearn.linear_model import LogisticRegression`.
+> 
+> > ## Solution
+> > A) You should see a plot similar to the one below: ![Logistic regression](../fig/section5-fig3.png){: width="600px"}
+> {: .solution}
+{: .challenge}
 
 ## Decision boundary
 
