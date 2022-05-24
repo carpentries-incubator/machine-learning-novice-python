@@ -31,9 +31,9 @@ In prediction tasks we seek to learn a relationship between observations or "fea
 
 Finding the best model means defining "best". We need to have some way of quantifying the difference between a "good" model (capable of making useful predictions) vs a "bad" model (not capable of making useful predictions). 
 
-We typically define a function that quantifies how closely our predictions fit to the known target values.  This is our loss function (you will hear "objective function", "error function", and "cost function" used in a similar way). 
+We typically define a function that quantifies how closely our predictions fit to the known target values.  This is our loss function. You will hear "objective function", "error function", and "cost function" used in a similar way. 
 
-Mean squared error is a common example of a loss function, often used for linear regression. We measure the distance between each known target value ($y$) and our prediction ($y_{hat}$), and then we take the square.
+Mean squared error is a common example of a loss function, often used for linear regression. For each prediction, we measure the distance between the known target value ($y$) and our prediction ($y_{hat}$), and then we take the square.
 
 ```python
 import pandas as pd
@@ -70,16 +70,27 @@ $mse$ is the Mean Squared Error. $y_{i}$ is the actual value and $$\hat{y}_{i}$$
 We could implement this in our code as follows:
 
 ```python
+import numpy as np
+
 def loss(y, y_hat):
     """
-    Loss function (mean squared error)
+    Loss function (mean squared error).
+
+    Args:
+        y (numpy array): The known target values.
+        y_hat (numpy array): The predicted values.
+
+    Returns:
+        numpy float: The mean squared error.
     """
-    return np.mean((y - y_hat)**2)
+    distances = y - y_hat
+    squared_distances = np.square(distances)
+    return np.mean(squared_distances)
 ```
 
 ## Minimising the error
 
-Our goal is to find the "best" model. We have defined best as being the model with weights and bias that give us the smallest mean squared error. We can write this as:
+Our goal is to find the "best" model. We have defined best as being the model with parameters that give us the smallest mean squared error. We can write this as:
 
 $$
 argmin\frac{1}{n}\sum_{i=1}^{n}(y_{i} - \hat{y}_{i})^{2}
