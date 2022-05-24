@@ -56,7 +56,7 @@ In a 2018 paper entitled "[Scalable and accurate deep learning with electronic h
 > {: .solution}
 {: .challenge}
 
-These paragraphs provide an example of how machine learning approaches are being used to help address common issues in predictive models. They also touch on the reason that machine learning research is often criticised for lacking care. It is easy to throw machine learning at a problem without sufficient thought!
+These paragraphs provide an example of how machine learning can help us with tasks like prediction. They also touch on an area where machine learning projects often comes under criticism. It is easy to throw tools at a problem without sufficient thought!
 
 ## Statistics, machine learning, and "AI"
 
