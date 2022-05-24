@@ -18,7 +18,11 @@ keypoints:
 
 ## Accuracy
 
-One measure of the performance of a classification model is accuracy. Accuracy is defined as the overall proportion of correct predictions. If, for example, we make 50 predictions and 40 of them are correct, then our accuracy is 0.8 (40/50).
+One measure of the performance of a classification model is accuracy. Accuracy is defined as the overall proportion of correct predictions. If, for example, we take 50 shots and 40 of them hit the target, then our accuracy is 0.8 (40/50).
+
+![Ren Hayakawa Archery Olympics](../fig/japan_ren_hayakawa.jpg){: width="600px"}
+
+Accuracy can therefore be defined by the formula below:
 
 $$ Accuracy = \frac{Correct\ predictions}{All\ predictions}$$
 
