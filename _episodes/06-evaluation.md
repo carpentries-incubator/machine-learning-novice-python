@@ -190,7 +190,7 @@ A Receiver-Operator Characteristic (ROC) curve plots 1 - specificity vs. sensiti
 metrics.plot_roc_curve(reg, x_test, y_test)
 ```
 
-An AUROC of 0.5 is terrible and an AUROC of 1.0 is perfect. An AUROC of 0.9 tells us that the 90% of times our model will assign a higher risk to a randomly selected patient with an event than to a randomly selected patient without an event
+An AUROC of 0.5 is no better than guessing and an AUROC of 1.0 is perfect. An AUROC of 0.9 tells us that the 90% of times our model will assign a higher risk to a randomly selected patient with an event than to a randomly selected patient without an event
 
 ![AUROC](../fig/section7-fig3.png){: width="600px"}
 
