@@ -19,7 +19,7 @@ and in [Anaconda documentation][anaconda-install].
 
 ## Obtain lesson materials
 
-1. Download [example_los.csv](./data/example_los.csv) and [eicu_cohort.csv](./data/eicu_cohort.csv).
+1. Download [eicu_cohort.csv](./data/eicu_cohort.csv).
 2. Create a folder called `carpentries-ml-intro` on your Desktop.
 3. Move downloaded files to `carpentries-ml-intro`.
 
