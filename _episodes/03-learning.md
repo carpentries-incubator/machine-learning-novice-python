@@ -15,7 +15,7 @@ objectives:
 
 keypoints:
 - "Loss functions allow us to define a good model."
-- "$y$ is a known target. $yhat$ is a prediction."
+- "$y$ is a known target. $\hat{y}$ ($y hat$) is a prediction."
 - "Mean squared error is an example of a loss function."
 - "After defining a loss function, we search for the optimal solution in a process known as 'training'."
 - "Optimisation is at the heart of machine learning."
