@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Pollard"
+  given-names: "Tom"
+  orcid: "https://orcid.org/0000-0002-5676-7898"
+- family-names: "Peru"
+  given-names: "Giacomo"
+title: "Introduction to Machine Learning in Python (Carpentries Incubator)"
+version: 0.1.0
+date-released: 2022-05-24
+url: "https://github.com/carpentries-incubator/machine-learning-novice-python"
