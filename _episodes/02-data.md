@@ -103,11 +103,11 @@ print(t1.tabulate(tablefmt = "github"))
 > ## Exercise
 > A) What is the approximate percent mortality in the eICU cohort?  
 > B) Which variables appear noticeably different in the "Alive" and "Expired"  groups?  
-> C) How does the in-hospital mortality differ between the eICU cohort and the ones in Rajkomar et al?  
+> C) How does the in-hospital mortality differ between the eICU cohort and the ones in [Rajkomar et al](https://www.nature.com/articles/s41746-018-0029-1/tables/1)?  
 > > ## Solution
 > > A) Approximately 17% (40/235)   
 > > B) Several variables differ, including age, length of stay, acute physiology score, heart rate, etc.  
-> > A) The Rajkomar et al dataset has signficantly lower in-hospital mortality (~2% vs 17%).  
+> > A) The Rajkomar et al dataset has significantly lower in-hospital mortality (~2% vs 17%).  
 > {: .solution}
 {: .challenge}
 

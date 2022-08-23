@@ -164,7 +164,7 @@ The problem with accuracy as a metric is that it is heavily influenced by preval
 
 We can see that the high accuracy is possible despite totally missing our target. To evaluate an algorithm in a way that prevalence does not cloud our assessment, we often look at sensitivity and specificity. 
 
-## Sensitivity (or "Recall")
+## Sensitivity (A.K.A "Recall" and "True Positive Rate")
 
 Sensitivity is the ability of an algorithm to predict a positive outcome when the actual outcome is positive. In our case, of the patients who die, what proportion did we correctly predict? This can be written as:
 
@@ -174,7 +174,7 @@ $$
 
 Because a model that calls "1" for everything has perfect sensitivity, this measure is not enough on its own. Alongside sensitivity we often report on specificity.
 
-## Specificity
+## Specificity (A.K.A "True Negative Rate")
 
 Specificity relates to the test's ability to correctly classify patients who survive their stay (i.e. class "0"). Specificity is the proportion of those who survive who are predicted to survive. The formula for specificity is:
 

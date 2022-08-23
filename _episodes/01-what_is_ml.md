@@ -73,7 +73,9 @@ Keeping out of the fight, a slightly hand-wavy, non-controversial take might be:
 
 ## Supervised vs unsupervised learning
 
-Over the course of four half-day lessons, we will explore key concepts in machine learning. In this introductory lesson we develop and evaluate a simple predictive model, touching on some of the core concepts and techniques that we come across in machine learning projects. Our goal will be to become familiar with the kind of language used in papers such as "[Scalable and accurate deep learning with electronic health records](https://www.nature.com/articles/s41746-018-0029-1)".
+Over the course of four half-day lessons, we will explore key concepts in machine learning. In this introductory lesson we develop and evaluate a simple predictive model, touching on some of the core concepts and techniques that we come across in machine learning projects. 
+
+Our goal will be to become familiar with the kind of language used in papers such as "[Scalable and accurate deep learning with electronic health records](https://www.nature.com/articles/s41746-018-0029-1)" by Rajkomar and colleagues. 
 
 Our focus will be on *supervised* machine learning, a category of machine learning that involves the use of labelled datasets to train models for classification and prediction. Supervised machine learning can be contrasted to *unsupervised* machine learning, which attempts to identify meaningful patterns within unlabelled datasets.
 
