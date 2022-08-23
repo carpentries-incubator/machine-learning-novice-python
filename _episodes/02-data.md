@@ -186,9 +186,15 @@ It is often the case that data is not missing at random. For example, the presen
 
 Lastly, normalisation - scaling variables so that they span consistent ranges - can be important, particularly for models that rely on distance based optimisation metrics.
 
-As with creating train and test splits, it is a common enough task that there are plenty of pre-built functions for us to choose from. We will choose a popular scaler that transforms features in our training set to a range between zero and one.
+As with creating train and test splits, it is a common enough task that there are plenty of pre-built functions for us to choose from. We will choose the [Min-Max Scaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html) from the sklearn package, which scales each feature between zero and one.
 
-Outliers in features can have a negative impact on the normalisation process - they can essentially squash non-outliers into a small space - so they may need special treatment.
+$$
+std = \frac{x - x_{min}}{x_{max}-x_{min}}
+$$ 
+
+$$
+x_{scaled} = {std} * (x_{max}-x_{min}) + x_{min}
+$$ 
 
 ```python
 # Define the scaler
@@ -208,5 +214,7 @@ x_train = scaler.transform(x_train)
 # scale the test set
 x_test = scaler.transform(x_test)
 ```
+
+Outliers in features can have a negative impact on the normalisation process - they can essentially squash non-outliers into a small space - so they may need special treatment (for example, a [RobustScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.RobustScaler.html#sklearn.preprocessing.RobustScaler))
 
 {% include links.md %}
