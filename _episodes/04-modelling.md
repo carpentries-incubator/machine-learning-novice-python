@@ -39,6 +39,7 @@ from sklearn.linear_model import LinearRegression
 reg = LinearRegression()
 
 # use a single feature (apache score)
+# note: remove the reshape if fitting to >1 input variable
 X = cohort.apachescore.values.reshape(-1, 1)
 y = cohort.actualhospitalmortality_enc.values
 
