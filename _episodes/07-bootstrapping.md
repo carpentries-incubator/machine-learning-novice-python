@@ -38,7 +38,8 @@ from sklearn.utils import resample
 from sklearn.metrics import accuracy_score
 
 # convert outcome to a categorical type
-cohort['actualhospitalmortality'] = cohort['actualhospitalmortality'].astype('category')
+categories=['ALIVE', 'EXPIRED']
+cohort['actualhospitalmortality'] = pd.Categorical(cohort['actualhospitalmortality'], categories=categories)
 
 # add the encoded value to a new column
 cohort['actualhospitalmortality_enc'] = cohort['actualhospitalmortality'].cat.codes

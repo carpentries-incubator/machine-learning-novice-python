@@ -120,14 +120,15 @@ It is often the case that our data includes categorical values. In our case, for
 
 ```python
 # check current type
-print(cohort['actualhospitalmortality'].dtypes)
+print(cohort.dtypes)
 
 # convert to a categorical type
-cohort['actualhospitalmortality'] = cohort['actualhospitalmortality'].astype('category')
+categories=['ALIVE', 'EXPIRED']
+cohort['actualhospitalmortality']  = pd.Categorical(cohort['actualhospitalmortality'], categories=categories)
 
 # add the encoded value to a new column
 cohort['actualhospitalmortality_enc'] = cohort['actualhospitalmortality'].cat.codes
-cohort[['actualhospitalmortality_enc','actualhospitalmortality']].tail(7)
+cohort[['actualhospitalmortality_enc','actualhospitalmortality']].head()
 ```
 
 ```
@@ -143,7 +144,7 @@ We'll encode the gender in the same way:
 
 ```python
 # convert to a categorical type
-cohort['gender'] = cohort['gender'].astype('category')
+cohort['gender'] = pd.Categorical(cohort['gender'])
 cohort['gender'] = cohort['gender'].cat.codes
 ```
 
