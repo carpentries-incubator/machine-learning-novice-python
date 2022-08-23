@@ -189,11 +189,11 @@ Lastly, normalisation - scaling variables so that they span consistent ranges - 
 As with creating train and test splits, it is a common enough task that there are plenty of pre-built functions for us to choose from. We will choose the [Min-Max Scaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html) from the sklearn package, which scales each feature between zero and one.
 
 $$
-std = \frac{x - x_{min}}{x_{max}-x_{min}}
+x_{std} = \frac{x - x_{min}}{x_{max}-x_{min}}
 $$ 
 
 $$
-x_{scaled} = {std} * (x_{max}-x_{min}) + x_{min}
+x_{scaled} = x_{std} * (x_{max}-x_{min}) + x_{min}
 $$ 
 
 ```python
