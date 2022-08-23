@@ -44,9 +44,9 @@ y = cohort[outcome]
 x_train, x_test, y_train, y_test = train_test_split(X, y, train_size = 0.7, random_state =  42)
 
 # restructure data for input into model
-x_train = x_train.values.reshape((len(x_train.values), 1))
+x_train = x_train.values.reshape(-1, 1)
 y_train = y_train.values.ravel()
-x_test = x_test.values.reshape((len(x_test.values), 1))
+x_test = x_test.values.reshape(-1, 1)
 y_test = y_test.values.ravel()
 
 # train model
