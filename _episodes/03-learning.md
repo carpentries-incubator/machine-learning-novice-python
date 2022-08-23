@@ -48,7 +48,7 @@ df = pd.DataFrame(data)
 df['y_hat'] = [0, 2, 4, 6, 8]
 
 # plot the data
-ax = df.plot(x='x', y='y', kind='scatter')
+ax = df.plot(x='x', y='y', kind='scatter', xlim=[0,6], ylim=[-1,9])
 
 # plot approx line of best fit
 ax.plot(df['x'], df['y_hat'], color='blue');
