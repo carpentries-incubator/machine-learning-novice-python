@@ -75,7 +75,10 @@ rename = {"unabridgedhosplos":"length of stay",
 
 # view summary characteristics
 t1 = tableone(cohort, groupby="actualhospitalmortality", rename=rename)
-print(t1.tabulate(tablefmt = "github"))
+t1
+
+# Output to LaTeX
+# print(t1.tabulate(tablefmt = "latex"))
 ```
 
 ```
